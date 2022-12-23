@@ -1,0 +1,3780 @@
+Called with args:
+Namespace(beta=0, dataset='sigfox_dataset_rural', device=device(type='cpu'), eps=0, if_test=False, lr=0.001, m=1, m_te=100, no_cuda=True, num_neurons_hidden=50, sigma=0.01, sigma_prior=1, t=0.96, te_batch_size=128, total_epochs=1000, tr_batch_size=128)
+epoch 0  --- t= 0.96 m= 1
+Test NLL: -22.2859 --- Test NLLT: -0.1949 --- Test MSE: 0.6220
+epoch 10  --- t= 0.96 m= 1
+Test NLL: -5.4363 --- Test NLLT: -0.0669 --- Test MSE: 0.2182
+epoch 20  --- t= 0.96 m= 1
+Test NLL: -3.8741 --- Test NLLT: -0.0533 --- Test MSE: 0.1768
+epoch 30  --- t= 0.96 m= 1
+Test NLL: -2.0849 --- Test NLLT: -0.0488 --- Test MSE: 0.1301
+epoch 40  --- t= 0.96 m= 1
+Test NLL: -1.8669 --- Test NLLT: -0.0476 --- Test MSE: 0.1195
+epoch 50  --- t= 0.96 m= 1
+Test NLL: -1.8307 --- Test NLLT: -0.0506 --- Test MSE: 0.1141
+epoch 60  --- t= 0.96 m= 1
+Test NLL: -1.6019 --- Test NLLT: -0.0467 --- Test MSE: 0.1086
+epoch 70  --- t= 0.96 m= 1
+Test NLL: -1.6541 --- Test NLLT: -0.0484 --- Test MSE: 0.1060
+epoch 80  --- t= 0.96 m= 1
+Test NLL: -1.4754 --- Test NLLT: -0.0462 --- Test MSE: 0.1042
+epoch 90  --- t= 0.96 m= 1
+Test NLL: -1.5526 --- Test NLLT: -0.0473 --- Test MSE: 0.1060
+epoch 100  --- t= 0.96 m= 1
+Test NLL: -1.3957 --- Test NLLT: -0.0450 --- Test MSE: 0.1008
+epoch 110  --- t= 0.96 m= 1
+Test NLL: -0.2351 --- Test NLLT: 0.0018 --- Test MSE: 0.0276
+epoch 120  --- t= 0.96 m= 1
+Test NLL: -0.2519 --- Test NLLT: 0.0026 --- Test MSE: 0.0261
+epoch 130  --- t= 0.96 m= 1
+Test NLL: -0.2619 --- Test NLLT: 0.0033 --- Test MSE: 0.0268
+epoch 140  --- t= 0.96 m= 1
+Test NLL: -0.2977 --- Test NLLT: 0.0004 --- Test MSE: 0.0313
+epoch 150  --- t= 0.96 m= 1
+Test NLL: -0.2939 --- Test NLLT: 0.0034 --- Test MSE: 0.0278
+epoch 160  --- t= 0.96 m= 1
+Test NLL: -0.4187 --- Test NLLT: 0.0036 --- Test MSE: 0.0311
+epoch 170  --- t= 0.96 m= 1
+Test NLL: -0.5312 --- Test NLLT: 0.0040 --- Test MSE: 0.0354
+epoch 180  --- t= 0.96 m= 1
+Test NLL: -0.5971 --- Test NLLT: 0.0028 --- Test MSE: 0.0360
+epoch 190  --- t= 0.96 m= 1
+Test NLL: -0.5103 --- Test NLLT: 0.0042 --- Test MSE: 0.0348
+epoch 200  --- t= 0.96 m= 1
+Test NLL: -0.4925 --- Test NLLT: 0.0038 --- Test MSE: 0.0351
+epoch 210  --- t= 0.96 m= 1
+Test NLL: -0.5075 --- Test NLLT: 0.0041 --- Test MSE: 0.0341
+epoch 220  --- t= 0.96 m= 1
+Test NLL: -0.5131 --- Test NLLT: 0.0038 --- Test MSE: 0.0333
+epoch 230  --- t= 0.96 m= 1
+Test NLL: -0.4716 --- Test NLLT: 0.0044 --- Test MSE: 0.0334
+epoch 240  --- t= 0.96 m= 1
+Test NLL: -0.4772 --- Test NLLT: 0.0044 --- Test MSE: 0.0336
+epoch 250  --- t= 0.96 m= 1
+Test NLL: -0.4930 --- Test NLLT: 0.0032 --- Test MSE: 0.0338
+epoch 260  --- t= 0.96 m= 1
+Test NLL: -0.4535 --- Test NLLT: 0.0048 --- Test MSE: 0.0318
+epoch 270  --- t= 0.96 m= 1
+Test NLL: -0.4302 --- Test NLLT: 0.0040 --- Test MSE: 0.0331
+epoch 280  --- t= 0.96 m= 1
+Test NLL: -0.4374 --- Test NLLT: 0.0046 --- Test MSE: 0.0316
+epoch 290  --- t= 0.96 m= 1
+Test NLL: -0.4432 --- Test NLLT: 0.0037 --- Test MSE: 0.0326
+epoch 300  --- t= 0.96 m= 1
+Test NLL: -0.4570 --- Test NLLT: 0.0044 --- Test MSE: 0.0324
+epoch 310  --- t= 0.96 m= 1
+Test NLL: -0.4358 --- Test NLLT: 0.0040 --- Test MSE: 0.0335
+epoch 320  --- t= 0.96 m= 1
+Test NLL: -0.4137 --- Test NLLT: 0.0047 --- Test MSE: 0.0314
+epoch 330  --- t= 0.96 m= 1
+Test NLL: -0.4287 --- Test NLLT: 0.0048 --- Test MSE: 0.0312
+epoch 340  --- t= 0.96 m= 1
+Test NLL: -0.4045 --- Test NLLT: 0.0050 --- Test MSE: 0.0302
+epoch 350  --- t= 0.96 m= 1
+Test NLL: -0.4371 --- Test NLLT: 0.0041 --- Test MSE: 0.0316
+epoch 360  --- t= 0.96 m= 1
+Test NLL: -0.4000 --- Test NLLT: 0.0040 --- Test MSE: 0.0305
+epoch 370  --- t= 0.96 m= 1
+Test NLL: -0.3765 --- Test NLLT: 0.0041 --- Test MSE: 0.0315
+epoch 380  --- t= 0.96 m= 1
+Test NLL: -0.3633 --- Test NLLT: 0.0049 --- Test MSE: 0.0293
+epoch 390  --- t= 0.96 m= 1
+Test NLL: -0.3438 --- Test NLLT: 0.0046 --- Test MSE: 0.0295
+epoch 400  --- t= 0.96 m= 1
+Test NLL: -0.3171 --- Test NLLT: 0.0046 --- Test MSE: 0.0290
+epoch 410  --- t= 0.96 m= 1
+Test NLL: -0.3225 --- Test NLLT: 0.0050 --- Test MSE: 0.0282
+epoch 420  --- t= 0.96 m= 1
+Test NLL: -0.3256 --- Test NLLT: 0.0049 --- Test MSE: 0.0285
+epoch 430  --- t= 0.96 m= 1
+Test NLL: -0.3424 --- Test NLLT: 0.0043 --- Test MSE: 0.0279
+epoch 440  --- t= 0.96 m= 1
+Test NLL: -0.3082 --- Test NLLT: 0.0048 --- Test MSE: 0.0279
+epoch 450  --- t= 0.96 m= 1
+Test NLL: -0.2909 --- Test NLLT: 0.0044 --- Test MSE: 0.0266
+epoch 460  --- t= 0.96 m= 1
+Test NLL: -0.2897 --- Test NLLT: 0.0044 --- Test MSE: 0.0264
+epoch 470  --- t= 0.96 m= 1
+Test NLL: -0.2203 --- Test NLLT: 0.0046 --- Test MSE: 0.0241
+epoch 480  --- t= 0.96 m= 1
+Test NLL: -0.2789 --- Test NLLT: 0.0026 --- Test MSE: 0.0252
+epoch 490  --- t= 0.96 m= 1
+Test NLL: -0.2934 --- Test NLLT: 0.0035 --- Test MSE: 0.0253
+epoch 500  --- t= 0.96 m= 1
+Test NLL: -0.2904 --- Test NLLT: 0.0044 --- Test MSE: 0.0265
+epoch 510  --- t= 0.96 m= 1
+Test NLL: -0.2715 --- Test NLLT: 0.0052 --- Test MSE: 0.0258
+epoch 520  --- t= 0.96 m= 1
+Test NLL: -0.2791 --- Test NLLT: 0.0046 --- Test MSE: 0.0262
+epoch 530  --- t= 0.96 m= 1
+Test NLL: -0.2997 --- Test NLLT: 0.0052 --- Test MSE: 0.0271
+epoch 540  --- t= 0.96 m= 1
+Test NLL: -0.3070 --- Test NLLT: 0.0038 --- Test MSE: 0.0274
+epoch 550  --- t= 0.96 m= 1
+Test NLL: -0.2696 --- Test NLLT: 0.0050 --- Test MSE: 0.0268
+epoch 560  --- t= 0.96 m= 1
+Test NLL: -0.2751 --- Test NLLT: 0.0055 --- Test MSE: 0.0256
+epoch 570  --- t= 0.96 m= 1
+Test NLL: -0.2969 --- Test NLLT: 0.0035 --- Test MSE: 0.0268
+epoch 580  --- t= 0.96 m= 1
+Test NLL: -0.2917 --- Test NLLT: 0.0045 --- Test MSE: 0.0265
+epoch 590  --- t= 0.96 m= 1
+Test NLL: -0.2774 --- Test NLLT: 0.0045 --- Test MSE: 0.0265
+epoch 600  --- t= 0.96 m= 1
+Test NLL: -0.2771 --- Test NLLT: 0.0053 --- Test MSE: 0.0263
+epoch 610  --- t= 0.96 m= 1
+Test NLL: -0.2602 --- Test NLLT: 0.0053 --- Test MSE: 0.0256
+epoch 620  --- t= 0.96 m= 1
+Test NLL: -0.2068 --- Test NLLT: 0.0052 --- Test MSE: 0.0242
+epoch 630  --- t= 0.96 m= 1
+Test NLL: -0.2290 --- Test NLLT: 0.0048 --- Test MSE: 0.0236
+epoch 640  --- t= 0.96 m= 1
+Test NLL: -0.2249 --- Test NLLT: 0.0055 --- Test MSE: 0.0244
+epoch 650  --- t= 0.96 m= 1
+Test NLL: -0.2140 --- Test NLLT: 0.0053 --- Test MSE: 0.0242
+epoch 660  --- t= 0.96 m= 1
+Test NLL: -0.2254 --- Test NLLT: 0.0048 --- Test MSE: 0.0239
+epoch 670  --- t= 0.96 m= 1
+Test NLL: -0.2156 --- Test NLLT: 0.0043 --- Test MSE: 0.0251
+epoch 680  --- t= 0.96 m= 1
+Test NLL: -0.2077 --- Test NLLT: 0.0055 --- Test MSE: 0.0236
+epoch 690  --- t= 0.96 m= 1
+Test NLL: -0.2318 --- Test NLLT: 0.0043 --- Test MSE: 0.0236
+epoch 700  --- t= 0.96 m= 1
+Test NLL: -0.1912 --- Test NLLT: 0.0055 --- Test MSE: 0.0226
+epoch 710  --- t= 0.96 m= 1
+Test NLL: -0.1916 --- Test NLLT: 0.0055 --- Test MSE: 0.0223
+epoch 720  --- t= 0.96 m= 1
+Test NLL: -0.0816 --- Test NLLT: 0.0068 --- Test MSE: 0.0165
+epoch 730  --- t= 0.96 m= 1
+Test NLL: -0.0595 --- Test NLLT: 0.0140 --- Test MSE: 0.0112
+epoch 740  --- t= 0.96 m= 1
+Test NLL: -0.0752 --- Test NLLT: 0.0137 --- Test MSE: 0.0114
+epoch 750  --- t= 0.96 m= 1
+Test NLL: -0.0608 --- Test NLLT: 0.0140 --- Test MSE: 0.0119
+epoch 760  --- t= 0.96 m= 1
+Test NLL: -0.0599 --- Test NLLT: 0.0141 --- Test MSE: 0.0117
+epoch 770  --- t= 0.96 m= 1
+Test NLL: -0.0602 --- Test NLLT: 0.0144 --- Test MSE: 0.0108
+epoch 780  --- t= 0.96 m= 1
+Test NLL: -0.0596 --- Test NLLT: 0.0143 --- Test MSE: 0.0116
+epoch 790  --- t= 0.96 m= 1
+Test NLL: -0.0609 --- Test NLLT: 0.0137 --- Test MSE: 0.0118
+epoch 800  --- t= 0.96 m= 1
+Test NLL: -0.0650 --- Test NLLT: 0.0139 --- Test MSE: 0.0107
+epoch 810  --- t= 0.96 m= 1
+Test NLL: -0.0580 --- Test NLLT: 0.0140 --- Test MSE: 0.0110
+epoch 820  --- t= 0.96 m= 1
+Test NLL: -0.0580 --- Test NLLT: 0.0146 --- Test MSE: 0.0108
+epoch 830  --- t= 0.96 m= 1
+Test NLL: -0.0576 --- Test NLLT: 0.0143 --- Test MSE: 0.0114
+epoch 840  --- t= 0.96 m= 1
+Test NLL: -0.0644 --- Test NLLT: 0.0136 --- Test MSE: 0.0115
+epoch 850  --- t= 0.96 m= 1
+Test NLL: -0.0566 --- Test NLLT: 0.0145 --- Test MSE: 0.0110
+epoch 860  --- t= 0.96 m= 1
+Test NLL: -0.0553 --- Test NLLT: 0.0139 --- Test MSE: 0.0126
+epoch 870  --- t= 0.96 m= 1
+Test NLL: -0.0568 --- Test NLLT: 0.0144 --- Test MSE: 0.0112
+epoch 880  --- t= 0.96 m= 1
+Test NLL: -0.0576 --- Test NLLT: 0.0147 --- Test MSE: 0.0107
+epoch 890  --- t= 0.96 m= 1
+Test NLL: -0.0577 --- Test NLLT: 0.0143 --- Test MSE: 0.0114
+epoch 900  --- t= 0.96 m= 1
+Test NLL: -0.0611 --- Test NLLT: 0.0131 --- Test MSE: 0.0134
+epoch 910  --- t= 0.96 m= 1
+Test NLL: -0.0593 --- Test NLLT: 0.0143 --- Test MSE: 0.0117
+epoch 920  --- t= 0.96 m= 1
+Test NLL: -0.0642 --- Test NLLT: 0.0137 --- Test MSE: 0.0116
+epoch 930  --- t= 0.96 m= 1
+Test NLL: -0.0581 --- Test NLLT: 0.0143 --- Test MSE: 0.0116
+epoch 940  --- t= 0.96 m= 1
+Test NLL: -0.0595 --- Test NLLT: 0.0141 --- Test MSE: 0.0110
+epoch 950  --- t= 0.96 m= 1
+Test NLL: -0.0592 --- Test NLLT: 0.0137 --- Test MSE: 0.0129
+epoch 960  --- t= 0.96 m= 1
+Test NLL: -0.0595 --- Test NLLT: 0.0146 --- Test MSE: 0.0111
+epoch 970  --- t= 0.96 m= 1
+Test NLL: -0.0584 --- Test NLLT: 0.0139 --- Test MSE: 0.0111
+epoch 980  --- t= 0.96 m= 1
+Test NLL: -0.0584 --- Test NLLT: 0.0147 --- Test MSE: 0.0104
+epoch 990  --- t= 0.96 m= 1
+Test NLL: -0.0595 --- Test NLLT: 0.0144 --- Test MSE: 0.0112
+/usr/local/lib/python3.6/dist-packages/pyproj/crs/crs.py:53: FutureWarning: '+init=<authority>:<code>' syntax is deprecated. '<authority>:<code>' is the preferred initialization method. When making the change, be mindful of axis order changes: https://pyproj4.github.io/pyproj/stable/gotchas.html#axis-order-changes-in-proj-6
+  return _prepare_from_string(" ".join(pjargs))
+/usr/local/lib/python3.6/dist-packages/pyproj/crs/crs.py:294: FutureWarning: '+init=<authority>:<code>' syntax is deprecated. '<authority>:<code>' is the preferred initialization method. When making the change, be mindful of axis order changes: https://pyproj4.github.io/pyproj/stable/gotchas.html#axis-order-changes-in-proj-6
+  projstring = _prepare_from_string(" ".join((projstring, projkwargs)))
+/usr/local/lib/python3.6/dist-packages/pyproj/crs/crs.py:53: FutureWarning: '+init=<authority>:<code>' syntax is deprecated. '<authority>:<code>' is the preferred initialization method. When making the change, be mindful of axis order changes: https://pyproj4.github.io/pyproj/stable/gotchas.html#axis-order-changes-in-proj-6
+  return _prepare_from_string(" ".join(pjargs))
+/usr/local/lib/python3.6/dist-packages/pyproj/crs/crs.py:294: FutureWarning: '+init=<authority>:<code>' syntax is deprecated. '<authority>:<code>' is the preferred initialization method. When making the change, be mindful of axis order changes: https://pyproj4.github.io/pyproj/stable/gotchas.html#axis-order-changes-in-proj-6
+  projstring = _prepare_from_string(" ".join((projstring, projkwargs)))
+Called with args:
+Namespace(beta=0, dataset='sigfox_dataset_rural', device=device(type='cpu'), eps=0.1, if_test=False, lr=0.001, m=1, m_te=1, no_cuda=True, num_neurons_hidden=50, sigma=0.01, sigma_prior=1, t=0.96, te_batch_size=128, total_epochs=1000, tr_batch_size=128)
+epoch 0  --- t= 0.96 m= 1
+Test NLL: -22.2859 --- Test NLLT: -0.1949 --- Test MSE: 0.6220
+epoch 10  --- t= 0.96 m= 1
+Test NLL: -15.0184 --- Test NLLT: -0.1181 --- Test MSE: 0.4746
+epoch 20  --- t= 0.96 m= 1
+Test NLL: -14.5550 --- Test NLLT: -0.1169 --- Test MSE: 0.4676
+epoch 30  --- t= 0.96 m= 1
+Test NLL: -14.5814 --- Test NLLT: -0.1175 --- Test MSE: 0.4628
+epoch 40  --- t= 0.96 m= 1
+Test NLL: -14.2336 --- Test NLLT: -0.1173 --- Test MSE: 0.4556
+epoch 50  --- t= 0.96 m= 1
+Test NLL: -13.2967 --- Test NLLT: -0.1180 --- Test MSE: 0.4416
+epoch 60  --- t= 0.96 m= 1
+Test NLL: -14.1049 --- Test NLLT: -0.1166 --- Test MSE: 0.4528
+epoch 70  --- t= 0.96 m= 1
+Test NLL: -13.5041 --- Test NLLT: -0.1167 --- Test MSE: 0.4447
+epoch 80  --- t= 0.96 m= 1
+Test NLL: -13.8503 --- Test NLLT: -0.1158 --- Test MSE: 0.4495
+epoch 90  --- t= 0.96 m= 1
+Test NLL: -14.0551 --- Test NLLT: -0.1170 --- Test MSE: 0.4511
+epoch 100  --- t= 0.96 m= 1
+Test NLL: -13.9945 --- Test NLLT: -0.1158 --- Test MSE: 0.4496
+epoch 110  --- t= 0.96 m= 1
+Test NLL: -13.5235 --- Test NLLT: -0.1157 --- Test MSE: 0.4450
+epoch 120  --- t= 0.96 m= 1
+Test NLL: -13.9873 --- Test NLLT: -0.1164 --- Test MSE: 0.4488
+epoch 130  --- t= 0.96 m= 1
+Test NLL: -13.8509 --- Test NLLT: -0.1175 --- Test MSE: 0.4496
+epoch 140  --- t= 0.96 m= 1
+Test NLL: -13.8381 --- Test NLLT: -0.1168 --- Test MSE: 0.4477
+epoch 150  --- t= 0.96 m= 1
+Test NLL: -13.6627 --- Test NLLT: -0.1169 --- Test MSE: 0.4442
+epoch 160  --- t= 0.96 m= 1
+Test NLL: -13.7109 --- Test NLLT: -0.1175 --- Test MSE: 0.4462
+epoch 170  --- t= 0.96 m= 1
+Test NLL: -13.5874 --- Test NLLT: -0.1142 --- Test MSE: 0.4472
+epoch 180  --- t= 0.96 m= 1
+Test NLL: -14.0835 --- Test NLLT: -0.1183 --- Test MSE: 0.4483
+epoch 190  --- t= 0.96 m= 1
+Test NLL: -13.4920 --- Test NLLT: -0.1155 --- Test MSE: 0.4443
+epoch 200  --- t= 0.96 m= 1
+Test NLL: -13.5989 --- Test NLLT: -0.1148 --- Test MSE: 0.4450
+epoch 210  --- t= 0.96 m= 1
+Test NLL: -13.9160 --- Test NLLT: -0.1161 --- Test MSE: 0.4497
+epoch 220  --- t= 0.96 m= 1
+Test NLL: -13.8295 --- Test NLLT: -0.1173 --- Test MSE: 0.4459
+epoch 230  --- t= 0.96 m= 1
+Test NLL: -13.8992 --- Test NLLT: -0.1166 --- Test MSE: 0.4443
+epoch 240  --- t= 0.96 m= 1
+Test NLL: -13.6723 --- Test NLLT: -0.1163 --- Test MSE: 0.4424
+epoch 250  --- t= 0.96 m= 1
+Test NLL: -13.7390 --- Test NLLT: -0.1172 --- Test MSE: 0.4432
+epoch 260  --- t= 0.96 m= 1
+Test NLL: -13.9287 --- Test NLLT: -0.1153 --- Test MSE: 0.4473
+epoch 270  --- t= 0.96 m= 1
+Test NLL: -13.7976 --- Test NLLT: -0.1166 --- Test MSE: 0.4436
+epoch 280  --- t= 0.96 m= 1
+Test NLL: -13.4826 --- Test NLLT: -0.1141 --- Test MSE: 0.4439
+epoch 290  --- t= 0.96 m= 1
+Test NLL: -13.2963 --- Test NLLT: -0.1153 --- Test MSE: 0.4400
+epoch 300  --- t= 0.96 m= 1
+Test NLL: -13.4851 --- Test NLLT: -0.1140 --- Test MSE: 0.4409
+epoch 310  --- t= 0.96 m= 1
+Test NLL: -13.5392 --- Test NLLT: -0.1157 --- Test MSE: 0.4416
+epoch 320  --- t= 0.96 m= 1
+Test NLL: -13.4571 --- Test NLLT: -0.1157 --- Test MSE: 0.4394
+epoch 330  --- t= 0.96 m= 1
+Test NLL: -13.5133 --- Test NLLT: -0.1139 --- Test MSE: 0.4442
+epoch 340  --- t= 0.96 m= 1
+Test NLL: -14.0142 --- Test NLLT: -0.1157 --- Test MSE: 0.4450
+epoch 350  --- t= 0.96 m= 1
+Test NLL: -13.2641 --- Test NLLT: -0.1144 --- Test MSE: 0.4372
+epoch 360  --- t= 0.96 m= 1
+Test NLL: -13.4159 --- Test NLLT: -0.1143 --- Test MSE: 0.4401
+epoch 370  --- t= 0.96 m= 1
+Test NLL: -13.8627 --- Test NLLT: -0.1131 --- Test MSE: 0.4485
+epoch 380  --- t= 0.96 m= 1
+Test NLL: -13.4889 --- Test NLLT: -0.1143 --- Test MSE: 0.4418
+epoch 390  --- t= 0.96 m= 1
+Test NLL: -13.6003 --- Test NLLT: -0.1137 --- Test MSE: 0.4440
+epoch 400  --- t= 0.96 m= 1
+Test NLL: -13.9400 --- Test NLLT: -0.1149 --- Test MSE: 0.4472
+epoch 410  --- t= 0.96 m= 1
+Test NLL: -13.7450 --- Test NLLT: -0.1144 --- Test MSE: 0.4464
+epoch 420  --- t= 0.96 m= 1
+Test NLL: -13.5354 --- Test NLLT: -0.1149 --- Test MSE: 0.4427
+epoch 430  --- t= 0.96 m= 1
+Test NLL: -13.4233 --- Test NLLT: -0.1149 --- Test MSE: 0.4373
+epoch 440  --- t= 0.96 m= 1
+Test NLL: -13.6856 --- Test NLLT: -0.1156 --- Test MSE: 0.4428
+epoch 450  --- t= 0.96 m= 1
+Test NLL: -13.5587 --- Test NLLT: -0.1155 --- Test MSE: 0.4389
+epoch 460  --- t= 0.96 m= 1
+Test NLL: -13.2027 --- Test NLLT: -0.1150 --- Test MSE: 0.4361
+epoch 470  --- t= 0.96 m= 1
+Test NLL: -13.4959 --- Test NLLT: -0.1151 --- Test MSE: 0.4407
+epoch 480  --- t= 0.96 m= 1
+Test NLL: -14.0424 --- Test NLLT: -0.1164 --- Test MSE: 0.4498
+epoch 490  --- t= 0.96 m= 1
+Test NLL: -13.4652 --- Test NLLT: -0.1156 --- Test MSE: 0.4381
+epoch 500  --- t= 0.96 m= 1
+Test NLL: -13.5923 --- Test NLLT: -0.1161 --- Test MSE: 0.4368
+epoch 510  --- t= 0.96 m= 1
+Test NLL: -13.7522 --- Test NLLT: -0.1144 --- Test MSE: 0.4427
+epoch 520  --- t= 0.96 m= 1
+Test NLL: -13.5108 --- Test NLLT: -0.1161 --- Test MSE: 0.4382
+epoch 530  --- t= 0.96 m= 1
+Test NLL: -13.5762 --- Test NLLT: -0.1148 --- Test MSE: 0.4422
+epoch 540  --- t= 0.96 m= 1
+Test NLL: -13.5328 --- Test NLLT: -0.1137 --- Test MSE: 0.4434
+epoch 550  --- t= 0.96 m= 1
+Test NLL: -13.6563 --- Test NLLT: -0.1155 --- Test MSE: 0.4410
+epoch 560  --- t= 0.96 m= 1
+Test NLL: -13.3935 --- Test NLLT: -0.1130 --- Test MSE: 0.4402
+epoch 570  --- t= 0.96 m= 1
+Test NLL: -13.6117 --- Test NLLT: -0.1148 --- Test MSE: 0.4399
+epoch 580  --- t= 0.96 m= 1
+Test NLL: -13.9192 --- Test NLLT: -0.1154 --- Test MSE: 0.4450
+epoch 590  --- t= 0.96 m= 1
+Test NLL: -13.4475 --- Test NLLT: -0.1148 --- Test MSE: 0.4376
+epoch 600  --- t= 0.96 m= 1
+Test NLL: -13.4388 --- Test NLLT: -0.1148 --- Test MSE: 0.4388
+epoch 610  --- t= 0.96 m= 1
+Test NLL: -13.3761 --- Test NLLT: -0.1136 --- Test MSE: 0.4413
+epoch 620  --- t= 0.96 m= 1
+Test NLL: -13.2986 --- Test NLLT: -0.1128 --- Test MSE: 0.4383
+epoch 630  --- t= 0.96 m= 1
+Test NLL: -13.4110 --- Test NLLT: -0.1141 --- Test MSE: 0.4388
+epoch 640  --- t= 0.96 m= 1
+Test NLL: -13.5841 --- Test NLLT: -0.1141 --- Test MSE: 0.4417
+epoch 650  --- t= 0.96 m= 1
+Test NLL: -13.4245 --- Test NLLT: -0.1141 --- Test MSE: 0.4383
+epoch 660  --- t= 0.96 m= 1
+Test NLL: -13.6339 --- Test NLLT: -0.1148 --- Test MSE: 0.4414
+epoch 670  --- t= 0.96 m= 1
+Test NLL: -13.5159 --- Test NLLT: -0.1140 --- Test MSE: 0.4392
+epoch 680  --- t= 0.96 m= 1
+Test NLL: -13.4055 --- Test NLLT: -0.1134 --- Test MSE: 0.4415
+epoch 690  --- t= 0.96 m= 1
+Test NLL: -13.3781 --- Test NLLT: -0.1146 --- Test MSE: 0.4385
+epoch 700  --- t= 0.96 m= 1
+Test NLL: -13.7614 --- Test NLLT: -0.1159 --- Test MSE: 0.4391
+epoch 710  --- t= 0.96 m= 1
+Test NLL: -13.4310 --- Test NLLT: -0.1144 --- Test MSE: 0.4399
+epoch 720  --- t= 0.96 m= 1
+Test NLL: -13.2178 --- Test NLLT: -0.1129 --- Test MSE: 0.4375
+epoch 730  --- t= 0.96 m= 1
+Test NLL: -13.4386 --- Test NLLT: -0.1146 --- Test MSE: 0.4363
+epoch 740  --- t= 0.96 m= 1
+Test NLL: -13.1948 --- Test NLLT: -0.1144 --- Test MSE: 0.4364
+epoch 750  --- t= 0.96 m= 1
+Test NLL: -13.5856 --- Test NLLT: -0.1138 --- Test MSE: 0.4397
+epoch 760  --- t= 0.96 m= 1
+Test NLL: -13.5063 --- Test NLLT: -0.1139 --- Test MSE: 0.4406
+epoch 770  --- t= 0.96 m= 1
+Test NLL: -13.4291 --- Test NLLT: -0.1145 --- Test MSE: 0.4371
+epoch 780  --- t= 0.96 m= 1
+Test NLL: -13.2809 --- Test NLLT: -0.1137 --- Test MSE: 0.4366
+epoch 790  --- t= 0.96 m= 1
+Test NLL: -13.2385 --- Test NLLT: -0.1143 --- Test MSE: 0.4362
+epoch 800  --- t= 0.96 m= 1
+Test NLL: -13.3502 --- Test NLLT: -0.1157 --- Test MSE: 0.4352
+epoch 810  --- t= 0.96 m= 1
+Test NLL: -13.8600 --- Test NLLT: -0.1150 --- Test MSE: 0.4425
+epoch 820  --- t= 0.96 m= 1
+Test NLL: -13.5094 --- Test NLLT: -0.1144 --- Test MSE: 0.4391
+epoch 830  --- t= 0.96 m= 1
+Test NLL: -13.5030 --- Test NLLT: -0.1157 --- Test MSE: 0.4366
+epoch 840  --- t= 0.96 m= 1
+Test NLL: -13.1723 --- Test NLLT: -0.1148 --- Test MSE: 0.4340
+epoch 850  --- t= 0.96 m= 1
+Test NLL: -13.4987 --- Test NLLT: -0.1144 --- Test MSE: 0.4385
+epoch 860  --- t= 0.96 m= 1
+Test NLL: -13.5202 --- Test NLLT: -0.1166 --- Test MSE: 0.4372
+epoch 870  --- t= 0.96 m= 1
+Test NLL: -13.1552 --- Test NLLT: -0.1138 --- Test MSE: 0.4324
+epoch 880  --- t= 0.96 m= 1
+Test NLL: -13.3687 --- Test NLLT: -0.1149 --- Test MSE: 0.4362
+epoch 890  --- t= 0.96 m= 1
+Test NLL: -13.2502 --- Test NLLT: -0.1149 --- Test MSE: 0.4348
+epoch 900  --- t= 0.96 m= 1
+Test NLL: -13.6745 --- Test NLLT: -0.1145 --- Test MSE: 0.4400
+epoch 910  --- t= 0.96 m= 1
+Test NLL: -13.0195 --- Test NLLT: -0.1131 --- Test MSE: 0.4305
+epoch 920  --- t= 0.96 m= 1
+Test NLL: -13.2583 --- Test NLLT: -0.1137 --- Test MSE: 0.4366
+epoch 930  --- t= 0.96 m= 1
+Test NLL: -13.3891 --- Test NLLT: -0.1130 --- Test MSE: 0.4371
+epoch 940  --- t= 0.96 m= 1
+Test NLL: -13.3019 --- Test NLLT: -0.1138 --- Test MSE: 0.4363
+epoch 950  --- t= 0.96 m= 1
+Test NLL: -13.2780 --- Test NLLT: -0.1127 --- Test MSE: 0.4382
+epoch 960  --- t= 0.96 m= 1
+Test NLL: -13.3965 --- Test NLLT: -0.1144 --- Test MSE: 0.4372
+epoch 970  --- t= 0.96 m= 1
+Test NLL: -13.5269 --- Test NLLT: -0.1150 --- Test MSE: 0.4353
+epoch 980  --- t= 0.96 m= 1
+Test NLL: -13.2896 --- Test NLLT: -0.1136 --- Test MSE: 0.4364
+epoch 990  --- t= 0.96 m= 1
+Test NLL: -13.2850 --- Test NLLT: -0.1149 --- Test MSE: 0.4313
+/usr/local/lib/python3.6/dist-packages/pyproj/crs/crs.py:53: FutureWarning: '+init=<authority>:<code>' syntax is deprecated. '<authority>:<code>' is the preferred initialization method. When making the change, be mindful of axis order changes: https://pyproj4.github.io/pyproj/stable/gotchas.html#axis-order-changes-in-proj-6
+  return _prepare_from_string(" ".join(pjargs))
+/usr/local/lib/python3.6/dist-packages/pyproj/crs/crs.py:294: FutureWarning: '+init=<authority>:<code>' syntax is deprecated. '<authority>:<code>' is the preferred initialization method. When making the change, be mindful of axis order changes: https://pyproj4.github.io/pyproj/stable/gotchas.html#axis-order-changes-in-proj-6
+  projstring = _prepare_from_string(" ".join((projstring, projkwargs)))
+/usr/local/lib/python3.6/dist-packages/pyproj/crs/crs.py:53: FutureWarning: '+init=<authority>:<code>' syntax is deprecated. '<authority>:<code>' is the preferred initialization method. When making the change, be mindful of axis order changes: https://pyproj4.github.io/pyproj/stable/gotchas.html#axis-order-changes-in-proj-6
+  return _prepare_from_string(" ".join(pjargs))
+/usr/local/lib/python3.6/dist-packages/pyproj/crs/crs.py:294: FutureWarning: '+init=<authority>:<code>' syntax is deprecated. '<authority>:<code>' is the preferred initialization method. When making the change, be mindful of axis order changes: https://pyproj4.github.io/pyproj/stable/gotchas.html#axis-order-changes-in-proj-6
+  projstring = _prepare_from_string(" ".join((projstring, projkwargs)))
+Called with args:
+Namespace(beta=0, dataset='sigfox_dataset_rural', device=device(type='cpu'), eps=0.2, if_test=False, lr=0.001, m=1, m_te=1, no_cuda=True, num_neurons_hidden=50, sigma=0.01, sigma_prior=1, t=0.96, te_batch_size=128, total_epochs=1000, tr_batch_size=128)
+epoch 0  --- t= 0.96 m= 1
+Test NLL: -22.2859 --- Test NLLT: -0.1949 --- Test MSE: 0.6220
+epoch 10  --- t= 0.96 m= 1
+Test NLL: -13.3833 --- Test NLLT: -0.1181 --- Test MSE: 0.4489
+epoch 20  --- t= 0.96 m= 1
+Test NLL: -13.1934 --- Test NLLT: -0.1169 --- Test MSE: 0.4460
+epoch 30  --- t= 0.96 m= 1
+Test NLL: -13.7612 --- Test NLLT: -0.1174 --- Test MSE: 0.4518
+epoch 40  --- t= 0.96 m= 1
+Test NLL: -13.7467 --- Test NLLT: -0.1172 --- Test MSE: 0.4516
+epoch 50  --- t= 0.96 m= 1
+Test NLL: -13.2721 --- Test NLLT: -0.1178 --- Test MSE: 0.4444
+epoch 60  --- t= 0.96 m= 1
+Test NLL: -13.6156 --- Test NLLT: -0.1166 --- Test MSE: 0.4494
+epoch 70  --- t= 0.96 m= 1
+Test NLL: -13.3946 --- Test NLLT: -0.1168 --- Test MSE: 0.4479
+epoch 80  --- t= 0.96 m= 1
+Test NLL: -12.7490 --- Test NLLT: -0.1159 --- Test MSE: 0.4356
+epoch 90  --- t= 0.96 m= 1
+Test NLL: -13.0070 --- Test NLLT: -0.1172 --- Test MSE: 0.4374
+epoch 100  --- t= 0.96 m= 1
+Test NLL: -12.7135 --- Test NLLT: -0.1159 --- Test MSE: 0.4322
+epoch 110  --- t= 0.96 m= 1
+Test NLL: -13.0533 --- Test NLLT: -0.1162 --- Test MSE: 0.4434
+epoch 120  --- t= 0.96 m= 1
+Test NLL: -13.8611 --- Test NLLT: -0.1166 --- Test MSE: 0.4515
+epoch 130  --- t= 0.96 m= 1
+Test NLL: -12.8507 --- Test NLLT: -0.1176 --- Test MSE: 0.4369
+epoch 140  --- t= 0.96 m= 1
+Test NLL: -12.9698 --- Test NLLT: -0.1170 --- Test MSE: 0.4376
+epoch 150  --- t= 0.96 m= 1
+Test NLL: -12.6513 --- Test NLLT: -0.1169 --- Test MSE: 0.4309
+epoch 160  --- t= 0.96 m= 1
+Test NLL: -13.3148 --- Test NLLT: -0.1176 --- Test MSE: 0.4414
+epoch 170  --- t= 0.96 m= 1
+Test NLL: -13.0850 --- Test NLLT: -0.1145 --- Test MSE: 0.4432
+epoch 180  --- t= 0.96 m= 1
+Test NLL: -13.1596 --- Test NLLT: -0.1183 --- Test MSE: 0.4341
+epoch 190  --- t= 0.96 m= 1
+Test NLL: -13.1021 --- Test NLLT: -0.1156 --- Test MSE: 0.4406
+epoch 200  --- t= 0.96 m= 1
+Test NLL: -13.0333 --- Test NLLT: -0.1150 --- Test MSE: 0.4392
+epoch 210  --- t= 0.96 m= 1
+Test NLL: -13.2767 --- Test NLLT: -0.1162 --- Test MSE: 0.4414
+epoch 220  --- t= 0.96 m= 1
+Test NLL: -13.2741 --- Test NLLT: -0.1176 --- Test MSE: 0.4408
+epoch 230  --- t= 0.96 m= 1
+Test NLL: -13.3755 --- Test NLLT: -0.1169 --- Test MSE: 0.4403
+epoch 240  --- t= 0.96 m= 1
+Test NLL: -13.2072 --- Test NLLT: -0.1169 --- Test MSE: 0.4387
+epoch 250  --- t= 0.96 m= 1
+Test NLL: -13.5963 --- Test NLLT: -0.1181 --- Test MSE: 0.4431
+epoch 260  --- t= 0.96 m= 1
+Test NLL: -13.3832 --- Test NLLT: -0.1162 --- Test MSE: 0.4445
+epoch 270  --- t= 0.96 m= 1
+Test NLL: -13.1431 --- Test NLLT: -0.1174 --- Test MSE: 0.4381
+epoch 280  --- t= 0.96 m= 1
+Test NLL: -13.1628 --- Test NLLT: -0.1149 --- Test MSE: 0.4418
+epoch 290  --- t= 0.96 m= 1
+Test NLL: -13.4486 --- Test NLLT: -0.1163 --- Test MSE: 0.4453
+epoch 300  --- t= 0.96 m= 1
+Test NLL: -12.7870 --- Test NLLT: -0.1149 --- Test MSE: 0.4332
+epoch 310  --- t= 0.96 m= 1
+Test NLL: -12.8420 --- Test NLLT: -0.1167 --- Test MSE: 0.4347
+epoch 320  --- t= 0.96 m= 1
+Test NLL: -13.0325 --- Test NLLT: -0.1168 --- Test MSE: 0.4368
+epoch 330  --- t= 0.96 m= 1
+Test NLL: -12.8606 --- Test NLLT: -0.1150 --- Test MSE: 0.4353
+epoch 340  --- t= 0.96 m= 1
+Test NLL: -13.3400 --- Test NLLT: -0.1166 --- Test MSE: 0.4388
+epoch 350  --- t= 0.96 m= 1
+Test NLL: -12.6759 --- Test NLLT: -0.1155 --- Test MSE: 0.4323
+epoch 360  --- t= 0.96 m= 1
+Test NLL: -12.8072 --- Test NLLT: -0.1155 --- Test MSE: 0.4345
+epoch 370  --- t= 0.96 m= 1
+Test NLL: -12.9975 --- Test NLLT: -0.1141 --- Test MSE: 0.4379
+epoch 380  --- t= 0.96 m= 1
+Test NLL: -12.8414 --- Test NLLT: -0.1154 --- Test MSE: 0.4335
+epoch 390  --- t= 0.96 m= 1
+Test NLL: -12.9185 --- Test NLLT: -0.1148 --- Test MSE: 0.4369
+epoch 400  --- t= 0.96 m= 1
+Test NLL: -13.4394 --- Test NLLT: -0.1161 --- Test MSE: 0.4436
+epoch 410  --- t= 0.96 m= 1
+Test NLL: -13.0801 --- Test NLLT: -0.1155 --- Test MSE: 0.4398
+epoch 420  --- t= 0.96 m= 1
+Test NLL: -13.1100 --- Test NLLT: -0.1160 --- Test MSE: 0.4404
+epoch 430  --- t= 0.96 m= 1
+Test NLL: -13.1189 --- Test NLLT: -0.1161 --- Test MSE: 0.4379
+epoch 440  --- t= 0.96 m= 1
+Test NLL: -12.8028 --- Test NLLT: -0.1167 --- Test MSE: 0.4323
+epoch 450  --- t= 0.96 m= 1
+Test NLL: -13.2112 --- Test NLLT: -0.1166 --- Test MSE: 0.4383
+epoch 460  --- t= 0.96 m= 1
+Test NLL: -13.1756 --- Test NLLT: -0.1161 --- Test MSE: 0.4406
+epoch 470  --- t= 0.96 m= 1
+Test NLL: -13.4416 --- Test NLLT: -0.1160 --- Test MSE: 0.4431
+epoch 480  --- t= 0.96 m= 1
+Test NLL: -13.5856 --- Test NLLT: -0.1174 --- Test MSE: 0.4482
+epoch 490  --- t= 0.96 m= 1
+Test NLL: -13.4241 --- Test NLLT: -0.1166 --- Test MSE: 0.4416
+epoch 500  --- t= 0.96 m= 1
+Test NLL: -13.4224 --- Test NLLT: -0.1173 --- Test MSE: 0.4395
+epoch 510  --- t= 0.96 m= 1
+Test NLL: -13.1173 --- Test NLLT: -0.1155 --- Test MSE: 0.4406
+epoch 520  --- t= 0.96 m= 1
+Test NLL: -13.2059 --- Test NLLT: -0.1173 --- Test MSE: 0.4397
+epoch 530  --- t= 0.96 m= 1
+Test NLL: -13.0205 --- Test NLLT: -0.1160 --- Test MSE: 0.4375
+epoch 540  --- t= 0.96 m= 1
+Test NLL: -13.1768 --- Test NLLT: -0.1149 --- Test MSE: 0.4423
+epoch 550  --- t= 0.96 m= 1
+Test NLL: -13.1168 --- Test NLLT: -0.1168 --- Test MSE: 0.4358
+epoch 560  --- t= 0.96 m= 1
+Test NLL: -12.9974 --- Test NLLT: -0.1141 --- Test MSE: 0.4385
+epoch 570  --- t= 0.96 m= 1
+Test NLL: -13.3128 --- Test NLLT: -0.1160 --- Test MSE: 0.4426
+epoch 580  --- t= 0.96 m= 1
+Test NLL: -13.1347 --- Test NLLT: -0.1167 --- Test MSE: 0.4385
+epoch 590  --- t= 0.96 m= 1
+Test NLL: -13.2317 --- Test NLLT: -0.1160 --- Test MSE: 0.4403
+epoch 600  --- t= 0.96 m= 1
+Test NLL: -13.4223 --- Test NLLT: -0.1160 --- Test MSE: 0.4434
+epoch 610  --- t= 0.96 m= 1
+Test NLL: -12.9832 --- Test NLLT: -0.1148 --- Test MSE: 0.4393
+epoch 620  --- t= 0.96 m= 1
+Test NLL: -13.1789 --- Test NLLT: -0.1141 --- Test MSE: 0.4414
+epoch 630  --- t= 0.96 m= 1
+Test NLL: -13.5152 --- Test NLLT: -0.1154 --- Test MSE: 0.4461
+epoch 640  --- t= 0.96 m= 1
+Test NLL: -13.1447 --- Test NLLT: -0.1154 --- Test MSE: 0.4400
+epoch 650  --- t= 0.96 m= 1
+Test NLL: -13.3988 --- Test NLLT: -0.1158 --- Test MSE: 0.4449
+epoch 660  --- t= 0.96 m= 1
+Test NLL: -13.5093 --- Test NLLT: -0.1160 --- Test MSE: 0.4450
+epoch 670  --- t= 0.96 m= 1
+Test NLL: -13.2054 --- Test NLLT: -0.1154 --- Test MSE: 0.4380
+epoch 680  --- t= 0.96 m= 1
+Test NLL: -13.2564 --- Test NLLT: -0.1148 --- Test MSE: 0.4427
+epoch 690  --- t= 0.96 m= 1
+Test NLL: -13.3042 --- Test NLLT: -0.1160 --- Test MSE: 0.4415
+epoch 700  --- t= 0.96 m= 1
+Test NLL: -13.6080 --- Test NLLT: -0.1173 --- Test MSE: 0.4424
+epoch 710  --- t= 0.96 m= 1
+Test NLL: -13.3100 --- Test NLLT: -0.1161 --- Test MSE: 0.4401
+epoch 720  --- t= 0.96 m= 1
+Test NLL: -13.2387 --- Test NLLT: -0.1141 --- Test MSE: 0.4435
+epoch 730  --- t= 0.96 m= 1
+Test NLL: -13.2205 --- Test NLLT: -0.1160 --- Test MSE: 0.4405
+epoch 740  --- t= 0.96 m= 1
+Test NLL: -13.1900 --- Test NLLT: -0.1154 --- Test MSE: 0.4415
+epoch 750  --- t= 0.96 m= 1
+Test NLL: -13.1378 --- Test NLLT: -0.1156 --- Test MSE: 0.4397
+epoch 760  --- t= 0.96 m= 1
+Test NLL: -13.2003 --- Test NLLT: -0.1154 --- Test MSE: 0.4403
+epoch 770  --- t= 0.96 m= 1
+Test NLL: -13.4873 --- Test NLLT: -0.1161 --- Test MSE: 0.4431
+epoch 780  --- t= 0.96 m= 1
+Test NLL: -13.0693 --- Test NLLT: -0.1155 --- Test MSE: 0.4389
+epoch 790  --- t= 0.96 m= 1
+Test NLL: -13.4037 --- Test NLLT: -0.1160 --- Test MSE: 0.4446
+epoch 800  --- t= 0.96 m= 1
+Test NLL: -13.5773 --- Test NLLT: -0.1173 --- Test MSE: 0.4451
+epoch 810  --- t= 0.96 m= 1
+Test NLL: -13.6311 --- Test NLLT: -0.1166 --- Test MSE: 0.4441
+epoch 820  --- t= 0.96 m= 1
+Test NLL: -13.4582 --- Test NLLT: -0.1160 --- Test MSE: 0.4444
+epoch 830  --- t= 0.96 m= 1
+Test NLL: -13.5342 --- Test NLLT: -0.1173 --- Test MSE: 0.4446
+epoch 840  --- t= 0.96 m= 1
+Test NLL: -13.1851 --- Test NLLT: -0.1167 --- Test MSE: 0.4406
+epoch 850  --- t= 0.96 m= 1
+Test NLL: -13.3396 --- Test NLLT: -0.1160 --- Test MSE: 0.4413
+epoch 860  --- t= 0.96 m= 1
+Test NLL: -13.3825 --- Test NLLT: -0.1179 --- Test MSE: 0.4407
+epoch 870  --- t= 0.96 m= 1
+Test NLL: -13.2847 --- Test NLLT: -0.1154 --- Test MSE: 0.4403
+epoch 880  --- t= 0.96 m= 1
+Test NLL: -13.3408 --- Test NLLT: -0.1169 --- Test MSE: 0.4438
+epoch 890  --- t= 0.96 m= 1
+Test NLL: -13.1120 --- Test NLLT: -0.1167 --- Test MSE: 0.4371
+epoch 900  --- t= 0.96 m= 1
+Test NLL: -13.3431 --- Test NLLT: -0.1161 --- Test MSE: 0.4417
+epoch 910  --- t= 0.96 m= 1
+Test NLL: -13.0852 --- Test NLLT: -0.1149 --- Test MSE: 0.4385
+epoch 920  --- t= 0.96 m= 1
+Test NLL: -13.0173 --- Test NLLT: -0.1154 --- Test MSE: 0.4391
+epoch 930  --- t= 0.96 m= 1
+Test NLL: -13.0832 --- Test NLLT: -0.1147 --- Test MSE: 0.4379
+epoch 940  --- t= 0.96 m= 1
+Test NLL: -13.0185 --- Test NLLT: -0.1155 --- Test MSE: 0.4378
+epoch 950  --- t= 0.96 m= 1
+Test NLL: -12.9180 --- Test NLLT: -0.1150 --- Test MSE: 0.4373
+epoch 960  --- t= 0.96 m= 1
+Test NLL: -12.9817 --- Test NLLT: -0.1161 --- Test MSE: 0.4363
+epoch 970  --- t= 0.96 m= 1
+Test NLL: -13.4032 --- Test NLLT: -0.1171 --- Test MSE: 0.4405
+epoch 980  --- t= 0.96 m= 1
+Test NLL: -13.0124 --- Test NLLT: -0.1153 --- Test MSE: 0.4377
+epoch 990  --- t= 0.96 m= 1
+Test NLL: -13.1559 --- Test NLLT: -0.1167 --- Test MSE: 0.4367
+/usr/local/lib/python3.6/dist-packages/pyproj/crs/crs.py:53: FutureWarning: '+init=<authority>:<code>' syntax is deprecated. '<authority>:<code>' is the preferred initialization method. When making the change, be mindful of axis order changes: https://pyproj4.github.io/pyproj/stable/gotchas.html#axis-order-changes-in-proj-6
+  return _prepare_from_string(" ".join(pjargs))
+/usr/local/lib/python3.6/dist-packages/pyproj/crs/crs.py:294: FutureWarning: '+init=<authority>:<code>' syntax is deprecated. '<authority>:<code>' is the preferred initialization method. When making the change, be mindful of axis order changes: https://pyproj4.github.io/pyproj/stable/gotchas.html#axis-order-changes-in-proj-6
+  projstring = _prepare_from_string(" ".join((projstring, projkwargs)))
+/usr/local/lib/python3.6/dist-packages/pyproj/crs/crs.py:53: FutureWarning: '+init=<authority>:<code>' syntax is deprecated. '<authority>:<code>' is the preferred initialization method. When making the change, be mindful of axis order changes: https://pyproj4.github.io/pyproj/stable/gotchas.html#axis-order-changes-in-proj-6
+  return _prepare_from_string(" ".join(pjargs))
+/usr/local/lib/python3.6/dist-packages/pyproj/crs/crs.py:294: FutureWarning: '+init=<authority>:<code>' syntax is deprecated. '<authority>:<code>' is the preferred initialization method. When making the change, be mindful of axis order changes: https://pyproj4.github.io/pyproj/stable/gotchas.html#axis-order-changes-in-proj-6
+  projstring = _prepare_from_string(" ".join((projstring, projkwargs)))
+Called with args:
+Namespace(beta=0, dataset='sigfox_dataset_rural', device=device(type='cpu'), eps=0.3, if_test=False, lr=0.001, m=1, m_te=1, no_cuda=True, num_neurons_hidden=50, sigma=0.01, sigma_prior=1, t=0.96, te_batch_size=128, total_epochs=1000, tr_batch_size=128)
+epoch 0  --- t= 0.96 m= 1
+Test NLL: -22.2859 --- Test NLLT: -0.1949 --- Test MSE: 0.6220
+epoch 10  --- t= 0.96 m= 1
+Test NLL: -13.8527 --- Test NLLT: -0.1181 --- Test MSE: 0.4577
+epoch 20  --- t= 0.96 m= 1
+Test NLL: -12.6591 --- Test NLLT: -0.1171 --- Test MSE: 0.4375
+epoch 30  --- t= 0.96 m= 1
+Test NLL: -12.6240 --- Test NLLT: -0.1175 --- Test MSE: 0.4331
+epoch 40  --- t= 0.96 m= 1
+Test NLL: -12.8458 --- Test NLLT: -0.1175 --- Test MSE: 0.4373
+epoch 50  --- t= 0.96 m= 1
+Test NLL: -12.3172 --- Test NLLT: -0.1181 --- Test MSE: 0.4298
+epoch 60  --- t= 0.96 m= 1
+Test NLL: -12.1205 --- Test NLLT: -0.1169 --- Test MSE: 0.4243
+epoch 70  --- t= 0.96 m= 1
+Test NLL: -12.2646 --- Test NLLT: -0.1166 --- Test MSE: 0.4276
+epoch 80  --- t= 0.96 m= 1
+Test NLL: -11.4046 --- Test NLLT: -0.1159 --- Test MSE: 0.4113
+epoch 90  --- t= 0.96 m= 1
+Test NLL: -12.3935 --- Test NLLT: -0.1172 --- Test MSE: 0.4261
+epoch 100  --- t= 0.96 m= 1
+Test NLL: -11.7845 --- Test NLLT: -0.1158 --- Test MSE: 0.4164
+epoch 110  --- t= 0.96 m= 1
+Test NLL: -11.5415 --- Test NLLT: -0.1162 --- Test MSE: 0.4153
+epoch 120  --- t= 0.96 m= 1
+Test NLL: -11.8191 --- Test NLLT: -0.1164 --- Test MSE: 0.4156
+epoch 130  --- t= 0.96 m= 1
+Test NLL: -12.0729 --- Test NLLT: -0.1177 --- Test MSE: 0.4210
+epoch 140  --- t= 0.96 m= 1
+Test NLL: -12.0851 --- Test NLLT: -0.1171 --- Test MSE: 0.4229
+epoch 150  --- t= 0.96 m= 1
+Test NLL: -11.5971 --- Test NLLT: -0.1172 --- Test MSE: 0.4108
+epoch 160  --- t= 0.96 m= 1
+Test NLL: -11.9444 --- Test NLLT: -0.1178 --- Test MSE: 0.4184
+epoch 170  --- t= 0.96 m= 1
+Test NLL: -11.6786 --- Test NLLT: -0.1147 --- Test MSE: 0.4177
+epoch 180  --- t= 0.96 m= 1
+Test NLL: -11.8531 --- Test NLLT: -0.1184 --- Test MSE: 0.4107
+epoch 190  --- t= 0.96 m= 1
+Test NLL: -11.9758 --- Test NLLT: -0.1158 --- Test MSE: 0.4187
+epoch 200  --- t= 0.96 m= 1
+Test NLL: -11.7448 --- Test NLLT: -0.1151 --- Test MSE: 0.4154
+epoch 210  --- t= 0.96 m= 1
+Test NLL: -12.2454 --- Test NLLT: -0.1164 --- Test MSE: 0.4205
+epoch 220  --- t= 0.96 m= 1
+Test NLL: -12.1035 --- Test NLLT: -0.1177 --- Test MSE: 0.4180
+epoch 230  --- t= 0.96 m= 1
+Test NLL: -12.1991 --- Test NLLT: -0.1170 --- Test MSE: 0.4171
+epoch 240  --- t= 0.96 m= 1
+Test NLL: -12.0808 --- Test NLLT: -0.1169 --- Test MSE: 0.4162
+epoch 250  --- t= 0.96 m= 1
+Test NLL: -11.5422 --- Test NLLT: -0.1182 --- Test MSE: 0.4051
+epoch 260  --- t= 0.96 m= 1
+Test NLL: -11.8251 --- Test NLLT: -0.1162 --- Test MSE: 0.4138
+epoch 270  --- t= 0.96 m= 1
+Test NLL: -11.6062 --- Test NLLT: -0.1177 --- Test MSE: 0.4089
+epoch 280  --- t= 0.96 m= 1
+Test NLL: -12.1074 --- Test NLLT: -0.1148 --- Test MSE: 0.4197
+epoch 290  --- t= 0.96 m= 1
+Test NLL: -11.6025 --- Test NLLT: -0.1161 --- Test MSE: 0.4095
+epoch 300  --- t= 0.96 m= 1
+Test NLL: -11.4335 --- Test NLLT: -0.1149 --- Test MSE: 0.4044
+epoch 310  --- t= 0.96 m= 1
+Test NLL: -11.7199 --- Test NLLT: -0.1168 --- Test MSE: 0.4115
+epoch 320  --- t= 0.96 m= 1
+Test NLL: -11.7460 --- Test NLLT: -0.1168 --- Test MSE: 0.4117
+epoch 330  --- t= 0.96 m= 1
+Test NLL: -11.4944 --- Test NLLT: -0.1149 --- Test MSE: 0.4075
+epoch 340  --- t= 0.96 m= 1
+Test NLL: -12.0200 --- Test NLLT: -0.1168 --- Test MSE: 0.4153
+epoch 350  --- t= 0.96 m= 1
+Test NLL: -11.4325 --- Test NLLT: -0.1156 --- Test MSE: 0.4065
+epoch 360  --- t= 0.96 m= 1
+Test NLL: -11.5597 --- Test NLLT: -0.1155 --- Test MSE: 0.4098
+epoch 370  --- t= 0.96 m= 1
+Test NLL: -11.5927 --- Test NLLT: -0.1143 --- Test MSE: 0.4105
+epoch 380  --- t= 0.96 m= 1
+Test NLL: -11.6381 --- Test NLLT: -0.1155 --- Test MSE: 0.4114
+epoch 390  --- t= 0.96 m= 1
+Test NLL: -11.3115 --- Test NLLT: -0.1148 --- Test MSE: 0.4036
+epoch 400  --- t= 0.96 m= 1
+Test NLL: -11.5854 --- Test NLLT: -0.1163 --- Test MSE: 0.4109
+epoch 410  --- t= 0.96 m= 1
+Test NLL: -11.9669 --- Test NLLT: -0.1155 --- Test MSE: 0.4164
+epoch 420  --- t= 0.96 m= 1
+Test NLL: -11.8505 --- Test NLLT: -0.1162 --- Test MSE: 0.4163
+epoch 430  --- t= 0.96 m= 1
+Test NLL: -11.7175 --- Test NLLT: -0.1161 --- Test MSE: 0.4105
+epoch 440  --- t= 0.96 m= 1
+Test NLL: -11.9350 --- Test NLLT: -0.1168 --- Test MSE: 0.4129
+epoch 450  --- t= 0.96 m= 1
+Test NLL: -11.8735 --- Test NLLT: -0.1168 --- Test MSE: 0.4133
+epoch 460  --- t= 0.96 m= 1
+Test NLL: -11.5872 --- Test NLLT: -0.1162 --- Test MSE: 0.4109
+epoch 470  --- t= 0.96 m= 1
+Test NLL: -11.5340 --- Test NLLT: -0.1161 --- Test MSE: 0.4076
+epoch 480  --- t= 0.96 m= 1
+Test NLL: -11.7542 --- Test NLLT: -0.1174 --- Test MSE: 0.4143
+epoch 490  --- t= 0.96 m= 1
+Test NLL: -11.9608 --- Test NLLT: -0.1169 --- Test MSE: 0.4146
+epoch 500  --- t= 0.96 m= 1
+Test NLL: -12.0255 --- Test NLLT: -0.1175 --- Test MSE: 0.4116
+epoch 510  --- t= 0.96 m= 1
+Test NLL: -11.6340 --- Test NLLT: -0.1157 --- Test MSE: 0.4089
+epoch 520  --- t= 0.96 m= 1
+Test NLL: -11.7900 --- Test NLLT: -0.1174 --- Test MSE: 0.4109
+epoch 530  --- t= 0.96 m= 1
+Test NLL: -11.6837 --- Test NLLT: -0.1165 --- Test MSE: 0.4127
+epoch 540  --- t= 0.96 m= 1
+Test NLL: -11.2868 --- Test NLLT: -0.1149 --- Test MSE: 0.4045
+epoch 550  --- t= 0.96 m= 1
+Test NLL: -11.7999 --- Test NLLT: -0.1166 --- Test MSE: 0.4078
+epoch 560  --- t= 0.96 m= 1
+Test NLL: -11.6260 --- Test NLLT: -0.1143 --- Test MSE: 0.4115
+epoch 570  --- t= 0.96 m= 1
+Test NLL: -11.5505 --- Test NLLT: -0.1160 --- Test MSE: 0.4066
+epoch 580  --- t= 0.96 m= 1
+Test NLL: -12.0989 --- Test NLLT: -0.1166 --- Test MSE: 0.4177
+epoch 590  --- t= 0.96 m= 1
+Test NLL: -11.7296 --- Test NLLT: -0.1161 --- Test MSE: 0.4115
+epoch 600  --- t= 0.96 m= 1
+Test NLL: -11.7411 --- Test NLLT: -0.1160 --- Test MSE: 0.4096
+epoch 610  --- t= 0.96 m= 1
+Test NLL: -11.9845 --- Test NLLT: -0.1147 --- Test MSE: 0.4194
+epoch 620  --- t= 0.96 m= 1
+Test NLL: -11.7624 --- Test NLLT: -0.1142 --- Test MSE: 0.4142
+epoch 630  --- t= 0.96 m= 1
+Test NLL: -11.7606 --- Test NLLT: -0.1154 --- Test MSE: 0.4130
+epoch 640  --- t= 0.96 m= 1
+Test NLL: -11.9489 --- Test NLLT: -0.1154 --- Test MSE: 0.4166
+epoch 650  --- t= 0.96 m= 1
+Test NLL: -11.6463 --- Test NLLT: -0.1156 --- Test MSE: 0.4088
+epoch 660  --- t= 0.96 m= 1
+Test NLL: -11.6269 --- Test NLLT: -0.1160 --- Test MSE: 0.4060
+epoch 670  --- t= 0.96 m= 1
+Test NLL: -12.0028 --- Test NLLT: -0.1154 --- Test MSE: 0.4144
+epoch 680  --- t= 0.96 m= 1
+Test NLL: -11.7259 --- Test NLLT: -0.1148 --- Test MSE: 0.4128
+epoch 690  --- t= 0.96 m= 1
+Test NLL: -11.7441 --- Test NLLT: -0.1162 --- Test MSE: 0.4111
+epoch 700  --- t= 0.96 m= 1
+Test NLL: -11.8605 --- Test NLLT: -0.1173 --- Test MSE: 0.4081
+epoch 710  --- t= 0.96 m= 1
+Test NLL: -11.8225 --- Test NLLT: -0.1161 --- Test MSE: 0.4120
+epoch 720  --- t= 0.96 m= 1
+Test NLL: -11.7137 --- Test NLLT: -0.1142 --- Test MSE: 0.4119
+epoch 730  --- t= 0.96 m= 1
+Test NLL: -11.8735 --- Test NLLT: -0.1161 --- Test MSE: 0.4132
+epoch 740  --- t= 0.96 m= 1
+Test NLL: -11.7200 --- Test NLLT: -0.1159 --- Test MSE: 0.4132
+epoch 750  --- t= 0.96 m= 1
+Test NLL: -11.8052 --- Test NLLT: -0.1154 --- Test MSE: 0.4120
+epoch 760  --- t= 0.96 m= 1
+Test NLL: -12.0087 --- Test NLLT: -0.1154 --- Test MSE: 0.4159
+epoch 770  --- t= 0.96 m= 1
+Test NLL: -11.9231 --- Test NLLT: -0.1160 --- Test MSE: 0.4130
+epoch 780  --- t= 0.96 m= 1
+Test NLL: -11.5273 --- Test NLLT: -0.1155 --- Test MSE: 0.4080
+epoch 790  --- t= 0.96 m= 1
+Test NLL: -11.4059 --- Test NLLT: -0.1161 --- Test MSE: 0.4038
+epoch 800  --- t= 0.96 m= 1
+Test NLL: -12.1004 --- Test NLLT: -0.1173 --- Test MSE: 0.4151
+epoch 810  --- t= 0.96 m= 1
+Test NLL: -11.8264 --- Test NLLT: -0.1167 --- Test MSE: 0.4097
+epoch 820  --- t= 0.96 m= 1
+Test NLL: -11.7254 --- Test NLLT: -0.1160 --- Test MSE: 0.4081
+epoch 830  --- t= 0.96 m= 1
+Test NLL: -11.9585 --- Test NLLT: -0.1175 --- Test MSE: 0.4119
+epoch 840  --- t= 0.96 m= 1
+Test NLL: -11.6574 --- Test NLLT: -0.1168 --- Test MSE: 0.4110
+epoch 850  --- t= 0.96 m= 1
+Test NLL: -11.6825 --- Test NLLT: -0.1160 --- Test MSE: 0.4084
+epoch 860  --- t= 0.96 m= 1
+Test NLL: -11.9214 --- Test NLLT: -0.1180 --- Test MSE: 0.4130
+epoch 870  --- t= 0.96 m= 1
+Test NLL: -12.0913 --- Test NLLT: -0.1156 --- Test MSE: 0.4174
+epoch 880  --- t= 0.96 m= 1
+Test NLL: -11.9355 --- Test NLLT: -0.1167 --- Test MSE: 0.4150
+epoch 890  --- t= 0.96 m= 1
+Test NLL: -12.1768 --- Test NLLT: -0.1168 --- Test MSE: 0.4187
+epoch 900  --- t= 0.96 m= 1
+Test NLL: -11.9553 --- Test NLLT: -0.1164 --- Test MSE: 0.4113
+epoch 910  --- t= 0.96 m= 1
+Test NLL: -11.8095 --- Test NLLT: -0.1148 --- Test MSE: 0.4093
+epoch 920  --- t= 0.96 m= 1
+Test NLL: -11.7972 --- Test NLLT: -0.1154 --- Test MSE: 0.4112
+epoch 930  --- t= 0.96 m= 1
+Test NLL: -11.7210 --- Test NLLT: -0.1148 --- Test MSE: 0.4101
+epoch 940  --- t= 0.96 m= 1
+Test NLL: -11.6492 --- Test NLLT: -0.1158 --- Test MSE: 0.4085
+epoch 950  --- t= 0.96 m= 1
+Test NLL: -11.7810 --- Test NLLT: -0.1147 --- Test MSE: 0.4135
+epoch 960  --- t= 0.96 m= 1
+Test NLL: -11.6619 --- Test NLLT: -0.1162 --- Test MSE: 0.4109
+epoch 970  --- t= 0.96 m= 1
+Test NLL: -12.0012 --- Test NLLT: -0.1168 --- Test MSE: 0.4104
+epoch 980  --- t= 0.96 m= 1
+Test NLL: -11.6993 --- Test NLLT: -0.1156 --- Test MSE: 0.4102
+epoch 990  --- t= 0.96 m= 1
+Test NLL: -12.1526 --- Test NLLT: -0.1167 --- Test MSE: 0.4142
+/usr/local/lib/python3.6/dist-packages/pyproj/crs/crs.py:53: FutureWarning: '+init=<authority>:<code>' syntax is deprecated. '<authority>:<code>' is the preferred initialization method. When making the change, be mindful of axis order changes: https://pyproj4.github.io/pyproj/stable/gotchas.html#axis-order-changes-in-proj-6
+  return _prepare_from_string(" ".join(pjargs))
+/usr/local/lib/python3.6/dist-packages/pyproj/crs/crs.py:294: FutureWarning: '+init=<authority>:<code>' syntax is deprecated. '<authority>:<code>' is the preferred initialization method. When making the change, be mindful of axis order changes: https://pyproj4.github.io/pyproj/stable/gotchas.html#axis-order-changes-in-proj-6
+  projstring = _prepare_from_string(" ".join((projstring, projkwargs)))
+/usr/local/lib/python3.6/dist-packages/pyproj/crs/crs.py:53: FutureWarning: '+init=<authority>:<code>' syntax is deprecated. '<authority>:<code>' is the preferred initialization method. When making the change, be mindful of axis order changes: https://pyproj4.github.io/pyproj/stable/gotchas.html#axis-order-changes-in-proj-6
+  return _prepare_from_string(" ".join(pjargs))
+/usr/local/lib/python3.6/dist-packages/pyproj/crs/crs.py:294: FutureWarning: '+init=<authority>:<code>' syntax is deprecated. '<authority>:<code>' is the preferred initialization method. When making the change, be mindful of axis order changes: https://pyproj4.github.io/pyproj/stable/gotchas.html#axis-order-changes-in-proj-6
+  projstring = _prepare_from_string(" ".join((projstring, projkwargs)))
+Called with args:
+Namespace(beta=0, dataset='sigfox_dataset_rural', device=device(type='cpu'), eps=0.4, if_test=False, lr=0.001, m=1, m_te=1, no_cuda=True, num_neurons_hidden=50, sigma=0.01, sigma_prior=1, t=0.96, te_batch_size=128, total_epochs=1000, tr_batch_size=128)
+epoch 0  --- t= 0.96 m= 1
+Test NLL: -22.2859 --- Test NLLT: -0.1949 --- Test MSE: 0.6220
+epoch 10  --- t= 0.96 m= 1
+Test NLL: -14.7098 --- Test NLLT: -0.1184 --- Test MSE: 0.4705
+epoch 20  --- t= 0.96 m= 1
+Test NLL: -14.2546 --- Test NLLT: -0.1170 --- Test MSE: 0.4625
+epoch 30  --- t= 0.96 m= 1
+Test NLL: -14.8840 --- Test NLLT: -0.1176 --- Test MSE: 0.4666
+epoch 40  --- t= 0.96 m= 1
+Test NLL: -14.3882 --- Test NLLT: -0.1175 --- Test MSE: 0.4607
+epoch 50  --- t= 0.96 m= 1
+Test NLL: -14.2376 --- Test NLLT: -0.1183 --- Test MSE: 0.4618
+epoch 60  --- t= 0.96 m= 1
+Test NLL: -13.9687 --- Test NLLT: -0.1169 --- Test MSE: 0.4549
+epoch 70  --- t= 0.96 m= 1
+Test NLL: -13.9992 --- Test NLLT: -0.1172 --- Test MSE: 0.4577
+epoch 80  --- t= 0.96 m= 1
+Test NLL: -14.1066 --- Test NLLT: -0.1160 --- Test MSE: 0.4589
+epoch 90  --- t= 0.96 m= 1
+Test NLL: -14.5194 --- Test NLLT: -0.1172 --- Test MSE: 0.4642
+epoch 100  --- t= 0.96 m= 1
+Test NLL: -14.6274 --- Test NLLT: -0.1159 --- Test MSE: 0.4672
+epoch 110  --- t= 0.96 m= 1
+Test NLL: -14.4398 --- Test NLLT: -0.1159 --- Test MSE: 0.4674
+epoch 120  --- t= 0.96 m= 1
+Test NLL: -14.9686 --- Test NLLT: -0.1167 --- Test MSE: 0.4737
+epoch 130  --- t= 0.96 m= 1
+Test NLL: -14.7812 --- Test NLLT: -0.1178 --- Test MSE: 0.4701
+epoch 140  --- t= 0.96 m= 1
+Test NLL: -14.8187 --- Test NLLT: -0.1176 --- Test MSE: 0.4720
+epoch 150  --- t= 0.96 m= 1
+Test NLL: -14.6747 --- Test NLLT: -0.1172 --- Test MSE: 0.4675
+epoch 160  --- t= 0.96 m= 1
+Test NLL: -14.8373 --- Test NLLT: -0.1178 --- Test MSE: 0.4691
+epoch 170  --- t= 0.96 m= 1
+Test NLL: -14.2457 --- Test NLLT: -0.1147 --- Test MSE: 0.4655
+epoch 180  --- t= 0.96 m= 1
+Test NLL: -14.9127 --- Test NLLT: -0.1184 --- Test MSE: 0.4672
+epoch 190  --- t= 0.96 m= 1
+Test NLL: -14.6728 --- Test NLLT: -0.1158 --- Test MSE: 0.4698
+epoch 200  --- t= 0.96 m= 1
+Test NLL: -14.6568 --- Test NLLT: -0.1153 --- Test MSE: 0.4698
+epoch 210  --- t= 0.96 m= 1
+Test NLL: -14.4538 --- Test NLLT: -0.1164 --- Test MSE: 0.4616
+epoch 220  --- t= 0.96 m= 1
+Test NLL: -15.0276 --- Test NLLT: -0.1177 --- Test MSE: 0.4722
+epoch 230  --- t= 0.96 m= 1
+Test NLL: -14.7946 --- Test NLLT: -0.1171 --- Test MSE: 0.4679
+epoch 240  --- t= 0.96 m= 1
+Test NLL: -14.8141 --- Test NLLT: -0.1171 --- Test MSE: 0.4690
+epoch 250  --- t= 0.96 m= 1
+Test NLL: -14.8396 --- Test NLLT: -0.1184 --- Test MSE: 0.4663
+epoch 260  --- t= 0.96 m= 1
+Test NLL: -14.7335 --- Test NLLT: -0.1166 --- Test MSE: 0.4681
+epoch 270  --- t= 0.96 m= 1
+Test NLL: -14.8796 --- Test NLLT: -0.1179 --- Test MSE: 0.4668
+epoch 280  --- t= 0.96 m= 1
+Test NLL: -14.8022 --- Test NLLT: -0.1153 --- Test MSE: 0.4698
+epoch 290  --- t= 0.96 m= 1
+Test NLL: -14.7225 --- Test NLLT: -0.1165 --- Test MSE: 0.4686
+epoch 300  --- t= 0.96 m= 1
+Test NLL: -14.8687 --- Test NLLT: -0.1153 --- Test MSE: 0.4715
+epoch 310  --- t= 0.96 m= 1
+Test NLL: -14.8577 --- Test NLLT: -0.1172 --- Test MSE: 0.4694
+epoch 320  --- t= 0.96 m= 1
+Test NLL: -14.8298 --- Test NLLT: -0.1172 --- Test MSE: 0.4707
+epoch 330  --- t= 0.96 m= 1
+Test NLL: -14.4677 --- Test NLLT: -0.1153 --- Test MSE: 0.4663
+epoch 340  --- t= 0.96 m= 1
+Test NLL: -14.9450 --- Test NLLT: -0.1172 --- Test MSE: 0.4673
+epoch 350  --- t= 0.96 m= 1
+Test NLL: -14.5462 --- Test NLLT: -0.1159 --- Test MSE: 0.4658
+epoch 360  --- t= 0.96 m= 1
+Test NLL: -14.7148 --- Test NLLT: -0.1159 --- Test MSE: 0.4686
+epoch 370  --- t= 0.96 m= 1
+Test NLL: -14.4861 --- Test NLLT: -0.1145 --- Test MSE: 0.4654
+epoch 380  --- t= 0.96 m= 1
+Test NLL: -14.5510 --- Test NLLT: -0.1158 --- Test MSE: 0.4658
+epoch 390  --- t= 0.96 m= 1
+Test NLL: -14.6757 --- Test NLLT: -0.1153 --- Test MSE: 0.4714
+epoch 400  --- t= 0.96 m= 1
+Test NLL: -14.1344 --- Test NLLT: -0.1164 --- Test MSE: 0.4580
+epoch 410  --- t= 0.96 m= 1
+Test NLL: -14.6509 --- Test NLLT: -0.1159 --- Test MSE: 0.4672
+epoch 420  --- t= 0.96 m= 1
+Test NLL: -14.5239 --- Test NLLT: -0.1164 --- Test MSE: 0.4664
+epoch 430  --- t= 0.96 m= 1
+Test NLL: -14.4052 --- Test NLLT: -0.1164 --- Test MSE: 0.4619
+epoch 440  --- t= 0.96 m= 1
+Test NLL: -14.4913 --- Test NLLT: -0.1171 --- Test MSE: 0.4633
+epoch 450  --- t= 0.96 m= 1
+Test NLL: -14.5528 --- Test NLLT: -0.1170 --- Test MSE: 0.4631
+epoch 460  --- t= 0.96 m= 1
+Test NLL: -14.2469 --- Test NLLT: -0.1164 --- Test MSE: 0.4611
+epoch 470  --- t= 0.96 m= 1
+Test NLL: -14.7584 --- Test NLLT: -0.1163 --- Test MSE: 0.4688
+epoch 480  --- t= 0.96 m= 1
+Test NLL: -14.3504 --- Test NLLT: -0.1180 --- Test MSE: 0.4614
+epoch 490  --- t= 0.96 m= 1
+Test NLL: -14.5530 --- Test NLLT: -0.1170 --- Test MSE: 0.4619
+epoch 500  --- t= 0.96 m= 1
+Test NLL: -14.6748 --- Test NLLT: -0.1178 --- Test MSE: 0.4643
+epoch 510  --- t= 0.96 m= 1
+Test NLL: -14.2399 --- Test NLLT: -0.1161 --- Test MSE: 0.4590
+epoch 520  --- t= 0.96 m= 1
+Test NLL: -14.3729 --- Test NLLT: -0.1177 --- Test MSE: 0.4599
+epoch 530  --- t= 0.96 m= 1
+Test NLL: -14.3562 --- Test NLLT: -0.1164 --- Test MSE: 0.4631
+epoch 540  --- t= 0.96 m= 1
+Test NLL: -14.0455 --- Test NLLT: -0.1156 --- Test MSE: 0.4597
+epoch 550  --- t= 0.96 m= 1
+Test NLL: -14.4679 --- Test NLLT: -0.1170 --- Test MSE: 0.4589
+epoch 560  --- t= 0.96 m= 1
+Test NLL: -14.1862 --- Test NLLT: -0.1151 --- Test MSE: 0.4637
+epoch 570  --- t= 0.96 m= 1
+Test NLL: -14.1290 --- Test NLLT: -0.1164 --- Test MSE: 0.4567
+epoch 580  --- t= 0.96 m= 1
+Test NLL: -14.5005 --- Test NLLT: -0.1171 --- Test MSE: 0.4628
+epoch 590  --- t= 0.96 m= 1
+Test NLL: -14.4165 --- Test NLLT: -0.1164 --- Test MSE: 0.4622
+epoch 600  --- t= 0.96 m= 1
+Test NLL: -14.3963 --- Test NLLT: -0.1164 --- Test MSE: 0.4618
+epoch 610  --- t= 0.96 m= 1
+Test NLL: -14.0355 --- Test NLLT: -0.1152 --- Test MSE: 0.4590
+epoch 620  --- t= 0.96 m= 1
+Test NLL: -14.3372 --- Test NLLT: -0.1145 --- Test MSE: 0.4638
+epoch 630  --- t= 0.96 m= 1
+Test NLL: -14.1525 --- Test NLLT: -0.1158 --- Test MSE: 0.4596
+epoch 640  --- t= 0.96 m= 1
+Test NLL: -14.3842 --- Test NLLT: -0.1162 --- Test MSE: 0.4650
+epoch 650  --- t= 0.96 m= 1
+Test NLL: -14.4906 --- Test NLLT: -0.1160 --- Test MSE: 0.4646
+epoch 660  --- t= 0.96 m= 1
+Test NLL: -14.5981 --- Test NLLT: -0.1164 --- Test MSE: 0.4636
+epoch 670  --- t= 0.96 m= 1
+Test NLL: -14.3493 --- Test NLLT: -0.1159 --- Test MSE: 0.4610
+epoch 680  --- t= 0.96 m= 1
+Test NLL: -14.2679 --- Test NLLT: -0.1151 --- Test MSE: 0.4632
+epoch 690  --- t= 0.96 m= 1
+Test NLL: -14.4173 --- Test NLLT: -0.1165 --- Test MSE: 0.4643
+epoch 700  --- t= 0.96 m= 1
+Test NLL: -14.7510 --- Test NLLT: -0.1177 --- Test MSE: 0.4635
+epoch 710  --- t= 0.96 m= 1
+Test NLL: -14.2632 --- Test NLLT: -0.1163 --- Test MSE: 0.4594
+epoch 720  --- t= 0.96 m= 1
+Test NLL: -14.3583 --- Test NLLT: -0.1146 --- Test MSE: 0.4649
+epoch 730  --- t= 0.96 m= 1
+Test NLL: -14.3314 --- Test NLLT: -0.1164 --- Test MSE: 0.4604
+epoch 740  --- t= 0.96 m= 1
+Test NLL: -14.1719 --- Test NLLT: -0.1164 --- Test MSE: 0.4605
+epoch 750  --- t= 0.96 m= 1
+Test NLL: -14.6566 --- Test NLLT: -0.1157 --- Test MSE: 0.4664
+epoch 760  --- t= 0.96 m= 1
+Test NLL: -14.2351 --- Test NLLT: -0.1158 --- Test MSE: 0.4605
+epoch 770  --- t= 0.96 m= 1
+Test NLL: -14.6352 --- Test NLLT: -0.1164 --- Test MSE: 0.4651
+epoch 780  --- t= 0.96 m= 1
+Test NLL: -14.1561 --- Test NLLT: -0.1161 --- Test MSE: 0.4612
+epoch 790  --- t= 0.96 m= 1
+Test NLL: -14.3713 --- Test NLLT: -0.1165 --- Test MSE: 0.4636
+epoch 800  --- t= 0.96 m= 1
+Test NLL: -14.3690 --- Test NLLT: -0.1179 --- Test MSE: 0.4611
+epoch 810  --- t= 0.96 m= 1
+Test NLL: -14.5215 --- Test NLLT: -0.1171 --- Test MSE: 0.4615
+epoch 820  --- t= 0.96 m= 1
+Test NLL: -14.4109 --- Test NLLT: -0.1165 --- Test MSE: 0.4627
+epoch 830  --- t= 0.96 m= 1
+Test NLL: -14.6278 --- Test NLLT: -0.1180 --- Test MSE: 0.4648
+epoch 840  --- t= 0.96 m= 1
+Test NLL: -14.6349 --- Test NLLT: -0.1173 --- Test MSE: 0.4676
+epoch 850  --- t= 0.96 m= 1
+Test NLL: -14.3835 --- Test NLLT: -0.1166 --- Test MSE: 0.4627
+epoch 860  --- t= 0.96 m= 1
+Test NLL: -14.5681 --- Test NLLT: -0.1184 --- Test MSE: 0.4621
+epoch 870  --- t= 0.96 m= 1
+Test NLL: -14.3759 --- Test NLLT: -0.1159 --- Test MSE: 0.4626
+epoch 880  --- t= 0.96 m= 1
+Test NLL: -14.1560 --- Test NLLT: -0.1172 --- Test MSE: 0.4582
+epoch 890  --- t= 0.96 m= 1
+Test NLL: -14.2025 --- Test NLLT: -0.1173 --- Test MSE: 0.4597
+epoch 900  --- t= 0.96 m= 1
+Test NLL: -14.8337 --- Test NLLT: -0.1171 --- Test MSE: 0.4683
+epoch 910  --- t= 0.96 m= 1
+Test NLL: -14.3473 --- Test NLLT: -0.1153 --- Test MSE: 0.4617
+epoch 920  --- t= 0.96 m= 1
+Test NLL: -14.3454 --- Test NLLT: -0.1159 --- Test MSE: 0.4620
+epoch 930  --- t= 0.96 m= 1
+Test NLL: -14.3787 --- Test NLLT: -0.1153 --- Test MSE: 0.4636
+epoch 940  --- t= 0.96 m= 1
+Test NLL: -14.3239 --- Test NLLT: -0.1162 --- Test MSE: 0.4624
+epoch 950  --- t= 0.96 m= 1
+Test NLL: -14.3492 --- Test NLLT: -0.1152 --- Test MSE: 0.4632
+epoch 960  --- t= 0.96 m= 1
+Test NLL: -14.3463 --- Test NLLT: -0.1165 --- Test MSE: 0.4625
+epoch 970  --- t= 0.96 m= 1
+Test NLL: -14.5660 --- Test NLLT: -0.1174 --- Test MSE: 0.4631
+epoch 980  --- t= 0.96 m= 1
+Test NLL: -14.4120 --- Test NLLT: -0.1158 --- Test MSE: 0.4634
+epoch 990  --- t= 0.96 m= 1
+Test NLL: -14.7131 --- Test NLLT: -0.1172 --- Test MSE: 0.4662
+/usr/local/lib/python3.6/dist-packages/pyproj/crs/crs.py:53: FutureWarning: '+init=<authority>:<code>' syntax is deprecated. '<authority>:<code>' is the preferred initialization method. When making the change, be mindful of axis order changes: https://pyproj4.github.io/pyproj/stable/gotchas.html#axis-order-changes-in-proj-6
+  return _prepare_from_string(" ".join(pjargs))
+/usr/local/lib/python3.6/dist-packages/pyproj/crs/crs.py:294: FutureWarning: '+init=<authority>:<code>' syntax is deprecated. '<authority>:<code>' is the preferred initialization method. When making the change, be mindful of axis order changes: https://pyproj4.github.io/pyproj/stable/gotchas.html#axis-order-changes-in-proj-6
+  projstring = _prepare_from_string(" ".join((projstring, projkwargs)))
+/usr/local/lib/python3.6/dist-packages/pyproj/crs/crs.py:53: FutureWarning: '+init=<authority>:<code>' syntax is deprecated. '<authority>:<code>' is the preferred initialization method. When making the change, be mindful of axis order changes: https://pyproj4.github.io/pyproj/stable/gotchas.html#axis-order-changes-in-proj-6
+  return _prepare_from_string(" ".join(pjargs))
+/usr/local/lib/python3.6/dist-packages/pyproj/crs/crs.py:294: FutureWarning: '+init=<authority>:<code>' syntax is deprecated. '<authority>:<code>' is the preferred initialization method. When making the change, be mindful of axis order changes: https://pyproj4.github.io/pyproj/stable/gotchas.html#axis-order-changes-in-proj-6
+  projstring = _prepare_from_string(" ".join((projstring, projkwargs)))
+Called with args:
+Namespace(beta=0, dataset='sigfox_dataset_rural', device=device(type='cpu'), eps=0.5, if_test=False, lr=0.001, m=1, m_te=1, no_cuda=True, num_neurons_hidden=50, sigma=0.01, sigma_prior=1, t=0.96, te_batch_size=128, total_epochs=1000, tr_batch_size=128)
+epoch 0  --- t= 0.96 m= 1
+Test NLL: -22.2859 --- Test NLLT: -0.1949 --- Test MSE: 0.6220
+epoch 10  --- t= 0.96 m= 1
+Test NLL: -13.1313 --- Test NLLT: -0.1184 --- Test MSE: 0.4464
+epoch 20  --- t= 0.96 m= 1
+Test NLL: -11.9063 --- Test NLLT: -0.1171 --- Test MSE: 0.4248
+epoch 30  --- t= 0.96 m= 1
+Test NLL: -12.5934 --- Test NLLT: -0.1180 --- Test MSE: 0.4347
+epoch 40  --- t= 0.96 m= 1
+Test NLL: -12.2726 --- Test NLLT: -0.1176 --- Test MSE: 0.4295
+epoch 50  --- t= 0.96 m= 1
+Test NLL: -12.2898 --- Test NLLT: -0.1184 --- Test MSE: 0.4320
+epoch 60  --- t= 0.96 m= 1
+Test NLL: -12.0067 --- Test NLLT: -0.1173 --- Test MSE: 0.4267
+epoch 70  --- t= 0.96 m= 1
+Test NLL: -11.9898 --- Test NLLT: -0.1174 --- Test MSE: 0.4273
+epoch 80  --- t= 0.96 m= 1
+Test NLL: -11.6969 --- Test NLLT: -0.1165 --- Test MSE: 0.4206
+epoch 90  --- t= 0.96 m= 1
+Test NLL: -12.3233 --- Test NLLT: -0.1178 --- Test MSE: 0.4301
+epoch 100  --- t= 0.96 m= 1
+Test NLL: -12.2701 --- Test NLLT: -0.1165 --- Test MSE: 0.4314
+epoch 110  --- t= 0.96 m= 1
+Test NLL: -12.4270 --- Test NLLT: -0.1163 --- Test MSE: 0.4374
+epoch 120  --- t= 0.96 m= 1
+Test NLL: -12.3948 --- Test NLLT: -0.1168 --- Test MSE: 0.4315
+epoch 130  --- t= 0.96 m= 1
+Test NLL: -12.4825 --- Test NLLT: -0.1180 --- Test MSE: 0.4342
+epoch 140  --- t= 0.96 m= 1
+Test NLL: -12.7101 --- Test NLLT: -0.1173 --- Test MSE: 0.4387
+epoch 150  --- t= 0.96 m= 1
+Test NLL: -12.6129 --- Test NLLT: -0.1175 --- Test MSE: 0.4360
+epoch 160  --- t= 0.96 m= 1
+Test NLL: -12.6461 --- Test NLLT: -0.1183 --- Test MSE: 0.4361
+epoch 170  --- t= 0.96 m= 1
+Test NLL: -12.1638 --- Test NLLT: -0.1149 --- Test MSE: 0.4312
+epoch 180  --- t= 0.96 m= 1
+Test NLL: -12.6325 --- Test NLLT: -0.1189 --- Test MSE: 0.4334
+epoch 190  --- t= 0.96 m= 1
+Test NLL: -12.4315 --- Test NLLT: -0.1165 --- Test MSE: 0.4358
+epoch 200  --- t= 0.96 m= 1
+Test NLL: -12.2306 --- Test NLLT: -0.1158 --- Test MSE: 0.4320
+epoch 210  --- t= 0.96 m= 1
+Test NLL: -12.2638 --- Test NLLT: -0.1168 --- Test MSE: 0.4289
+epoch 220  --- t= 0.96 m= 1
+Test NLL: -12.6146 --- Test NLLT: -0.1182 --- Test MSE: 0.4340
+epoch 230  --- t= 0.96 m= 1
+Test NLL: -12.6558 --- Test NLLT: -0.1177 --- Test MSE: 0.4350
+epoch 240  --- t= 0.96 m= 1
+Test NLL: -12.6971 --- Test NLLT: -0.1176 --- Test MSE: 0.4349
+epoch 250  --- t= 0.96 m= 1
+Test NLL: -12.5886 --- Test NLLT: -0.1188 --- Test MSE: 0.4328
+epoch 260  --- t= 0.96 m= 1
+Test NLL: -12.1383 --- Test NLLT: -0.1169 --- Test MSE: 0.4265
+epoch 270  --- t= 0.96 m= 1
+Test NLL: -12.0089 --- Test NLLT: -0.1185 --- Test MSE: 0.4233
+epoch 280  --- t= 0.96 m= 1
+Test NLL: -11.8462 --- Test NLLT: -0.1159 --- Test MSE: 0.4242
+epoch 290  --- t= 0.96 m= 1
+Test NLL: -11.7638 --- Test NLLT: -0.1168 --- Test MSE: 0.4221
+epoch 300  --- t= 0.96 m= 1
+Test NLL: -11.6549 --- Test NLLT: -0.1155 --- Test MSE: 0.4178
+epoch 310  --- t= 0.96 m= 1
+Test NLL: -12.0206 --- Test NLLT: -0.1176 --- Test MSE: 0.4247
+epoch 320  --- t= 0.96 m= 1
+Test NLL: -11.9039 --- Test NLLT: -0.1177 --- Test MSE: 0.4234
+epoch 330  --- t= 0.96 m= 1
+Test NLL: -11.4698 --- Test NLLT: -0.1157 --- Test MSE: 0.4157
+epoch 340  --- t= 0.96 m= 1
+Test NLL: -11.7603 --- Test NLLT: -0.1180 --- Test MSE: 0.4197
+epoch 350  --- t= 0.96 m= 1
+Test NLL: -11.3217 --- Test NLLT: -0.1161 --- Test MSE: 0.4136
+epoch 360  --- t= 0.96 m= 1
+Test NLL: -11.5337 --- Test NLLT: -0.1162 --- Test MSE: 0.4167
+epoch 370  --- t= 0.96 m= 1
+Test NLL: -11.6712 --- Test NLLT: -0.1149 --- Test MSE: 0.4202
+epoch 380  --- t= 0.96 m= 1
+Test NLL: -11.7292 --- Test NLLT: -0.1162 --- Test MSE: 0.4208
+epoch 390  --- t= 0.96 m= 1
+Test NLL: -11.6949 --- Test NLLT: -0.1157 --- Test MSE: 0.4208
+epoch 400  --- t= 0.96 m= 1
+Test NLL: -11.7735 --- Test NLLT: -0.1177 --- Test MSE: 0.4221
+epoch 410  --- t= 0.96 m= 1
+Test NLL: -11.7047 --- Test NLLT: -0.1161 --- Test MSE: 0.4197
+epoch 420  --- t= 0.96 m= 1
+Test NLL: -11.7055 --- Test NLLT: -0.1168 --- Test MSE: 0.4208
+epoch 430  --- t= 0.96 m= 1
+Test NLL: -11.6717 --- Test NLLT: -0.1169 --- Test MSE: 0.4176
+epoch 440  --- t= 0.96 m= 1
+Test NLL: -11.7133 --- Test NLLT: -0.1174 --- Test MSE: 0.4185
+epoch 450  --- t= 0.96 m= 1
+Test NLL: -11.6314 --- Test NLLT: -0.1176 --- Test MSE: 0.4178
+epoch 460  --- t= 0.96 m= 1
+Test NLL: -11.7420 --- Test NLLT: -0.1168 --- Test MSE: 0.4201
+epoch 470  --- t= 0.96 m= 1
+Test NLL: -11.5352 --- Test NLLT: -0.1169 --- Test MSE: 0.4171
+epoch 480  --- t= 0.96 m= 1
+Test NLL: -11.6494 --- Test NLLT: -0.1183 --- Test MSE: 0.4190
+epoch 490  --- t= 0.96 m= 1
+Test NLL: -11.8802 --- Test NLLT: -0.1178 --- Test MSE: 0.4208
+epoch 500  --- t= 0.96 m= 1
+Test NLL: -11.7088 --- Test NLLT: -0.1182 --- Test MSE: 0.4176
+epoch 510  --- t= 0.96 m= 1
+Test NLL: -11.4907 --- Test NLLT: -0.1167 --- Test MSE: 0.4177
+epoch 520  --- t= 0.96 m= 1
+Test NLL: -11.5046 --- Test NLLT: -0.1181 --- Test MSE: 0.4142
+epoch 530  --- t= 0.96 m= 1
+Test NLL: -11.5129 --- Test NLLT: -0.1173 --- Test MSE: 0.4176
+epoch 540  --- t= 0.96 m= 1
+Test NLL: -11.5914 --- Test NLLT: -0.1160 --- Test MSE: 0.4208
+epoch 550  --- t= 0.96 m= 1
+Test NLL: -11.4491 --- Test NLLT: -0.1177 --- Test MSE: 0.4141
+epoch 560  --- t= 0.96 m= 1
+Test NLL: -11.3617 --- Test NLLT: -0.1153 --- Test MSE: 0.4166
+epoch 570  --- t= 0.96 m= 1
+Test NLL: -11.5235 --- Test NLLT: -0.1171 --- Test MSE: 0.4163
+epoch 580  --- t= 0.96 m= 1
+Test NLL: -11.8883 --- Test NLLT: -0.1178 --- Test MSE: 0.4223
+epoch 590  --- t= 0.96 m= 1
+Test NLL: -11.4806 --- Test NLLT: -0.1171 --- Test MSE: 0.4154
+epoch 600  --- t= 0.96 m= 1
+Test NLL: -11.5722 --- Test NLLT: -0.1170 --- Test MSE: 0.4169
+epoch 610  --- t= 0.96 m= 1
+Test NLL: -11.6670 --- Test NLLT: -0.1160 --- Test MSE: 0.4219
+epoch 620  --- t= 0.96 m= 1
+Test NLL: -11.3854 --- Test NLLT: -0.1151 --- Test MSE: 0.4160
+epoch 630  --- t= 0.96 m= 1
+Test NLL: -11.7030 --- Test NLLT: -0.1166 --- Test MSE: 0.4213
+epoch 640  --- t= 0.96 m= 1
+Test NLL: -11.5281 --- Test NLLT: -0.1165 --- Test MSE: 0.4193
+epoch 650  --- t= 0.96 m= 1
+Test NLL: -11.7168 --- Test NLLT: -0.1166 --- Test MSE: 0.4215
+epoch 660  --- t= 0.96 m= 1
+Test NLL: -12.1020 --- Test NLLT: -0.1173 --- Test MSE: 0.4279
+epoch 670  --- t= 0.96 m= 1
+Test NLL: -11.8693 --- Test NLLT: -0.1166 --- Test MSE: 0.4227
+epoch 680  --- t= 0.96 m= 1
+Test NLL: -11.3807 --- Test NLLT: -0.1160 --- Test MSE: 0.4177
+epoch 690  --- t= 0.96 m= 1
+Test NLL: -11.8055 --- Test NLLT: -0.1172 --- Test MSE: 0.4215
+epoch 700  --- t= 0.96 m= 1
+Test NLL: -12.1466 --- Test NLLT: -0.1184 --- Test MSE: 0.4255
+epoch 710  --- t= 0.96 m= 1
+Test NLL: -11.1489 --- Test NLLT: -0.1171 --- Test MSE: 0.4101
+epoch 720  --- t= 0.96 m= 1
+Test NLL: -11.8634 --- Test NLLT: -0.1151 --- Test MSE: 0.4251
+epoch 730  --- t= 0.96 m= 1
+Test NLL: -11.9921 --- Test NLLT: -0.1173 --- Test MSE: 0.4240
+epoch 740  --- t= 0.96 m= 1
+Test NLL: -11.7946 --- Test NLLT: -0.1168 --- Test MSE: 0.4242
+epoch 750  --- t= 0.96 m= 1
+Test NLL: -11.8367 --- Test NLLT: -0.1168 --- Test MSE: 0.4222
+epoch 760  --- t= 0.96 m= 1
+Test NLL: -11.2901 --- Test NLLT: -0.1166 --- Test MSE: 0.4137
+epoch 770  --- t= 0.96 m= 1
+Test NLL: -11.9166 --- Test NLLT: -0.1173 --- Test MSE: 0.4239
+epoch 780  --- t= 0.96 m= 1
+Test NLL: -11.7323 --- Test NLLT: -0.1168 --- Test MSE: 0.4223
+epoch 790  --- t= 0.96 m= 1
+Test NLL: -11.7613 --- Test NLLT: -0.1172 --- Test MSE: 0.4217
+epoch 800  --- t= 0.96 m= 1
+Test NLL: -11.8088 --- Test NLLT: -0.1184 --- Test MSE: 0.4196
+epoch 810  --- t= 0.96 m= 1
+Test NLL: -12.1041 --- Test NLLT: -0.1179 --- Test MSE: 0.4251
+epoch 820  --- t= 0.96 m= 1
+Test NLL: -11.4757 --- Test NLLT: -0.1173 --- Test MSE: 0.4172
+epoch 830  --- t= 0.96 m= 1
+Test NLL: -12.2186 --- Test NLLT: -0.1195 --- Test MSE: 0.4294
+epoch 840  --- t= 0.96 m= 1
+Test NLL: -11.6200 --- Test NLLT: -0.1180 --- Test MSE: 0.4193
+epoch 850  --- t= 0.96 m= 1
+Test NLL: -11.7341 --- Test NLLT: -0.1173 --- Test MSE: 0.4214
+epoch 860  --- t= 0.96 m= 1
+Test NLL: -11.8898 --- Test NLLT: -0.1193 --- Test MSE: 0.4210
+epoch 870  --- t= 0.96 m= 1
+Test NLL: -11.7604 --- Test NLLT: -0.1172 --- Test MSE: 0.4215
+epoch 880  --- t= 0.96 m= 1
+Test NLL: -11.7631 --- Test NLLT: -0.1177 --- Test MSE: 0.4211
+epoch 890  --- t= 0.96 m= 1
+Test NLL: -11.9004 --- Test NLLT: -0.1180 --- Test MSE: 0.4220
+epoch 900  --- t= 0.96 m= 1
+Test NLL: -11.6262 --- Test NLLT: -0.1172 --- Test MSE: 0.4173
+epoch 910  --- t= 0.96 m= 1
+Test NLL: -11.5645 --- Test NLLT: -0.1165 --- Test MSE: 0.4186
+epoch 920  --- t= 0.96 m= 1
+Test NLL: -11.6488 --- Test NLLT: -0.1167 --- Test MSE: 0.4214
+epoch 930  --- t= 0.96 m= 1
+Test NLL: -11.7419 --- Test NLLT: -0.1161 --- Test MSE: 0.4217
+epoch 940  --- t= 0.96 m= 1
+Test NLL: -11.8294 --- Test NLLT: -0.1179 --- Test MSE: 0.4231
+epoch 950  --- t= 0.96 m= 1
+Test NLL: -11.8015 --- Test NLLT: -0.1160 --- Test MSE: 0.4226
+epoch 960  --- t= 0.96 m= 1
+Test NLL: -11.7228 --- Test NLLT: -0.1171 --- Test MSE: 0.4203
+epoch 970  --- t= 0.96 m= 1
+Test NLL: -11.8563 --- Test NLLT: -0.1183 --- Test MSE: 0.4219
+epoch 980  --- t= 0.96 m= 1
+Test NLL: -11.5218 --- Test NLLT: -0.1168 --- Test MSE: 0.4177
+epoch 990  --- t= 0.96 m= 1
+Test NLL: -11.8607 --- Test NLLT: -0.1179 --- Test MSE: 0.4205
+/usr/local/lib/python3.6/dist-packages/pyproj/crs/crs.py:53: FutureWarning: '+init=<authority>:<code>' syntax is deprecated. '<authority>:<code>' is the preferred initialization method. When making the change, be mindful of axis order changes: https://pyproj4.github.io/pyproj/stable/gotchas.html#axis-order-changes-in-proj-6
+  return _prepare_from_string(" ".join(pjargs))
+/usr/local/lib/python3.6/dist-packages/pyproj/crs/crs.py:294: FutureWarning: '+init=<authority>:<code>' syntax is deprecated. '<authority>:<code>' is the preferred initialization method. When making the change, be mindful of axis order changes: https://pyproj4.github.io/pyproj/stable/gotchas.html#axis-order-changes-in-proj-6
+  projstring = _prepare_from_string(" ".join((projstring, projkwargs)))
+/usr/local/lib/python3.6/dist-packages/pyproj/crs/crs.py:53: FutureWarning: '+init=<authority>:<code>' syntax is deprecated. '<authority>:<code>' is the preferred initialization method. When making the change, be mindful of axis order changes: https://pyproj4.github.io/pyproj/stable/gotchas.html#axis-order-changes-in-proj-6
+  return _prepare_from_string(" ".join(pjargs))
+/usr/local/lib/python3.6/dist-packages/pyproj/crs/crs.py:294: FutureWarning: '+init=<authority>:<code>' syntax is deprecated. '<authority>:<code>' is the preferred initialization method. When making the change, be mindful of axis order changes: https://pyproj4.github.io/pyproj/stable/gotchas.html#axis-order-changes-in-proj-6
+  projstring = _prepare_from_string(" ".join((projstring, projkwargs)))
+Called with args:
+Namespace(beta=0, dataset='UTS', device=device(type='cpu'), eps=0, if_test=False, lr=0.001, m=1, m_te=1, no_cuda=True, num_neurons_hidden=50, sigma=0.01, sigma_prior=1, t=0.96, te_batch_size=128, total_epochs=1000, tr_batch_size=128)
+epoch 0  --- t= 0.96 m= 1
+Test NLL: -29.5901 --- Test NLLT: -0.1974 --- Test MSE: 0.8325
+epoch 10  --- t= 0.96 m= 1
+Test NLL: -1.8236 --- Test NLLT: -0.1117 --- Test MSE: 0.1521
+epoch 20  --- t= 0.96 m= 1
+Test NLL: -1.5813 --- Test NLLT: -0.0929 --- Test MSE: 0.1336
+epoch 30  --- t= 0.96 m= 1
+Test NLL: -1.3839 --- Test NLLT: -0.0782 --- Test MSE: 0.1185
+epoch 40  --- t= 0.96 m= 1
+Test NLL: -1.3316 --- Test NLLT: -0.0709 --- Test MSE: 0.1119
+epoch 50  --- t= 0.96 m= 1
+Test NLL: -1.2362 --- Test NLLT: -0.0611 --- Test MSE: 0.1020
+epoch 60  --- t= 0.96 m= 1
+Test NLL: -1.1338 --- Test NLLT: -0.0537 --- Test MSE: 0.0936
+epoch 70  --- t= 0.96 m= 1
+Test NLL: -1.0729 --- Test NLLT: -0.0475 --- Test MSE: 0.0886
+epoch 80  --- t= 0.96 m= 1
+Test NLL: -1.0606 --- Test NLLT: -0.0431 --- Test MSE: 0.0849
+epoch 90  --- t= 0.96 m= 1
+Test NLL: -1.0269 --- Test NLLT: -0.0408 --- Test MSE: 0.0826
+epoch 100  --- t= 0.96 m= 1
+Test NLL: -0.9881 --- Test NLLT: -0.0391 --- Test MSE: 0.0803
+epoch 110  --- t= 0.96 m= 1
+Test NLL: -0.9961 --- Test NLLT: -0.0397 --- Test MSE: 0.0819
+epoch 120  --- t= 0.96 m= 1
+Test NLL: -0.9748 --- Test NLLT: -0.0346 --- Test MSE: 0.0774
+epoch 130  --- t= 0.96 m= 1
+Test NLL: -0.9594 --- Test NLLT: -0.0327 --- Test MSE: 0.0752
+epoch 140  --- t= 0.96 m= 1
+Test NLL: -0.9559 --- Test NLLT: -0.0321 --- Test MSE: 0.0750
+epoch 150  --- t= 0.96 m= 1
+Test NLL: -0.9655 --- Test NLLT: -0.0306 --- Test MSE: 0.0733
+epoch 160  --- t= 0.96 m= 1
+Test NLL: -0.9525 --- Test NLLT: -0.0308 --- Test MSE: 0.0738
+epoch 170  --- t= 0.96 m= 1
+Test NLL: -0.9541 --- Test NLLT: -0.0297 --- Test MSE: 0.0728
+epoch 180  --- t= 0.96 m= 1
+Test NLL: -0.9349 --- Test NLLT: -0.0306 --- Test MSE: 0.0736
+epoch 190  --- t= 0.96 m= 1
+Test NLL: -0.9434 --- Test NLLT: -0.0288 --- Test MSE: 0.0722
+epoch 200  --- t= 0.96 m= 1
+Test NLL: -0.9107 --- Test NLLT: -0.0277 --- Test MSE: 0.0702
+epoch 210  --- t= 0.96 m= 1
+Test NLL: -0.9016 --- Test NLLT: -0.0268 --- Test MSE: 0.0691
+epoch 220  --- t= 0.96 m= 1
+Test NLL: -0.9024 --- Test NLLT: -0.0263 --- Test MSE: 0.0689
+epoch 230  --- t= 0.96 m= 1
+Test NLL: -0.8930 --- Test NLLT: -0.0262 --- Test MSE: 0.0694
+epoch 240  --- t= 0.96 m= 1
+Test NLL: -0.8831 --- Test NLLT: -0.0250 --- Test MSE: 0.0678
+epoch 250  --- t= 0.96 m= 1
+Test NLL: -0.8723 --- Test NLLT: -0.0245 --- Test MSE: 0.0672
+epoch 260  --- t= 0.96 m= 1
+Test NLL: -0.8601 --- Test NLLT: -0.0235 --- Test MSE: 0.0655
+epoch 270  --- t= 0.96 m= 1
+Test NLL: -0.8625 --- Test NLLT: -0.0243 --- Test MSE: 0.0665
+epoch 280  --- t= 0.96 m= 1
+Test NLL: -0.8680 --- Test NLLT: -0.0238 --- Test MSE: 0.0662
+epoch 290  --- t= 0.96 m= 1
+Test NLL: -0.8667 --- Test NLLT: -0.0259 --- Test MSE: 0.0688
+epoch 300  --- t= 0.96 m= 1
+Test NLL: -0.8574 --- Test NLLT: -0.0232 --- Test MSE: 0.0651
+epoch 310  --- t= 0.96 m= 1
+Test NLL: -0.8560 --- Test NLLT: -0.0265 --- Test MSE: 0.0687
+epoch 320  --- t= 0.96 m= 1
+Test NLL: -0.8471 --- Test NLLT: -0.0229 --- Test MSE: 0.0645
+epoch 330  --- t= 0.96 m= 1
+Test NLL: -0.8574 --- Test NLLT: -0.0231 --- Test MSE: 0.0649
+epoch 340  --- t= 0.96 m= 1
+Test NLL: -0.8445 --- Test NLLT: -0.0226 --- Test MSE: 0.0636
+epoch 350  --- t= 0.96 m= 1
+Test NLL: -0.8409 --- Test NLLT: -0.0230 --- Test MSE: 0.0643
+epoch 360  --- t= 0.96 m= 1
+Test NLL: -0.8488 --- Test NLLT: -0.0225 --- Test MSE: 0.0647
+epoch 370  --- t= 0.96 m= 1
+Test NLL: -0.8354 --- Test NLLT: -0.0225 --- Test MSE: 0.0643
+epoch 380  --- t= 0.96 m= 1
+Test NLL: -0.8369 --- Test NLLT: -0.0220 --- Test MSE: 0.0639
+epoch 390  --- t= 0.96 m= 1
+Test NLL: -0.8357 --- Test NLLT: -0.0225 --- Test MSE: 0.0650
+epoch 400  --- t= 0.96 m= 1
+Test NLL: -0.8348 --- Test NLLT: -0.0216 --- Test MSE: 0.0633
+epoch 410  --- t= 0.96 m= 1
+Test NLL: -0.8226 --- Test NLLT: -0.0204 --- Test MSE: 0.0620
+epoch 420  --- t= 0.96 m= 1
+Test NLL: -0.8187 --- Test NLLT: -0.0205 --- Test MSE: 0.0617
+epoch 430  --- t= 0.96 m= 1
+Test NLL: -0.8113 --- Test NLLT: -0.0207 --- Test MSE: 0.0621
+epoch 440  --- t= 0.96 m= 1
+Test NLL: -0.8210 --- Test NLLT: -0.0205 --- Test MSE: 0.0621
+epoch 450  --- t= 0.96 m= 1
+Test NLL: -0.8102 --- Test NLLT: -0.0203 --- Test MSE: 0.0619
+epoch 460  --- t= 0.96 m= 1
+Test NLL: -0.8089 --- Test NLLT: -0.0198 --- Test MSE: 0.0611
+epoch 470  --- t= 0.96 m= 1
+Test NLL: -0.7941 --- Test NLLT: -0.0192 --- Test MSE: 0.0601
+epoch 480  --- t= 0.96 m= 1
+Test NLL: -0.7931 --- Test NLLT: -0.0188 --- Test MSE: 0.0597
+epoch 490  --- t= 0.96 m= 1
+Test NLL: -0.7871 --- Test NLLT: -0.0184 --- Test MSE: 0.0586
+epoch 500  --- t= 0.96 m= 1
+Test NLL: -0.7803 --- Test NLLT: -0.0183 --- Test MSE: 0.0586
+epoch 510  --- t= 0.96 m= 1
+Test NLL: -0.7798 --- Test NLLT: -0.0185 --- Test MSE: 0.0592
+epoch 520  --- t= 0.96 m= 1
+Test NLL: -0.7738 --- Test NLLT: -0.0179 --- Test MSE: 0.0580
+epoch 530  --- t= 0.96 m= 1
+Test NLL: -0.7717 --- Test NLLT: -0.0185 --- Test MSE: 0.0590
+epoch 540  --- t= 0.96 m= 1
+Test NLL: -0.7813 --- Test NLLT: -0.0190 --- Test MSE: 0.0598
+epoch 550  --- t= 0.96 m= 1
+Test NLL: -0.7727 --- Test NLLT: -0.0179 --- Test MSE: 0.0584
+epoch 560  --- t= 0.96 m= 1
+Test NLL: -0.7611 --- Test NLLT: -0.0178 --- Test MSE: 0.0583
+epoch 570  --- t= 0.96 m= 1
+Test NLL: -0.7501 --- Test NLLT: -0.0161 --- Test MSE: 0.0559
+epoch 580  --- t= 0.96 m= 1
+Test NLL: -0.7537 --- Test NLLT: -0.0159 --- Test MSE: 0.0560
+epoch 590  --- t= 0.96 m= 1
+Test NLL: -0.7598 --- Test NLLT: -0.0158 --- Test MSE: 0.0557
+epoch 600  --- t= 0.96 m= 1
+Test NLL: -0.7540 --- Test NLLT: -0.0158 --- Test MSE: 0.0559
+epoch 610  --- t= 0.96 m= 1
+Test NLL: -0.7465 --- Test NLLT: -0.0155 --- Test MSE: 0.0552
+epoch 620  --- t= 0.96 m= 1
+Test NLL: -0.7471 --- Test NLLT: -0.0154 --- Test MSE: 0.0552
+epoch 630  --- t= 0.96 m= 1
+Test NLL: -0.7467 --- Test NLLT: -0.0145 --- Test MSE: 0.0543
+epoch 640  --- t= 0.96 m= 1
+Test NLL: -0.7476 --- Test NLLT: -0.0144 --- Test MSE: 0.0542
+epoch 650  --- t= 0.96 m= 1
+Test NLL: -0.7457 --- Test NLLT: -0.0155 --- Test MSE: 0.0563
+epoch 660  --- t= 0.96 m= 1
+Test NLL: -0.7472 --- Test NLLT: -0.0146 --- Test MSE: 0.0548
+epoch 670  --- t= 0.96 m= 1
+Test NLL: -0.7448 --- Test NLLT: -0.0149 --- Test MSE: 0.0555
+epoch 680  --- t= 0.96 m= 1
+Test NLL: -0.7328 --- Test NLLT: -0.0147 --- Test MSE: 0.0554
+epoch 690  --- t= 0.96 m= 1
+Test NLL: -0.7404 --- Test NLLT: -0.0149 --- Test MSE: 0.0558
+epoch 700  --- t= 0.96 m= 1
+Test NLL: -0.7327 --- Test NLLT: -0.0154 --- Test MSE: 0.0561
+epoch 710  --- t= 0.96 m= 1
+Test NLL: -0.7448 --- Test NLLT: -0.0149 --- Test MSE: 0.0554
+epoch 720  --- t= 0.96 m= 1
+Test NLL: -0.7419 --- Test NLLT: -0.0146 --- Test MSE: 0.0548
+epoch 730  --- t= 0.96 m= 1
+Test NLL: -0.7298 --- Test NLLT: -0.0138 --- Test MSE: 0.0537
+epoch 740  --- t= 0.96 m= 1
+Test NLL: -0.7380 --- Test NLLT: -0.0144 --- Test MSE: 0.0543
+epoch 750  --- t= 0.96 m= 1
+Test NLL: -0.7317 --- Test NLLT: -0.0143 --- Test MSE: 0.0544
+epoch 760  --- t= 0.96 m= 1
+Test NLL: -0.7314 --- Test NLLT: -0.0141 --- Test MSE: 0.0536
+epoch 770  --- t= 0.96 m= 1
+Test NLL: -0.7368 --- Test NLLT: -0.0144 --- Test MSE: 0.0545
+epoch 780  --- t= 0.96 m= 1
+Test NLL: -0.7317 --- Test NLLT: -0.0140 --- Test MSE: 0.0536
+epoch 790  --- t= 0.96 m= 1
+Test NLL: -0.7260 --- Test NLLT: -0.0148 --- Test MSE: 0.0553
+epoch 800  --- t= 0.96 m= 1
+Test NLL: -0.7292 --- Test NLLT: -0.0138 --- Test MSE: 0.0534
+epoch 810  --- t= 0.96 m= 1
+Test NLL: -0.7254 --- Test NLLT: -0.0138 --- Test MSE: 0.0535
+epoch 820  --- t= 0.96 m= 1
+Test NLL: -0.7276 --- Test NLLT: -0.0139 --- Test MSE: 0.0535
+epoch 830  --- t= 0.96 m= 1
+Test NLL: -0.7251 --- Test NLLT: -0.0137 --- Test MSE: 0.0538
+epoch 840  --- t= 0.96 m= 1
+Test NLL: -0.7296 --- Test NLLT: -0.0136 --- Test MSE: 0.0535
+epoch 850  --- t= 0.96 m= 1
+Test NLL: -0.7312 --- Test NLLT: -0.0132 --- Test MSE: 0.0531
+epoch 860  --- t= 0.96 m= 1
+Test NLL: -0.7237 --- Test NLLT: -0.0138 --- Test MSE: 0.0540
+epoch 870  --- t= 0.96 m= 1
+Test NLL: -0.7161 --- Test NLLT: -0.0128 --- Test MSE: 0.0520
+epoch 880  --- t= 0.96 m= 1
+Test NLL: -0.7209 --- Test NLLT: -0.0133 --- Test MSE: 0.0529
+epoch 890  --- t= 0.96 m= 1
+Test NLL: -0.7182 --- Test NLLT: -0.0128 --- Test MSE: 0.0524
+epoch 900  --- t= 0.96 m= 1
+Test NLL: -0.7131 --- Test NLLT: -0.0131 --- Test MSE: 0.0527
+epoch 910  --- t= 0.96 m= 1
+Test NLL: -0.7270 --- Test NLLT: -0.0135 --- Test MSE: 0.0536
+epoch 920  --- t= 0.96 m= 1
+Test NLL: -0.7267 --- Test NLLT: -0.0135 --- Test MSE: 0.0537
+epoch 930  --- t= 0.96 m= 1
+Test NLL: -0.7148 --- Test NLLT: -0.0132 --- Test MSE: 0.0530
+epoch 940  --- t= 0.96 m= 1
+Test NLL: -0.7091 --- Test NLLT: -0.0128 --- Test MSE: 0.0522
+epoch 950  --- t= 0.96 m= 1
+Test NLL: -0.7195 --- Test NLLT: -0.0154 --- Test MSE: 0.0561
+epoch 960  --- t= 0.96 m= 1
+Test NLL: -0.7161 --- Test NLLT: -0.0132 --- Test MSE: 0.0532
+epoch 970  --- t= 0.96 m= 1
+Test NLL: -0.7105 --- Test NLLT: -0.0128 --- Test MSE: 0.0524
+epoch 980  --- t= 0.96 m= 1
+Test NLL: -0.7184 --- Test NLLT: -0.0127 --- Test MSE: 0.0521
+epoch 990  --- t= 0.96 m= 1
+Test NLL: -0.7147 --- Test NLLT: -0.0126 --- Test MSE: 0.0524
+/usr/local/lib/python3.6/dist-packages/pyproj/crs/crs.py:53: FutureWarning: '+init=<authority>:<code>' syntax is deprecated. '<authority>:<code>' is the preferred initialization method. When making the change, be mindful of axis order changes: https://pyproj4.github.io/pyproj/stable/gotchas.html#axis-order-changes-in-proj-6
+  return _prepare_from_string(" ".join(pjargs))
+/usr/local/lib/python3.6/dist-packages/pyproj/crs/crs.py:294: FutureWarning: '+init=<authority>:<code>' syntax is deprecated. '<authority>:<code>' is the preferred initialization method. When making the change, be mindful of axis order changes: https://pyproj4.github.io/pyproj/stable/gotchas.html#axis-order-changes-in-proj-6
+  projstring = _prepare_from_string(" ".join((projstring, projkwargs)))
+/usr/local/lib/python3.6/dist-packages/pyproj/crs/crs.py:53: FutureWarning: '+init=<authority>:<code>' syntax is deprecated. '<authority>:<code>' is the preferred initialization method. When making the change, be mindful of axis order changes: https://pyproj4.github.io/pyproj/stable/gotchas.html#axis-order-changes-in-proj-6
+  return _prepare_from_string(" ".join(pjargs))
+/usr/local/lib/python3.6/dist-packages/pyproj/crs/crs.py:294: FutureWarning: '+init=<authority>:<code>' syntax is deprecated. '<authority>:<code>' is the preferred initialization method. When making the change, be mindful of axis order changes: https://pyproj4.github.io/pyproj/stable/gotchas.html#axis-order-changes-in-proj-6
+  projstring = _prepare_from_string(" ".join((projstring, projkwargs)))
+Called with args:
+Namespace(beta=0, dataset='UTS', device=device(type='cpu'), eps=0.1, if_test=False, lr=0.001, m=1, m_te=1, no_cuda=True, num_neurons_hidden=50, sigma=0.01, sigma_prior=1, t=0.96, te_batch_size=128, total_epochs=1000, tr_batch_size=128)
+epoch 0  --- t= 0.96 m= 1
+Test NLL: -29.5901 --- Test NLLT: -0.1974 --- Test MSE: 0.8325
+epoch 10  --- t= 0.96 m= 1
+Test NLL: -1.6377 --- Test NLLT: -0.1066 --- Test MSE: 0.1429
+epoch 20  --- t= 0.96 m= 1
+Test NLL: -1.4590 --- Test NLLT: -0.0908 --- Test MSE: 0.1283
+epoch 30  --- t= 0.96 m= 1
+Test NLL: -1.3925 --- Test NLLT: -0.0774 --- Test MSE: 0.1187
+epoch 40  --- t= 0.96 m= 1
+Test NLL: -1.3406 --- Test NLLT: -0.0692 --- Test MSE: 0.1124
+epoch 50  --- t= 0.96 m= 1
+Test NLL: -1.2937 --- Test NLLT: -0.0612 --- Test MSE: 0.1055
+epoch 60  --- t= 0.96 m= 1
+Test NLL: -1.2765 --- Test NLLT: -0.0558 --- Test MSE: 0.1005
+epoch 70  --- t= 0.96 m= 1
+Test NLL: -1.2549 --- Test NLLT: -0.0545 --- Test MSE: 0.0998
+epoch 80  --- t= 0.96 m= 1
+Test NLL: -1.2177 --- Test NLLT: -0.0495 --- Test MSE: 0.0948
+epoch 90  --- t= 0.96 m= 1
+Test NLL: -1.1788 --- Test NLLT: -0.0468 --- Test MSE: 0.0922
+epoch 100  --- t= 0.96 m= 1
+Test NLL: -1.1733 --- Test NLLT: -0.0457 --- Test MSE: 0.0920
+epoch 110  --- t= 0.96 m= 1
+Test NLL: -1.1571 --- Test NLLT: -0.0407 --- Test MSE: 0.0876
+epoch 120  --- t= 0.96 m= 1
+Test NLL: -1.1350 --- Test NLLT: -0.0393 --- Test MSE: 0.0859
+epoch 130  --- t= 0.96 m= 1
+Test NLL: -1.1398 --- Test NLLT: -0.0377 --- Test MSE: 0.0847
+epoch 140  --- t= 0.96 m= 1
+Test NLL: -1.1118 --- Test NLLT: -0.0375 --- Test MSE: 0.0842
+epoch 150  --- t= 0.96 m= 1
+Test NLL: -1.1100 --- Test NLLT: -0.0357 --- Test MSE: 0.0825
+epoch 160  --- t= 0.96 m= 1
+Test NLL: -1.0913 --- Test NLLT: -0.0354 --- Test MSE: 0.0827
+epoch 170  --- t= 0.96 m= 1
+Test NLL: -1.0924 --- Test NLLT: -0.0345 --- Test MSE: 0.0821
+epoch 180  --- t= 0.96 m= 1
+Test NLL: -1.0767 --- Test NLLT: -0.0331 --- Test MSE: 0.0804
+epoch 190  --- t= 0.96 m= 1
+Test NLL: -1.0767 --- Test NLLT: -0.0309 --- Test MSE: 0.0782
+epoch 200  --- t= 0.96 m= 1
+Test NLL: -1.0475 --- Test NLLT: -0.0318 --- Test MSE: 0.0785
+epoch 210  --- t= 0.96 m= 1
+Test NLL: -1.0542 --- Test NLLT: -0.0308 --- Test MSE: 0.0776
+epoch 220  --- t= 0.96 m= 1
+Test NLL: -1.0447 --- Test NLLT: -0.0298 --- Test MSE: 0.0767
+epoch 230  --- t= 0.96 m= 1
+Test NLL: -1.0473 --- Test NLLT: -0.0307 --- Test MSE: 0.0784
+epoch 240  --- t= 0.96 m= 1
+Test NLL: -1.0442 --- Test NLLT: -0.0283 --- Test MSE: 0.0753
+epoch 250  --- t= 0.96 m= 1
+Test NLL: -1.0271 --- Test NLLT: -0.0285 --- Test MSE: 0.0755
+epoch 260  --- t= 0.96 m= 1
+Test NLL: -1.0132 --- Test NLLT: -0.0286 --- Test MSE: 0.0757
+epoch 270  --- t= 0.96 m= 1
+Test NLL: -1.0184 --- Test NLLT: -0.0277 --- Test MSE: 0.0744
+epoch 280  --- t= 0.96 m= 1
+Test NLL: -1.0083 --- Test NLLT: -0.0263 --- Test MSE: 0.0732
+epoch 290  --- t= 0.96 m= 1
+Test NLL: -1.0082 --- Test NLLT: -0.0259 --- Test MSE: 0.0716
+epoch 300  --- t= 0.96 m= 1
+Test NLL: -0.9907 --- Test NLLT: -0.0272 --- Test MSE: 0.0736
+epoch 310  --- t= 0.96 m= 1
+Test NLL: -1.0136 --- Test NLLT: -0.0283 --- Test MSE: 0.0753
+epoch 320  --- t= 0.96 m= 1
+Test NLL: -1.0005 --- Test NLLT: -0.0257 --- Test MSE: 0.0724
+epoch 330  --- t= 0.96 m= 1
+Test NLL: -0.9946 --- Test NLLT: -0.0260 --- Test MSE: 0.0723
+epoch 340  --- t= 0.96 m= 1
+Test NLL: -1.0015 --- Test NLLT: -0.0242 --- Test MSE: 0.0704
+epoch 350  --- t= 0.96 m= 1
+Test NLL: -0.9982 --- Test NLLT: -0.0241 --- Test MSE: 0.0703
+epoch 360  --- t= 0.96 m= 1
+Test NLL: -0.9918 --- Test NLLT: -0.0239 --- Test MSE: 0.0700
+epoch 370  --- t= 0.96 m= 1
+Test NLL: -0.9793 --- Test NLLT: -0.0235 --- Test MSE: 0.0695
+epoch 380  --- t= 0.96 m= 1
+Test NLL: -0.9883 --- Test NLLT: -0.0248 --- Test MSE: 0.0716
+epoch 390  --- t= 0.96 m= 1
+Test NLL: -0.9825 --- Test NLLT: -0.0227 --- Test MSE: 0.0683
+epoch 400  --- t= 0.96 m= 1
+Test NLL: -0.9871 --- Test NLLT: -0.0240 --- Test MSE: 0.0707
+epoch 410  --- t= 0.96 m= 1
+Test NLL: -0.9615 --- Test NLLT: -0.0221 --- Test MSE: 0.0681
+epoch 420  --- t= 0.96 m= 1
+Test NLL: -0.9696 --- Test NLLT: -0.0225 --- Test MSE: 0.0686
+epoch 430  --- t= 0.96 m= 1
+Test NLL: -0.9592 --- Test NLLT: -0.0220 --- Test MSE: 0.0678
+epoch 440  --- t= 0.96 m= 1
+Test NLL: -0.9648 --- Test NLLT: -0.0228 --- Test MSE: 0.0689
+epoch 450  --- t= 0.96 m= 1
+Test NLL: -0.9532 --- Test NLLT: -0.0224 --- Test MSE: 0.0681
+epoch 460  --- t= 0.96 m= 1
+Test NLL: -0.9587 --- Test NLLT: -0.0217 --- Test MSE: 0.0670
+epoch 470  --- t= 0.96 m= 1
+Test NLL: -0.9530 --- Test NLLT: -0.0211 --- Test MSE: 0.0667
+epoch 480  --- t= 0.96 m= 1
+Test NLL: -0.9521 --- Test NLLT: -0.0205 --- Test MSE: 0.0654
+epoch 490  --- t= 0.96 m= 1
+Test NLL: -0.9433 --- Test NLLT: -0.0208 --- Test MSE: 0.0661
+epoch 500  --- t= 0.96 m= 1
+Test NLL: -0.9382 --- Test NLLT: -0.0210 --- Test MSE: 0.0666
+epoch 510  --- t= 0.96 m= 1
+Test NLL: -0.9308 --- Test NLLT: -0.0206 --- Test MSE: 0.0664
+epoch 520  --- t= 0.96 m= 1
+Test NLL: -0.9381 --- Test NLLT: -0.0200 --- Test MSE: 0.0656
+epoch 530  --- t= 0.96 m= 1
+Test NLL: -0.9258 --- Test NLLT: -0.0204 --- Test MSE: 0.0658
+epoch 540  --- t= 0.96 m= 1
+Test NLL: -0.9294 --- Test NLLT: -0.0206 --- Test MSE: 0.0657
+epoch 550  --- t= 0.96 m= 1
+Test NLL: -0.9296 --- Test NLLT: -0.0210 --- Test MSE: 0.0666
+epoch 560  --- t= 0.96 m= 1
+Test NLL: -0.9231 --- Test NLLT: -0.0206 --- Test MSE: 0.0658
+epoch 570  --- t= 0.96 m= 1
+Test NLL: -0.9281 --- Test NLLT: -0.0205 --- Test MSE: 0.0657
+epoch 580  --- t= 0.96 m= 1
+Test NLL: -0.9309 --- Test NLLT: -0.0199 --- Test MSE: 0.0649
+epoch 590  --- t= 0.96 m= 1
+Test NLL: -0.9268 --- Test NLLT: -0.0199 --- Test MSE: 0.0645
+epoch 600  --- t= 0.96 m= 1
+Test NLL: -0.9287 --- Test NLLT: -0.0210 --- Test MSE: 0.0662
+epoch 610  --- t= 0.96 m= 1
+Test NLL: -0.9275 --- Test NLLT: -0.0206 --- Test MSE: 0.0659
+epoch 620  --- t= 0.96 m= 1
+Test NLL: -0.9215 --- Test NLLT: -0.0203 --- Test MSE: 0.0657
+epoch 630  --- t= 0.96 m= 1
+Test NLL: -0.9247 --- Test NLLT: -0.0203 --- Test MSE: 0.0655
+epoch 640  --- t= 0.96 m= 1
+Test NLL: -0.9284 --- Test NLLT: -0.0204 --- Test MSE: 0.0658
+epoch 650  --- t= 0.96 m= 1
+Test NLL: -0.9178 --- Test NLLT: -0.0195 --- Test MSE: 0.0649
+epoch 660  --- t= 0.96 m= 1
+Test NLL: -0.9255 --- Test NLLT: -0.0198 --- Test MSE: 0.0653
+epoch 670  --- t= 0.96 m= 1
+Test NLL: -0.9259 --- Test NLLT: -0.0201 --- Test MSE: 0.0657
+epoch 680  --- t= 0.96 m= 1
+Test NLL: -0.9129 --- Test NLLT: -0.0191 --- Test MSE: 0.0641
+epoch 690  --- t= 0.96 m= 1
+Test NLL: -0.9199 --- Test NLLT: -0.0195 --- Test MSE: 0.0650
+epoch 700  --- t= 0.96 m= 1
+Test NLL: -0.9225 --- Test NLLT: -0.0199 --- Test MSE: 0.0656
+epoch 710  --- t= 0.96 m= 1
+Test NLL: -0.9156 --- Test NLLT: -0.0196 --- Test MSE: 0.0647
+epoch 720  --- t= 0.96 m= 1
+Test NLL: -0.9194 --- Test NLLT: -0.0198 --- Test MSE: 0.0649
+epoch 730  --- t= 0.96 m= 1
+Test NLL: -0.9101 --- Test NLLT: -0.0191 --- Test MSE: 0.0639
+epoch 740  --- t= 0.96 m= 1
+Test NLL: -0.9043 --- Test NLLT: -0.0188 --- Test MSE: 0.0628
+epoch 750  --- t= 0.96 m= 1
+Test NLL: -0.9026 --- Test NLLT: -0.0191 --- Test MSE: 0.0637
+epoch 760  --- t= 0.96 m= 1
+Test NLL: -0.9042 --- Test NLLT: -0.0196 --- Test MSE: 0.0647
+epoch 770  --- t= 0.96 m= 1
+Test NLL: -0.9075 --- Test NLLT: -0.0190 --- Test MSE: 0.0635
+epoch 780  --- t= 0.96 m= 1
+Test NLL: -0.9017 --- Test NLLT: -0.0190 --- Test MSE: 0.0631
+epoch 790  --- t= 0.96 m= 1
+Test NLL: -0.8888 --- Test NLLT: -0.0189 --- Test MSE: 0.0635
+epoch 800  --- t= 0.96 m= 1
+Test NLL: -0.8901 --- Test NLLT: -0.0186 --- Test MSE: 0.0626
+epoch 810  --- t= 0.96 m= 1
+Test NLL: -0.8919 --- Test NLLT: -0.0184 --- Test MSE: 0.0622
+epoch 820  --- t= 0.96 m= 1
+Test NLL: -0.8872 --- Test NLLT: -0.0188 --- Test MSE: 0.0628
+epoch 830  --- t= 0.96 m= 1
+Test NLL: -0.8879 --- Test NLLT: -0.0185 --- Test MSE: 0.0624
+epoch 840  --- t= 0.96 m= 1
+Test NLL: -0.8868 --- Test NLLT: -0.0186 --- Test MSE: 0.0622
+epoch 850  --- t= 0.96 m= 1
+Test NLL: -0.8811 --- Test NLLT: -0.0182 --- Test MSE: 0.0621
+epoch 860  --- t= 0.96 m= 1
+Test NLL: -0.8846 --- Test NLLT: -0.0185 --- Test MSE: 0.0625
+epoch 870  --- t= 0.96 m= 1
+Test NLL: -0.8847 --- Test NLLT: -0.0184 --- Test MSE: 0.0625
+epoch 880  --- t= 0.96 m= 1
+Test NLL: -0.8881 --- Test NLLT: -0.0184 --- Test MSE: 0.0626
+epoch 890  --- t= 0.96 m= 1
+Test NLL: -0.8776 --- Test NLLT: -0.0180 --- Test MSE: 0.0616
+epoch 900  --- t= 0.96 m= 1
+Test NLL: -0.8767 --- Test NLLT: -0.0185 --- Test MSE: 0.0624
+epoch 910  --- t= 0.96 m= 1
+Test NLL: -0.8819 --- Test NLLT: -0.0179 --- Test MSE: 0.0615
+epoch 920  --- t= 0.96 m= 1
+Test NLL: -0.8877 --- Test NLLT: -0.0186 --- Test MSE: 0.0627
+epoch 930  --- t= 0.96 m= 1
+Test NLL: -0.8832 --- Test NLLT: -0.0183 --- Test MSE: 0.0624
+epoch 940  --- t= 0.96 m= 1
+Test NLL: -0.8807 --- Test NLLT: -0.0182 --- Test MSE: 0.0620
+epoch 950  --- t= 0.96 m= 1
+Test NLL: -0.8859 --- Test NLLT: -0.0188 --- Test MSE: 0.0631
+epoch 960  --- t= 0.96 m= 1
+Test NLL: -0.8739 --- Test NLLT: -0.0180 --- Test MSE: 0.0613
+epoch 970  --- t= 0.96 m= 1
+Test NLL: -0.8770 --- Test NLLT: -0.0181 --- Test MSE: 0.0622
+epoch 980  --- t= 0.96 m= 1
+Test NLL: -0.8763 --- Test NLLT: -0.0184 --- Test MSE: 0.0620
+epoch 990  --- t= 0.96 m= 1
+Test NLL: -0.8739 --- Test NLLT: -0.0177 --- Test MSE: 0.0614
+/usr/local/lib/python3.6/dist-packages/pyproj/crs/crs.py:53: FutureWarning: '+init=<authority>:<code>' syntax is deprecated. '<authority>:<code>' is the preferred initialization method. When making the change, be mindful of axis order changes: https://pyproj4.github.io/pyproj/stable/gotchas.html#axis-order-changes-in-proj-6
+  return _prepare_from_string(" ".join(pjargs))
+/usr/local/lib/python3.6/dist-packages/pyproj/crs/crs.py:294: FutureWarning: '+init=<authority>:<code>' syntax is deprecated. '<authority>:<code>' is the preferred initialization method. When making the change, be mindful of axis order changes: https://pyproj4.github.io/pyproj/stable/gotchas.html#axis-order-changes-in-proj-6
+  projstring = _prepare_from_string(" ".join((projstring, projkwargs)))
+/usr/local/lib/python3.6/dist-packages/pyproj/crs/crs.py:53: FutureWarning: '+init=<authority>:<code>' syntax is deprecated. '<authority>:<code>' is the preferred initialization method. When making the change, be mindful of axis order changes: https://pyproj4.github.io/pyproj/stable/gotchas.html#axis-order-changes-in-proj-6
+  return _prepare_from_string(" ".join(pjargs))
+/usr/local/lib/python3.6/dist-packages/pyproj/crs/crs.py:294: FutureWarning: '+init=<authority>:<code>' syntax is deprecated. '<authority>:<code>' is the preferred initialization method. When making the change, be mindful of axis order changes: https://pyproj4.github.io/pyproj/stable/gotchas.html#axis-order-changes-in-proj-6
+  projstring = _prepare_from_string(" ".join((projstring, projkwargs)))
+Called with args:
+Namespace(beta=0, dataset='UTS', device=device(type='cpu'), eps=0.2, if_test=False, lr=0.001, m=1, m_te=1, no_cuda=True, num_neurons_hidden=50, sigma=0.01, sigma_prior=1, t=0.96, te_batch_size=128, total_epochs=1000, tr_batch_size=128)
+epoch 0  --- t= 0.96 m= 1
+Test NLL: -29.5901 --- Test NLLT: -0.1974 --- Test MSE: 0.8325
+epoch 10  --- t= 0.96 m= 1
+Test NLL: -1.9606 --- Test NLLT: -0.1151 --- Test MSE: 0.1634
+epoch 20  --- t= 0.96 m= 1
+Test NLL: -1.8552 --- Test NLLT: -0.1038 --- Test MSE: 0.1526
+epoch 30  --- t= 0.96 m= 1
+Test NLL: -1.7035 --- Test NLLT: -0.0909 --- Test MSE: 0.1396
+epoch 40  --- t= 0.96 m= 1
+Test NLL: -1.6971 --- Test NLLT: -0.0846 --- Test MSE: 0.1355
+epoch 50  --- t= 0.96 m= 1
+Test NLL: -1.6809 --- Test NLLT: -0.0794 --- Test MSE: 0.1314
+epoch 60  --- t= 0.96 m= 1
+Test NLL: -1.6810 --- Test NLLT: -0.0749 --- Test MSE: 0.1285
+epoch 70  --- t= 0.96 m= 1
+Test NLL: -1.6304 --- Test NLLT: -0.0714 --- Test MSE: 0.1256
+epoch 80  --- t= 0.96 m= 1
+Test NLL: -1.6611 --- Test NLLT: -0.0680 --- Test MSE: 0.1240
+epoch 90  --- t= 0.96 m= 1
+Test NLL: -1.6544 --- Test NLLT: -0.0666 --- Test MSE: 0.1235
+epoch 100  --- t= 0.96 m= 1
+Test NLL: -1.6784 --- Test NLLT: -0.0636 --- Test MSE: 0.1220
+epoch 110  --- t= 0.96 m= 1
+Test NLL: -1.6666 --- Test NLLT: -0.0614 --- Test MSE: 0.1201
+epoch 120  --- t= 0.96 m= 1
+Test NLL: -1.6951 --- Test NLLT: -0.0609 --- Test MSE: 0.1206
+epoch 130  --- t= 0.96 m= 1
+Test NLL: -1.6618 --- Test NLLT: -0.0591 --- Test MSE: 0.1184
+epoch 140  --- t= 0.96 m= 1
+Test NLL: -1.6639 --- Test NLLT: -0.0590 --- Test MSE: 0.1193
+epoch 150  --- t= 0.96 m= 1
+Test NLL: -1.6501 --- Test NLLT: -0.0562 --- Test MSE: 0.1158
+epoch 160  --- t= 0.96 m= 1
+Test NLL: -1.5961 --- Test NLLT: -0.0574 --- Test MSE: 0.1153
+epoch 170  --- t= 0.96 m= 1
+Test NLL: -1.6503 --- Test NLLT: -0.0555 --- Test MSE: 0.1157
+epoch 180  --- t= 0.96 m= 1
+Test NLL: -1.6211 --- Test NLLT: -0.0541 --- Test MSE: 0.1134
+epoch 190  --- t= 0.96 m= 1
+Test NLL: -1.5832 --- Test NLLT: -0.0537 --- Test MSE: 0.1119
+epoch 200  --- t= 0.96 m= 1
+Test NLL: -1.6251 --- Test NLLT: -0.0529 --- Test MSE: 0.1125
+epoch 210  --- t= 0.96 m= 1
+Test NLL: -1.6090 --- Test NLLT: -0.0523 --- Test MSE: 0.1111
+epoch 220  --- t= 0.96 m= 1
+Test NLL: -1.5812 --- Test NLLT: -0.0519 --- Test MSE: 0.1098
+epoch 230  --- t= 0.96 m= 1
+Test NLL: -1.5747 --- Test NLLT: -0.0513 --- Test MSE: 0.1100
+epoch 240  --- t= 0.96 m= 1
+Test NLL: -1.5748 --- Test NLLT: -0.0517 --- Test MSE: 0.1099
+epoch 250  --- t= 0.96 m= 1
+Test NLL: -1.5652 --- Test NLLT: -0.0515 --- Test MSE: 0.1098
+epoch 260  --- t= 0.96 m= 1
+Test NLL: -1.5857 --- Test NLLT: -0.0516 --- Test MSE: 0.1108
+epoch 270  --- t= 0.96 m= 1
+Test NLL: -1.5531 --- Test NLLT: -0.0506 --- Test MSE: 0.1081
+epoch 280  --- t= 0.96 m= 1
+Test NLL: -1.5452 --- Test NLLT: -0.0488 --- Test MSE: 0.1066
+epoch 290  --- t= 0.96 m= 1
+Test NLL: -1.5303 --- Test NLLT: -0.0478 --- Test MSE: 0.1055
+epoch 300  --- t= 0.96 m= 1
+Test NLL: -1.5432 --- Test NLLT: -0.0469 --- Test MSE: 0.1052
+epoch 310  --- t= 0.96 m= 1
+Test NLL: -1.5318 --- Test NLLT: -0.0474 --- Test MSE: 0.1056
+epoch 320  --- t= 0.96 m= 1
+Test NLL: -1.5232 --- Test NLLT: -0.0466 --- Test MSE: 0.1045
+epoch 330  --- t= 0.96 m= 1
+Test NLL: -1.5339 --- Test NLLT: -0.0468 --- Test MSE: 0.1047
+epoch 340  --- t= 0.96 m= 1
+Test NLL: -1.5447 --- Test NLLT: -0.0459 --- Test MSE: 0.1042
+epoch 350  --- t= 0.96 m= 1
+Test NLL: -1.5548 --- Test NLLT: -0.0471 --- Test MSE: 0.1064
+epoch 360  --- t= 0.96 m= 1
+Test NLL: -1.5027 --- Test NLLT: -0.0458 --- Test MSE: 0.1033
+epoch 370  --- t= 0.96 m= 1
+Test NLL: -1.5444 --- Test NLLT: -0.0451 --- Test MSE: 0.1036
+epoch 380  --- t= 0.96 m= 1
+Test NLL: -1.4940 --- Test NLLT: -0.0445 --- Test MSE: 0.1017
+epoch 390  --- t= 0.96 m= 1
+Test NLL: -1.5269 --- Test NLLT: -0.0438 --- Test MSE: 0.1008
+epoch 400  --- t= 0.96 m= 1
+Test NLL: -1.5029 --- Test NLLT: -0.0439 --- Test MSE: 0.1016
+epoch 410  --- t= 0.96 m= 1
+Test NLL: -1.4754 --- Test NLLT: -0.0424 --- Test MSE: 0.0990
+epoch 420  --- t= 0.96 m= 1
+Test NLL: -1.4869 --- Test NLLT: -0.0413 --- Test MSE: 0.0989
+epoch 430  --- t= 0.96 m= 1
+Test NLL: -1.4846 --- Test NLLT: -0.0420 --- Test MSE: 0.0997
+epoch 440  --- t= 0.96 m= 1
+Test NLL: -1.4926 --- Test NLLT: -0.0415 --- Test MSE: 0.0991
+epoch 450  --- t= 0.96 m= 1
+Test NLL: -1.4895 --- Test NLLT: -0.0410 --- Test MSE: 0.0993
+epoch 460  --- t= 0.96 m= 1
+Test NLL: -1.4704 --- Test NLLT: -0.0402 --- Test MSE: 0.0975
+epoch 470  --- t= 0.96 m= 1
+Test NLL: -1.4895 --- Test NLLT: -0.0401 --- Test MSE: 0.0976
+epoch 480  --- t= 0.96 m= 1
+Test NLL: -1.5006 --- Test NLLT: -0.0407 --- Test MSE: 0.0985
+epoch 490  --- t= 0.96 m= 1
+Test NLL: -1.4626 --- Test NLLT: -0.0400 --- Test MSE: 0.0972
+epoch 500  --- t= 0.96 m= 1
+Test NLL: -1.4972 --- Test NLLT: -0.0415 --- Test MSE: 0.1006
+epoch 510  --- t= 0.96 m= 1
+Test NLL: -1.4875 --- Test NLLT: -0.0400 --- Test MSE: 0.0982
+epoch 520  --- t= 0.96 m= 1
+Test NLL: -1.4929 --- Test NLLT: -0.0394 --- Test MSE: 0.0972
+epoch 530  --- t= 0.96 m= 1
+Test NLL: -1.4938 --- Test NLLT: -0.0398 --- Test MSE: 0.0977
+epoch 540  --- t= 0.96 m= 1
+Test NLL: -1.4822 --- Test NLLT: -0.0397 --- Test MSE: 0.0972
+epoch 550  --- t= 0.96 m= 1
+Test NLL: -1.5015 --- Test NLLT: -0.0401 --- Test MSE: 0.0979
+epoch 560  --- t= 0.96 m= 1
+Test NLL: -1.4851 --- Test NLLT: -0.0395 --- Test MSE: 0.0972
+epoch 570  --- t= 0.96 m= 1
+Test NLL: -1.4886 --- Test NLLT: -0.0391 --- Test MSE: 0.0967
+epoch 580  --- t= 0.96 m= 1
+Test NLL: -1.4887 --- Test NLLT: -0.0397 --- Test MSE: 0.0979
+epoch 590  --- t= 0.96 m= 1
+Test NLL: -1.4649 --- Test NLLT: -0.0394 --- Test MSE: 0.0968
+epoch 600  --- t= 0.96 m= 1
+Test NLL: -1.4977 --- Test NLLT: -0.0397 --- Test MSE: 0.0980
+epoch 610  --- t= 0.96 m= 1
+Test NLL: -1.4683 --- Test NLLT: -0.0406 --- Test MSE: 0.0986
+epoch 620  --- t= 0.96 m= 1
+Test NLL: -1.4778 --- Test NLLT: -0.0390 --- Test MSE: 0.0967
+epoch 630  --- t= 0.96 m= 1
+Test NLL: -1.4748 --- Test NLLT: -0.0384 --- Test MSE: 0.0961
+epoch 640  --- t= 0.96 m= 1
+Test NLL: -1.4621 --- Test NLLT: -0.0385 --- Test MSE: 0.0958
+epoch 650  --- t= 0.96 m= 1
+Test NLL: -1.4684 --- Test NLLT: -0.0380 --- Test MSE: 0.0954
+epoch 660  --- t= 0.96 m= 1
+Test NLL: -1.4600 --- Test NLLT: -0.0383 --- Test MSE: 0.0961
+epoch 670  --- t= 0.96 m= 1
+Test NLL: -1.4613 --- Test NLLT: -0.0383 --- Test MSE: 0.0961
+epoch 680  --- t= 0.96 m= 1
+Test NLL: -1.5020 --- Test NLLT: -0.0380 --- Test MSE: 0.0969
+epoch 690  --- t= 0.96 m= 1
+Test NLL: -1.4938 --- Test NLLT: -0.0381 --- Test MSE: 0.0969
+epoch 700  --- t= 0.96 m= 1
+Test NLL: -1.4572 --- Test NLLT: -0.0380 --- Test MSE: 0.0958
+epoch 710  --- t= 0.96 m= 1
+Test NLL: -1.4576 --- Test NLLT: -0.0379 --- Test MSE: 0.0955
+epoch 720  --- t= 0.96 m= 1
+Test NLL: -1.4787 --- Test NLLT: -0.0380 --- Test MSE: 0.0959
+epoch 730  --- t= 0.96 m= 1
+Test NLL: -1.4736 --- Test NLLT: -0.0374 --- Test MSE: 0.0951
+epoch 740  --- t= 0.96 m= 1
+Test NLL: -1.4669 --- Test NLLT: -0.0370 --- Test MSE: 0.0948
+epoch 750  --- t= 0.96 m= 1
+Test NLL: -1.4614 --- Test NLLT: -0.0370 --- Test MSE: 0.0945
+epoch 760  --- t= 0.96 m= 1
+Test NLL: -1.4470 --- Test NLLT: -0.0369 --- Test MSE: 0.0939
+epoch 770  --- t= 0.96 m= 1
+Test NLL: -1.4508 --- Test NLLT: -0.0369 --- Test MSE: 0.0944
+epoch 780  --- t= 0.96 m= 1
+Test NLL: -1.4326 --- Test NLLT: -0.0376 --- Test MSE: 0.0946
+epoch 790  --- t= 0.96 m= 1
+Test NLL: -1.4614 --- Test NLLT: -0.0373 --- Test MSE: 0.0951
+epoch 800  --- t= 0.96 m= 1
+Test NLL: -1.4593 --- Test NLLT: -0.0371 --- Test MSE: 0.0943
+epoch 810  --- t= 0.96 m= 1
+Test NLL: -1.4460 --- Test NLLT: -0.0368 --- Test MSE: 0.0936
+epoch 820  --- t= 0.96 m= 1
+Test NLL: -1.4448 --- Test NLLT: -0.0369 --- Test MSE: 0.0941
+epoch 830  --- t= 0.96 m= 1
+Test NLL: -1.4614 --- Test NLLT: -0.0375 --- Test MSE: 0.0954
+epoch 840  --- t= 0.96 m= 1
+Test NLL: -1.4718 --- Test NLLT: -0.0371 --- Test MSE: 0.0948
+epoch 850  --- t= 0.96 m= 1
+Test NLL: -1.4480 --- Test NLLT: -0.0363 --- Test MSE: 0.0931
+epoch 860  --- t= 0.96 m= 1
+Test NLL: -1.4523 --- Test NLLT: -0.0367 --- Test MSE: 0.0939
+epoch 870  --- t= 0.96 m= 1
+Test NLL: -1.4663 --- Test NLLT: -0.0364 --- Test MSE: 0.0939
+epoch 880  --- t= 0.96 m= 1
+Test NLL: -1.4626 --- Test NLLT: -0.0365 --- Test MSE: 0.0937
+epoch 890  --- t= 0.96 m= 1
+Test NLL: -1.4881 --- Test NLLT: -0.0367 --- Test MSE: 0.0947
+epoch 900  --- t= 0.96 m= 1
+Test NLL: -1.4694 --- Test NLLT: -0.0365 --- Test MSE: 0.0939
+epoch 910  --- t= 0.96 m= 1
+Test NLL: -1.4788 --- Test NLLT: -0.0365 --- Test MSE: 0.0946
+epoch 920  --- t= 0.96 m= 1
+Test NLL: -1.4902 --- Test NLLT: -0.0366 --- Test MSE: 0.0946
+epoch 930  --- t= 0.96 m= 1
+Test NLL: -1.4839 --- Test NLLT: -0.0371 --- Test MSE: 0.0954
+epoch 940  --- t= 0.96 m= 1
+Test NLL: -1.4840 --- Test NLLT: -0.0367 --- Test MSE: 0.0946
+epoch 950  --- t= 0.96 m= 1
+Test NLL: -1.5005 --- Test NLLT: -0.0368 --- Test MSE: 0.0954
+epoch 960  --- t= 0.96 m= 1
+Test NLL: -1.5010 --- Test NLLT: -0.0383 --- Test MSE: 0.0974
+epoch 970  --- t= 0.96 m= 1
+Test NLL: -1.4812 --- Test NLLT: -0.0368 --- Test MSE: 0.0949
+epoch 980  --- t= 0.96 m= 1
+Test NLL: -1.4680 --- Test NLLT: -0.0365 --- Test MSE: 0.0942
+epoch 990  --- t= 0.96 m= 1
+Test NLL: -1.4822 --- Test NLLT: -0.0373 --- Test MSE: 0.0956
+/usr/local/lib/python3.6/dist-packages/pyproj/crs/crs.py:53: FutureWarning: '+init=<authority>:<code>' syntax is deprecated. '<authority>:<code>' is the preferred initialization method. When making the change, be mindful of axis order changes: https://pyproj4.github.io/pyproj/stable/gotchas.html#axis-order-changes-in-proj-6
+  return _prepare_from_string(" ".join(pjargs))
+/usr/local/lib/python3.6/dist-packages/pyproj/crs/crs.py:294: FutureWarning: '+init=<authority>:<code>' syntax is deprecated. '<authority>:<code>' is the preferred initialization method. When making the change, be mindful of axis order changes: https://pyproj4.github.io/pyproj/stable/gotchas.html#axis-order-changes-in-proj-6
+  projstring = _prepare_from_string(" ".join((projstring, projkwargs)))
+/usr/local/lib/python3.6/dist-packages/pyproj/crs/crs.py:53: FutureWarning: '+init=<authority>:<code>' syntax is deprecated. '<authority>:<code>' is the preferred initialization method. When making the change, be mindful of axis order changes: https://pyproj4.github.io/pyproj/stable/gotchas.html#axis-order-changes-in-proj-6
+  return _prepare_from_string(" ".join(pjargs))
+/usr/local/lib/python3.6/dist-packages/pyproj/crs/crs.py:294: FutureWarning: '+init=<authority>:<code>' syntax is deprecated. '<authority>:<code>' is the preferred initialization method. When making the change, be mindful of axis order changes: https://pyproj4.github.io/pyproj/stable/gotchas.html#axis-order-changes-in-proj-6
+  projstring = _prepare_from_string(" ".join((projstring, projkwargs)))
+Called with args:
+Namespace(beta=0, dataset='UTS', device=device(type='cpu'), eps=0.3, if_test=False, lr=0.001, m=1, m_te=1, no_cuda=True, num_neurons_hidden=50, sigma=0.01, sigma_prior=1, t=0.96, te_batch_size=128, total_epochs=1000, tr_batch_size=128)
+epoch 0  --- t= 0.96 m= 1
+Test NLL: -29.5901 --- Test NLLT: -0.1974 --- Test MSE: 0.8325
+epoch 10  --- t= 0.96 m= 1
+Test NLL: -2.1524 --- Test NLLT: -0.1255 --- Test MSE: 0.1735
+epoch 20  --- t= 0.96 m= 1
+Test NLL: -1.9397 --- Test NLLT: -0.1035 --- Test MSE: 0.1537
+epoch 30  --- t= 0.96 m= 1
+Test NLL: -1.8413 --- Test NLLT: -0.0943 --- Test MSE: 0.1442
+epoch 40  --- t= 0.96 m= 1
+Test NLL: -1.7605 --- Test NLLT: -0.0876 --- Test MSE: 0.1374
+epoch 50  --- t= 0.96 m= 1
+Test NLL: -1.7047 --- Test NLLT: -0.0808 --- Test MSE: 0.1314
+epoch 60  --- t= 0.96 m= 1
+Test NLL: -1.6490 --- Test NLLT: -0.0756 --- Test MSE: 0.1259
+epoch 70  --- t= 0.96 m= 1
+Test NLL: -1.5963 --- Test NLLT: -0.0713 --- Test MSE: 0.1220
+epoch 80  --- t= 0.96 m= 1
+Test NLL: -1.6013 --- Test NLLT: -0.0686 --- Test MSE: 0.1201
+epoch 90  --- t= 0.96 m= 1
+Test NLL: -1.5921 --- Test NLLT: -0.0677 --- Test MSE: 0.1198
+epoch 100  --- t= 0.96 m= 1
+Test NLL: -1.5815 --- Test NLLT: -0.0657 --- Test MSE: 0.1180
+epoch 110  --- t= 0.96 m= 1
+Test NLL: -1.6102 --- Test NLLT: -0.0644 --- Test MSE: 0.1184
+epoch 120  --- t= 0.96 m= 1
+Test NLL: -1.6015 --- Test NLLT: -0.0627 --- Test MSE: 0.1165
+epoch 130  --- t= 0.96 m= 1
+Test NLL: -1.6063 --- Test NLLT: -0.0611 --- Test MSE: 0.1158
+epoch 140  --- t= 0.96 m= 1
+Test NLL: -1.5778 --- Test NLLT: -0.0605 --- Test MSE: 0.1152
+epoch 150  --- t= 0.96 m= 1
+Test NLL: -1.5909 --- Test NLLT: -0.0599 --- Test MSE: 0.1149
+epoch 160  --- t= 0.96 m= 1
+Test NLL: -1.6125 --- Test NLLT: -0.0581 --- Test MSE: 0.1142
+epoch 170  --- t= 0.96 m= 1
+Test NLL: -1.6104 --- Test NLLT: -0.0577 --- Test MSE: 0.1138
+epoch 180  --- t= 0.96 m= 1
+Test NLL: -1.5990 --- Test NLLT: -0.0571 --- Test MSE: 0.1129
+epoch 190  --- t= 0.96 m= 1
+Test NLL: -1.5739 --- Test NLLT: -0.0550 --- Test MSE: 0.1100
+epoch 200  --- t= 0.96 m= 1
+Test NLL: -1.5420 --- Test NLLT: -0.0539 --- Test MSE: 0.1088
+epoch 210  --- t= 0.96 m= 1
+Test NLL: -1.5601 --- Test NLLT: -0.0553 --- Test MSE: 0.1107
+epoch 220  --- t= 0.96 m= 1
+Test NLL: -1.5304 --- Test NLLT: -0.0538 --- Test MSE: 0.1086
+epoch 230  --- t= 0.96 m= 1
+Test NLL: -1.5326 --- Test NLLT: -0.0514 --- Test MSE: 0.1070
+epoch 240  --- t= 0.96 m= 1
+Test NLL: -1.4871 --- Test NLLT: -0.0540 --- Test MSE: 0.1078
+epoch 250  --- t= 0.96 m= 1
+Test NLL: -1.4924 --- Test NLLT: -0.0502 --- Test MSE: 0.1050
+epoch 260  --- t= 0.96 m= 1
+Test NLL: -1.4338 --- Test NLLT: -0.0491 --- Test MSE: 0.1018
+epoch 270  --- t= 0.96 m= 1
+Test NLL: -1.4084 --- Test NLLT: -0.0465 --- Test MSE: 0.0994
+epoch 280  --- t= 0.96 m= 1
+Test NLL: -1.4105 --- Test NLLT: -0.0464 --- Test MSE: 0.0994
+epoch 290  --- t= 0.96 m= 1
+Test NLL: -1.4063 --- Test NLLT: -0.0466 --- Test MSE: 0.0993
+epoch 300  --- t= 0.96 m= 1
+Test NLL: -1.3922 --- Test NLLT: -0.0466 --- Test MSE: 0.0994
+epoch 310  --- t= 0.96 m= 1
+Test NLL: -1.3880 --- Test NLLT: -0.0473 --- Test MSE: 0.0999
+epoch 320  --- t= 0.96 m= 1
+Test NLL: -1.3547 --- Test NLLT: -0.0450 --- Test MSE: 0.0964
+epoch 330  --- t= 0.96 m= 1
+Test NLL: -1.3710 --- Test NLLT: -0.0460 --- Test MSE: 0.0981
+epoch 340  --- t= 0.96 m= 1
+Test NLL: -1.3588 --- Test NLLT: -0.0459 --- Test MSE: 0.0981
+epoch 350  --- t= 0.96 m= 1
+Test NLL: -1.3525 --- Test NLLT: -0.0441 --- Test MSE: 0.0963
+epoch 360  --- t= 0.96 m= 1
+Test NLL: -1.3365 --- Test NLLT: -0.0431 --- Test MSE: 0.0942
+epoch 370  --- t= 0.96 m= 1
+Test NLL: -1.3328 --- Test NLLT: -0.0442 --- Test MSE: 0.0957
+epoch 380  --- t= 0.96 m= 1
+Test NLL: -1.3328 --- Test NLLT: -0.0437 --- Test MSE: 0.0951
+epoch 390  --- t= 0.96 m= 1
+Test NLL: -1.3252 --- Test NLLT: -0.0431 --- Test MSE: 0.0944
+epoch 400  --- t= 0.96 m= 1
+Test NLL: -1.3321 --- Test NLLT: -0.0444 --- Test MSE: 0.0964
+epoch 410  --- t= 0.96 m= 1
+Test NLL: -1.3352 --- Test NLLT: -0.0429 --- Test MSE: 0.0947
+epoch 420  --- t= 0.96 m= 1
+Test NLL: -1.3217 --- Test NLLT: -0.0427 --- Test MSE: 0.0939
+epoch 430  --- t= 0.96 m= 1
+Test NLL: -1.3418 --- Test NLLT: -0.0427 --- Test MSE: 0.0946
+epoch 440  --- t= 0.96 m= 1
+Test NLL: -1.3502 --- Test NLLT: -0.0421 --- Test MSE: 0.0936
+epoch 450  --- t= 0.96 m= 1
+Test NLL: -1.3512 --- Test NLLT: -0.0428 --- Test MSE: 0.0950
+epoch 460  --- t= 0.96 m= 1
+Test NLL: -1.3305 --- Test NLLT: -0.0425 --- Test MSE: 0.0936
+epoch 470  --- t= 0.96 m= 1
+Test NLL: -1.3481 --- Test NLLT: -0.0434 --- Test MSE: 0.0961
+epoch 480  --- t= 0.96 m= 1
+Test NLL: -1.3442 --- Test NLLT: -0.0422 --- Test MSE: 0.0937
+epoch 490  --- t= 0.96 m= 1
+Test NLL: -1.3264 --- Test NLLT: -0.0422 --- Test MSE: 0.0935
+epoch 500  --- t= 0.96 m= 1
+Test NLL: -1.3314 --- Test NLLT: -0.0419 --- Test MSE: 0.0933
+epoch 510  --- t= 0.96 m= 1
+Test NLL: -1.3268 --- Test NLLT: -0.0419 --- Test MSE: 0.0937
+epoch 520  --- t= 0.96 m= 1
+Test NLL: -1.3239 --- Test NLLT: -0.0419 --- Test MSE: 0.0934
+epoch 530  --- t= 0.96 m= 1
+Test NLL: -1.3317 --- Test NLLT: -0.0426 --- Test MSE: 0.0942
+epoch 540  --- t= 0.96 m= 1
+Test NLL: -1.3303 --- Test NLLT: -0.0417 --- Test MSE: 0.0926
+epoch 550  --- t= 0.96 m= 1
+Test NLL: -1.3179 --- Test NLLT: -0.0416 --- Test MSE: 0.0928
+epoch 560  --- t= 0.96 m= 1
+Test NLL: -1.3299 --- Test NLLT: -0.0413 --- Test MSE: 0.0933
+epoch 570  --- t= 0.96 m= 1
+Test NLL: -1.3298 --- Test NLLT: -0.0409 --- Test MSE: 0.0922
+epoch 580  --- t= 0.96 m= 1
+Test NLL: -1.3220 --- Test NLLT: -0.0408 --- Test MSE: 0.0923
+epoch 590  --- t= 0.96 m= 1
+Test NLL: -1.3060 --- Test NLLT: -0.0407 --- Test MSE: 0.0915
+epoch 600  --- t= 0.96 m= 1
+Test NLL: -1.3134 --- Test NLLT: -0.0402 --- Test MSE: 0.0910
+epoch 610  --- t= 0.96 m= 1
+Test NLL: -1.3115 --- Test NLLT: -0.0402 --- Test MSE: 0.0911
+epoch 620  --- t= 0.96 m= 1
+Test NLL: -1.3076 --- Test NLLT: -0.0406 --- Test MSE: 0.0916
+epoch 630  --- t= 0.96 m= 1
+Test NLL: -1.3035 --- Test NLLT: -0.0402 --- Test MSE: 0.0910
+epoch 640  --- t= 0.96 m= 1
+Test NLL: -1.3058 --- Test NLLT: -0.0402 --- Test MSE: 0.0910
+epoch 650  --- t= 0.96 m= 1
+Test NLL: -1.2835 --- Test NLLT: -0.0402 --- Test MSE: 0.0906
+epoch 660  --- t= 0.96 m= 1
+Test NLL: -1.3034 --- Test NLLT: -0.0404 --- Test MSE: 0.0915
+epoch 670  --- t= 0.96 m= 1
+Test NLL: -1.2941 --- Test NLLT: -0.0399 --- Test MSE: 0.0906
+epoch 680  --- t= 0.96 m= 1
+Test NLL: -1.2814 --- Test NLLT: -0.0400 --- Test MSE: 0.0906
+epoch 690  --- t= 0.96 m= 1
+Test NLL: -1.2790 --- Test NLLT: -0.0401 --- Test MSE: 0.0907
+epoch 700  --- t= 0.96 m= 1
+Test NLL: -1.2768 --- Test NLLT: -0.0393 --- Test MSE: 0.0894
+epoch 710  --- t= 0.96 m= 1
+Test NLL: -1.3012 --- Test NLLT: -0.0390 --- Test MSE: 0.0895
+epoch 720  --- t= 0.96 m= 1
+Test NLL: -1.2886 --- Test NLLT: -0.0391 --- Test MSE: 0.0896
+epoch 730  --- t= 0.96 m= 1
+Test NLL: -1.2986 --- Test NLLT: -0.0398 --- Test MSE: 0.0914
+epoch 740  --- t= 0.96 m= 1
+Test NLL: -1.2891 --- Test NLLT: -0.0385 --- Test MSE: 0.0890
+epoch 750  --- t= 0.96 m= 1
+Test NLL: -1.2702 --- Test NLLT: -0.0391 --- Test MSE: 0.0896
+epoch 760  --- t= 0.96 m= 1
+Test NLL: -1.2928 --- Test NLLT: -0.0385 --- Test MSE: 0.0892
+epoch 770  --- t= 0.96 m= 1
+Test NLL: -1.2947 --- Test NLLT: -0.0389 --- Test MSE: 0.0902
+epoch 780  --- t= 0.96 m= 1
+Test NLL: -1.2812 --- Test NLLT: -0.0385 --- Test MSE: 0.0888
+epoch 790  --- t= 0.96 m= 1
+Test NLL: -1.2774 --- Test NLLT: -0.0387 --- Test MSE: 0.0895
+epoch 800  --- t= 0.96 m= 1
+Test NLL: -1.2759 --- Test NLLT: -0.0384 --- Test MSE: 0.0887
+epoch 810  --- t= 0.96 m= 1
+Test NLL: -1.2522 --- Test NLLT: -0.0385 --- Test MSE: 0.0886
+epoch 820  --- t= 0.96 m= 1
+Test NLL: -1.2782 --- Test NLLT: -0.0385 --- Test MSE: 0.0895
+epoch 830  --- t= 0.96 m= 1
+Test NLL: -1.2841 --- Test NLLT: -0.0387 --- Test MSE: 0.0899
+epoch 840  --- t= 0.96 m= 1
+Test NLL: -1.2835 --- Test NLLT: -0.0382 --- Test MSE: 0.0887
+epoch 850  --- t= 0.96 m= 1
+Test NLL: -1.2759 --- Test NLLT: -0.0380 --- Test MSE: 0.0890
+epoch 860  --- t= 0.96 m= 1
+Test NLL: -1.2686 --- Test NLLT: -0.0377 --- Test MSE: 0.0881
+epoch 870  --- t= 0.96 m= 1
+Test NLL: -1.2784 --- Test NLLT: -0.0376 --- Test MSE: 0.0888
+epoch 880  --- t= 0.96 m= 1
+Test NLL: -1.2812 --- Test NLLT: -0.0379 --- Test MSE: 0.0888
+epoch 890  --- t= 0.96 m= 1
+Test NLL: -1.2662 --- Test NLLT: -0.0377 --- Test MSE: 0.0884
+epoch 900  --- t= 0.96 m= 1
+Test NLL: -1.2776 --- Test NLLT: -0.0374 --- Test MSE: 0.0881
+epoch 910  --- t= 0.96 m= 1
+Test NLL: -1.2773 --- Test NLLT: -0.0379 --- Test MSE: 0.0890
+epoch 920  --- t= 0.96 m= 1
+Test NLL: -1.2700 --- Test NLLT: -0.0378 --- Test MSE: 0.0878
+epoch 930  --- t= 0.96 m= 1
+Test NLL: -1.2709 --- Test NLLT: -0.0376 --- Test MSE: 0.0879
+epoch 940  --- t= 0.96 m= 1
+Test NLL: -1.2530 --- Test NLLT: -0.0378 --- Test MSE: 0.0876
+epoch 950  --- t= 0.96 m= 1
+Test NLL: -1.2837 --- Test NLLT: -0.0373 --- Test MSE: 0.0877
+epoch 960  --- t= 0.96 m= 1
+Test NLL: -1.2728 --- Test NLLT: -0.0382 --- Test MSE: 0.0892
+epoch 970  --- t= 0.96 m= 1
+Test NLL: -1.2585 --- Test NLLT: -0.0377 --- Test MSE: 0.0883
+epoch 980  --- t= 0.96 m= 1
+Test NLL: -1.2646 --- Test NLLT: -0.0376 --- Test MSE: 0.0880
+epoch 990  --- t= 0.96 m= 1
+Test NLL: -1.2601 --- Test NLLT: -0.0380 --- Test MSE: 0.0886
+/usr/local/lib/python3.6/dist-packages/pyproj/crs/crs.py:53: FutureWarning: '+init=<authority>:<code>' syntax is deprecated. '<authority>:<code>' is the preferred initialization method. When making the change, be mindful of axis order changes: https://pyproj4.github.io/pyproj/stable/gotchas.html#axis-order-changes-in-proj-6
+  return _prepare_from_string(" ".join(pjargs))
+/usr/local/lib/python3.6/dist-packages/pyproj/crs/crs.py:294: FutureWarning: '+init=<authority>:<code>' syntax is deprecated. '<authority>:<code>' is the preferred initialization method. When making the change, be mindful of axis order changes: https://pyproj4.github.io/pyproj/stable/gotchas.html#axis-order-changes-in-proj-6
+  projstring = _prepare_from_string(" ".join((projstring, projkwargs)))
+/usr/local/lib/python3.6/dist-packages/pyproj/crs/crs.py:53: FutureWarning: '+init=<authority>:<code>' syntax is deprecated. '<authority>:<code>' is the preferred initialization method. When making the change, be mindful of axis order changes: https://pyproj4.github.io/pyproj/stable/gotchas.html#axis-order-changes-in-proj-6
+  return _prepare_from_string(" ".join(pjargs))
+/usr/local/lib/python3.6/dist-packages/pyproj/crs/crs.py:294: FutureWarning: '+init=<authority>:<code>' syntax is deprecated. '<authority>:<code>' is the preferred initialization method. When making the change, be mindful of axis order changes: https://pyproj4.github.io/pyproj/stable/gotchas.html#axis-order-changes-in-proj-6
+  projstring = _prepare_from_string(" ".join((projstring, projkwargs)))
+Called with args:
+Namespace(beta=0, dataset='UTS', device=device(type='cpu'), eps=0.4, if_test=False, lr=0.001, m=1, m_te=1, no_cuda=True, num_neurons_hidden=50, sigma=0.01, sigma_prior=1, t=0.96, te_batch_size=128, total_epochs=1000, tr_batch_size=128)
+epoch 0  --- t= 0.96 m= 1
+Test NLL: -29.5901 --- Test NLLT: -0.1974 --- Test MSE: 0.8325
+epoch 10  --- t= 0.96 m= 1
+Test NLL: -2.1156 --- Test NLLT: -0.1317 --- Test MSE: 0.1774
+epoch 20  --- t= 0.96 m= 1
+Test NLL: -1.8072 --- Test NLLT: -0.1219 --- Test MSE: 0.1599
+epoch 30  --- t= 0.96 m= 1
+Test NLL: -1.8001 --- Test NLLT: -0.1051 --- Test MSE: 0.1522
+epoch 40  --- t= 0.96 m= 1
+Test NLL: -1.8352 --- Test NLLT: -0.0984 --- Test MSE: 0.1498
+epoch 50  --- t= 0.96 m= 1
+Test NLL: -1.7446 --- Test NLLT: -0.0931 --- Test MSE: 0.1433
+epoch 60  --- t= 0.96 m= 1
+Test NLL: -1.7857 --- Test NLLT: -0.0898 --- Test MSE: 0.1424
+epoch 70  --- t= 0.96 m= 1
+Test NLL: -1.8239 --- Test NLLT: -0.0851 --- Test MSE: 0.1416
+epoch 80  --- t= 0.96 m= 1
+Test NLL: -1.8609 --- Test NLLT: -0.0826 --- Test MSE: 0.1408
+epoch 90  --- t= 0.96 m= 1
+Test NLL: -1.8278 --- Test NLLT: -0.0823 --- Test MSE: 0.1403
+epoch 100  --- t= 0.96 m= 1
+Test NLL: -1.7615 --- Test NLLT: -0.0820 --- Test MSE: 0.1373
+epoch 110  --- t= 0.96 m= 1
+Test NLL: -1.7668 --- Test NLLT: -0.0773 --- Test MSE: 0.1344
+epoch 120  --- t= 0.96 m= 1
+Test NLL: -1.7984 --- Test NLLT: -0.0771 --- Test MSE: 0.1357
+epoch 130  --- t= 0.96 m= 1
+Test NLL: -1.7733 --- Test NLLT: -0.0754 --- Test MSE: 0.1336
+epoch 140  --- t= 0.96 m= 1
+Test NLL: -1.7532 --- Test NLLT: -0.0753 --- Test MSE: 0.1330
+epoch 150  --- t= 0.96 m= 1
+Test NLL: -1.7902 --- Test NLLT: -0.0729 --- Test MSE: 0.1322
+epoch 160  --- t= 0.96 m= 1
+Test NLL: -1.7638 --- Test NLLT: -0.0727 --- Test MSE: 0.1308
+epoch 170  --- t= 0.96 m= 1
+Test NLL: -1.7683 --- Test NLLT: -0.0723 --- Test MSE: 0.1313
+epoch 180  --- t= 0.96 m= 1
+Test NLL: -1.7349 --- Test NLLT: -0.0709 --- Test MSE: 0.1285
+epoch 190  --- t= 0.96 m= 1
+Test NLL: -1.7624 --- Test NLLT: -0.0701 --- Test MSE: 0.1291
+epoch 200  --- t= 0.96 m= 1
+Test NLL: -1.7191 --- Test NLLT: -0.0691 --- Test MSE: 0.1271
+epoch 210  --- t= 0.96 m= 1
+Test NLL: -1.7222 --- Test NLLT: -0.0686 --- Test MSE: 0.1270
+epoch 220  --- t= 0.96 m= 1
+Test NLL: -1.7346 --- Test NLLT: -0.0679 --- Test MSE: 0.1264
+epoch 230  --- t= 0.96 m= 1
+Test NLL: -1.7568 --- Test NLLT: -0.0665 --- Test MSE: 0.1261
+epoch 240  --- t= 0.96 m= 1
+Test NLL: -1.7616 --- Test NLLT: -0.0682 --- Test MSE: 0.1276
+epoch 250  --- t= 0.96 m= 1
+Test NLL: -1.7832 --- Test NLLT: -0.0674 --- Test MSE: 0.1280
+epoch 260  --- t= 0.96 m= 1
+Test NLL: -1.7139 --- Test NLLT: -0.0679 --- Test MSE: 0.1263
+epoch 270  --- t= 0.96 m= 1
+Test NLL: -1.7251 --- Test NLLT: -0.0667 --- Test MSE: 0.1251
+epoch 280  --- t= 0.96 m= 1
+Test NLL: -1.7226 --- Test NLLT: -0.0656 --- Test MSE: 0.1246
+epoch 290  --- t= 0.96 m= 1
+Test NLL: -1.7425 --- Test NLLT: -0.0660 --- Test MSE: 0.1249
+epoch 300  --- t= 0.96 m= 1
+Test NLL: -1.7152 --- Test NLLT: -0.0640 --- Test MSE: 0.1226
+epoch 310  --- t= 0.96 m= 1
+Test NLL: -1.7456 --- Test NLLT: -0.0652 --- Test MSE: 0.1249
+epoch 320  --- t= 0.96 m= 1
+Test NLL: -1.7295 --- Test NLLT: -0.0653 --- Test MSE: 0.1247
+epoch 330  --- t= 0.96 m= 1
+Test NLL: -1.7197 --- Test NLLT: -0.0644 --- Test MSE: 0.1227
+epoch 340  --- t= 0.96 m= 1
+Test NLL: -1.7009 --- Test NLLT: -0.0642 --- Test MSE: 0.1225
+epoch 350  --- t= 0.96 m= 1
+Test NLL: -1.7079 --- Test NLLT: -0.0636 --- Test MSE: 0.1223
+epoch 360  --- t= 0.96 m= 1
+Test NLL: -1.7522 --- Test NLLT: -0.0645 --- Test MSE: 0.1247
+epoch 370  --- t= 0.96 m= 1
+Test NLL: -1.7143 --- Test NLLT: -0.0642 --- Test MSE: 0.1232
+epoch 380  --- t= 0.96 m= 1
+Test NLL: -1.6978 --- Test NLLT: -0.0633 --- Test MSE: 0.1220
+epoch 390  --- t= 0.96 m= 1
+Test NLL: -1.7226 --- Test NLLT: -0.0634 --- Test MSE: 0.1225
+epoch 400  --- t= 0.96 m= 1
+Test NLL: -1.7251 --- Test NLLT: -0.0634 --- Test MSE: 0.1227
+epoch 410  --- t= 0.96 m= 1
+Test NLL: -1.7523 --- Test NLLT: -0.0635 --- Test MSE: 0.1236
+epoch 420  --- t= 0.96 m= 1
+Test NLL: -1.7081 --- Test NLLT: -0.0630 --- Test MSE: 0.1218
+epoch 430  --- t= 0.96 m= 1
+Test NLL: -1.7279 --- Test NLLT: -0.0639 --- Test MSE: 0.1239
+epoch 440  --- t= 0.96 m= 1
+Test NLL: -1.7110 --- Test NLLT: -0.0624 --- Test MSE: 0.1213
+epoch 450  --- t= 0.96 m= 1
+Test NLL: -1.7388 --- Test NLLT: -0.0621 --- Test MSE: 0.1218
+epoch 460  --- t= 0.96 m= 1
+Test NLL: -1.7382 --- Test NLLT: -0.0621 --- Test MSE: 0.1218
+epoch 470  --- t= 0.96 m= 1
+Test NLL: -1.7355 --- Test NLLT: -0.0621 --- Test MSE: 0.1214
+epoch 480  --- t= 0.96 m= 1
+Test NLL: -1.7302 --- Test NLLT: -0.0630 --- Test MSE: 0.1224
+epoch 490  --- t= 0.96 m= 1
+Test NLL: -1.7006 --- Test NLLT: -0.0617 --- Test MSE: 0.1203
+epoch 500  --- t= 0.96 m= 1
+Test NLL: -1.7260 --- Test NLLT: -0.0620 --- Test MSE: 0.1216
+epoch 510  --- t= 0.96 m= 1
+Test NLL: -1.7443 --- Test NLLT: -0.0622 --- Test MSE: 0.1226
+epoch 520  --- t= 0.96 m= 1
+Test NLL: -1.7077 --- Test NLLT: -0.0617 --- Test MSE: 0.1210
+epoch 530  --- t= 0.96 m= 1
+Test NLL: -1.7183 --- Test NLLT: -0.0618 --- Test MSE: 0.1211
+epoch 540  --- t= 0.96 m= 1
+Test NLL: -1.7233 --- Test NLLT: -0.0619 --- Test MSE: 0.1214
+epoch 550  --- t= 0.96 m= 1
+Test NLL: -1.7118 --- Test NLLT: -0.0621 --- Test MSE: 0.1212
+epoch 560  --- t= 0.96 m= 1
+Test NLL: -1.7137 --- Test NLLT: -0.0624 --- Test MSE: 0.1221
+epoch 570  --- t= 0.96 m= 1
+Test NLL: -1.6969 --- Test NLLT: -0.0610 --- Test MSE: 0.1195
+epoch 580  --- t= 0.96 m= 1
+Test NLL: -1.7122 --- Test NLLT: -0.0614 --- Test MSE: 0.1210
+epoch 590  --- t= 0.96 m= 1
+Test NLL: -1.6958 --- Test NLLT: -0.0616 --- Test MSE: 0.1202
+epoch 600  --- t= 0.96 m= 1
+Test NLL: -1.6853 --- Test NLLT: -0.0610 --- Test MSE: 0.1190
+epoch 610  --- t= 0.96 m= 1
+Test NLL: -1.6906 --- Test NLLT: -0.0609 --- Test MSE: 0.1188
+epoch 620  --- t= 0.96 m= 1
+Test NLL: -1.7029 --- Test NLLT: -0.0608 --- Test MSE: 0.1195
+epoch 630  --- t= 0.96 m= 1
+Test NLL: -1.6528 --- Test NLLT: -0.0608 --- Test MSE: 0.1185
+epoch 640  --- t= 0.96 m= 1
+Test NLL: -1.6909 --- Test NLLT: -0.0601 --- Test MSE: 0.1187
+epoch 650  --- t= 0.96 m= 1
+Test NLL: -1.6798 --- Test NLLT: -0.0603 --- Test MSE: 0.1183
+epoch 660  --- t= 0.96 m= 1
+Test NLL: -1.6843 --- Test NLLT: -0.0600 --- Test MSE: 0.1184
+epoch 670  --- t= 0.96 m= 1
+Test NLL: -1.6886 --- Test NLLT: -0.0603 --- Test MSE: 0.1185
+epoch 680  --- t= 0.96 m= 1
+Test NLL: -1.6879 --- Test NLLT: -0.0604 --- Test MSE: 0.1191
+epoch 690  --- t= 0.96 m= 1
+Test NLL: -1.6762 --- Test NLLT: -0.0609 --- Test MSE: 0.1194
+epoch 700  --- t= 0.96 m= 1
+Test NLL: -1.6993 --- Test NLLT: -0.0604 --- Test MSE: 0.1191
+epoch 710  --- t= 0.96 m= 1
+Test NLL: -1.6917 --- Test NLLT: -0.0596 --- Test MSE: 0.1178
+epoch 720  --- t= 0.96 m= 1
+Test NLL: -1.6842 --- Test NLLT: -0.0602 --- Test MSE: 0.1182
+epoch 730  --- t= 0.96 m= 1
+Test NLL: -1.7040 --- Test NLLT: -0.0606 --- Test MSE: 0.1196
+epoch 740  --- t= 0.96 m= 1
+Test NLL: -1.6896 --- Test NLLT: -0.0601 --- Test MSE: 0.1189
+epoch 750  --- t= 0.96 m= 1
+Test NLL: -1.6699 --- Test NLLT: -0.0603 --- Test MSE: 0.1187
+epoch 760  --- t= 0.96 m= 1
+Test NLL: -1.6824 --- Test NLLT: -0.0598 --- Test MSE: 0.1180
+epoch 770  --- t= 0.96 m= 1
+Test NLL: -1.6867 --- Test NLLT: -0.0602 --- Test MSE: 0.1189
+epoch 780  --- t= 0.96 m= 1
+Test NLL: -1.6983 --- Test NLLT: -0.0599 --- Test MSE: 0.1185
+epoch 790  --- t= 0.96 m= 1
+Test NLL: -1.6823 --- Test NLLT: -0.0596 --- Test MSE: 0.1184
+epoch 800  --- t= 0.96 m= 1
+Test NLL: -1.6916 --- Test NLLT: -0.0597 --- Test MSE: 0.1184
+epoch 810  --- t= 0.96 m= 1
+Test NLL: -1.7108 --- Test NLLT: -0.0602 --- Test MSE: 0.1194
+epoch 820  --- t= 0.96 m= 1
+Test NLL: -1.7023 --- Test NLLT: -0.0595 --- Test MSE: 0.1184
+epoch 830  --- t= 0.96 m= 1
+Test NLL: -1.6874 --- Test NLLT: -0.0597 --- Test MSE: 0.1180
+epoch 840  --- t= 0.96 m= 1
+Test NLL: -1.6894 --- Test NLLT: -0.0596 --- Test MSE: 0.1176
+epoch 850  --- t= 0.96 m= 1
+Test NLL: -1.7023 --- Test NLLT: -0.0599 --- Test MSE: 0.1190
+epoch 860  --- t= 0.96 m= 1
+Test NLL: -1.6774 --- Test NLLT: -0.0596 --- Test MSE: 0.1174
+epoch 870  --- t= 0.96 m= 1
+Test NLL: -1.6752 --- Test NLLT: -0.0596 --- Test MSE: 0.1181
+epoch 880  --- t= 0.96 m= 1
+Test NLL: -1.6700 --- Test NLLT: -0.0596 --- Test MSE: 0.1175
+epoch 890  --- t= 0.96 m= 1
+Test NLL: -1.6751 --- Test NLLT: -0.0598 --- Test MSE: 0.1179
+epoch 900  --- t= 0.96 m= 1
+Test NLL: -1.6793 --- Test NLLT: -0.0597 --- Test MSE: 0.1178
+epoch 910  --- t= 0.96 m= 1
+Test NLL: -1.6803 --- Test NLLT: -0.0596 --- Test MSE: 0.1176
+epoch 920  --- t= 0.96 m= 1
+Test NLL: -1.6989 --- Test NLLT: -0.0597 --- Test MSE: 0.1181
+epoch 930  --- t= 0.96 m= 1
+Test NLL: -1.6853 --- Test NLLT: -0.0600 --- Test MSE: 0.1183
+epoch 940  --- t= 0.96 m= 1
+Test NLL: -1.7088 --- Test NLLT: -0.0604 --- Test MSE: 0.1198
+epoch 950  --- t= 0.96 m= 1
+Test NLL: -1.6977 --- Test NLLT: -0.0608 --- Test MSE: 0.1200
+epoch 960  --- t= 0.96 m= 1
+Test NLL: -1.6911 --- Test NLLT: -0.0599 --- Test MSE: 0.1183
+epoch 970  --- t= 0.96 m= 1
+Test NLL: -1.6499 --- Test NLLT: -0.0599 --- Test MSE: 0.1173
+epoch 980  --- t= 0.96 m= 1
+Test NLL: -1.6942 --- Test NLLT: -0.0602 --- Test MSE: 0.1194
+epoch 990  --- t= 0.96 m= 1
+Test NLL: -1.6594 --- Test NLLT: -0.0597 --- Test MSE: 0.1175
+/usr/local/lib/python3.6/dist-packages/pyproj/crs/crs.py:53: FutureWarning: '+init=<authority>:<code>' syntax is deprecated. '<authority>:<code>' is the preferred initialization method. When making the change, be mindful of axis order changes: https://pyproj4.github.io/pyproj/stable/gotchas.html#axis-order-changes-in-proj-6
+  return _prepare_from_string(" ".join(pjargs))
+/usr/local/lib/python3.6/dist-packages/pyproj/crs/crs.py:294: FutureWarning: '+init=<authority>:<code>' syntax is deprecated. '<authority>:<code>' is the preferred initialization method. When making the change, be mindful of axis order changes: https://pyproj4.github.io/pyproj/stable/gotchas.html#axis-order-changes-in-proj-6
+  projstring = _prepare_from_string(" ".join((projstring, projkwargs)))
+/usr/local/lib/python3.6/dist-packages/pyproj/crs/crs.py:53: FutureWarning: '+init=<authority>:<code>' syntax is deprecated. '<authority>:<code>' is the preferred initialization method. When making the change, be mindful of axis order changes: https://pyproj4.github.io/pyproj/stable/gotchas.html#axis-order-changes-in-proj-6
+  return _prepare_from_string(" ".join(pjargs))
+/usr/local/lib/python3.6/dist-packages/pyproj/crs/crs.py:294: FutureWarning: '+init=<authority>:<code>' syntax is deprecated. '<authority>:<code>' is the preferred initialization method. When making the change, be mindful of axis order changes: https://pyproj4.github.io/pyproj/stable/gotchas.html#axis-order-changes-in-proj-6
+  projstring = _prepare_from_string(" ".join((projstring, projkwargs)))
+Called with args:
+Namespace(beta=0, dataset='UTS', device=device(type='cpu'), eps=0.5, if_test=False, lr=0.001, m=1, m_te=1, no_cuda=True, num_neurons_hidden=50, sigma=0.01, sigma_prior=1, t=0.96, te_batch_size=128, total_epochs=1000, tr_batch_size=128)
+epoch 0  --- t= 0.96 m= 1
+Test NLL: -29.5901 --- Test NLLT: -0.1974 --- Test MSE: 0.8325
+epoch 10  --- t= 0.96 m= 1
+Test NLL: -4.1292 --- Test NLLT: -0.1586 --- Test MSE: 0.2577
+epoch 20  --- t= 0.96 m= 1
+Test NLL: -3.6491 --- Test NLLT: -0.1426 --- Test MSE: 0.2311
+epoch 30  --- t= 0.96 m= 1
+Test NLL: -3.6328 --- Test NLLT: -0.1331 --- Test MSE: 0.2255
+epoch 40  --- t= 0.96 m= 1
+Test NLL: -3.9429 --- Test NLLT: -0.1305 --- Test MSE: 0.2342
+epoch 50  --- t= 0.96 m= 1
+Test NLL: -3.7276 --- Test NLLT: -0.1217 --- Test MSE: 0.2214
+epoch 60  --- t= 0.96 m= 1
+Test NLL: -3.8438 --- Test NLLT: -0.1192 --- Test MSE: 0.2226
+epoch 70  --- t= 0.96 m= 1
+Test NLL: -3.8116 --- Test NLLT: -0.1172 --- Test MSE: 0.2197
+epoch 80  --- t= 0.96 m= 1
+Test NLL: -3.5761 --- Test NLLT: -0.1150 --- Test MSE: 0.2118
+epoch 90  --- t= 0.96 m= 1
+Test NLL: -3.4912 --- Test NLLT: -0.1154 --- Test MSE: 0.2087
+epoch 100  --- t= 0.96 m= 1
+Test NLL: -3.6256 --- Test NLLT: -0.1128 --- Test MSE: 0.2111
+epoch 110  --- t= 0.96 m= 1
+Test NLL: -3.7437 --- Test NLLT: -0.1095 --- Test MSE: 0.2121
+epoch 120  --- t= 0.96 m= 1
+Test NLL: -3.5412 --- Test NLLT: -0.1077 --- Test MSE: 0.2044
+epoch 130  --- t= 0.96 m= 1
+Test NLL: -3.4160 --- Test NLLT: -0.1085 --- Test MSE: 0.2016
+epoch 140  --- t= 0.96 m= 1
+Test NLL: -3.4771 --- Test NLLT: -0.1053 --- Test MSE: 0.2011
+epoch 150  --- t= 0.96 m= 1
+Test NLL: -3.5206 --- Test NLLT: -0.1041 --- Test MSE: 0.2018
+epoch 160  --- t= 0.96 m= 1
+Test NLL: -3.3385 --- Test NLLT: -0.1032 --- Test MSE: 0.1966
+epoch 170  --- t= 0.96 m= 1
+Test NLL: -3.4231 --- Test NLLT: -0.1031 --- Test MSE: 0.1982
+epoch 180  --- t= 0.96 m= 1
+Test NLL: -3.4362 --- Test NLLT: -0.1010 --- Test MSE: 0.1975
+epoch 190  --- t= 0.96 m= 1
+Test NLL: -3.4488 --- Test NLLT: -0.1010 --- Test MSE: 0.1981
+epoch 200  --- t= 0.96 m= 1
+Test NLL: -3.4300 --- Test NLLT: -0.1004 --- Test MSE: 0.1970
+epoch 210  --- t= 0.96 m= 1
+Test NLL: -3.3412 --- Test NLLT: -0.1010 --- Test MSE: 0.1949
+epoch 220  --- t= 0.96 m= 1
+Test NLL: -3.4294 --- Test NLLT: -0.0997 --- Test MSE: 0.1963
+epoch 230  --- t= 0.96 m= 1
+Test NLL: -3.4500 --- Test NLLT: -0.1004 --- Test MSE: 0.1977
+epoch 240  --- t= 0.96 m= 1
+Test NLL: -3.3827 --- Test NLLT: -0.0994 --- Test MSE: 0.1951
+epoch 250  --- t= 0.96 m= 1
+Test NLL: -3.3976 --- Test NLLT: -0.0975 --- Test MSE: 0.1937
+epoch 260  --- t= 0.96 m= 1
+Test NLL: -3.3998 --- Test NLLT: -0.0980 --- Test MSE: 0.1949
+epoch 270  --- t= 0.96 m= 1
+Test NLL: -3.4386 --- Test NLLT: -0.0973 --- Test MSE: 0.1948
+epoch 280  --- t= 0.96 m= 1
+Test NLL: -3.4306 --- Test NLLT: -0.0959 --- Test MSE: 0.1946
+epoch 290  --- t= 0.96 m= 1
+Test NLL: -3.3841 --- Test NLLT: -0.0953 --- Test MSE: 0.1922
+epoch 300  --- t= 0.96 m= 1
+Test NLL: -3.4591 --- Test NLLT: -0.0960 --- Test MSE: 0.1944
+epoch 310  --- t= 0.96 m= 1
+Test NLL: -3.2935 --- Test NLLT: -0.0953 --- Test MSE: 0.1898
+epoch 320  --- t= 0.96 m= 1
+Test NLL: -3.3510 --- Test NLLT: -0.0943 --- Test MSE: 0.1910
+epoch 330  --- t= 0.96 m= 1
+Test NLL: -3.2671 --- Test NLLT: -0.0960 --- Test MSE: 0.1890
+epoch 340  --- t= 0.96 m= 1
+Test NLL: -3.3327 --- Test NLLT: -0.0952 --- Test MSE: 0.1902
+epoch 350  --- t= 0.96 m= 1
+Test NLL: -3.2922 --- Test NLLT: -0.0947 --- Test MSE: 0.1889
+epoch 360  --- t= 0.96 m= 1
+Test NLL: -3.2509 --- Test NLLT: -0.0955 --- Test MSE: 0.1881
+epoch 370  --- t= 0.96 m= 1
+Test NLL: -3.3853 --- Test NLLT: -0.0927 --- Test MSE: 0.1904
+epoch 380  --- t= 0.96 m= 1
+Test NLL: -3.3401 --- Test NLLT: -0.0923 --- Test MSE: 0.1884
+epoch 390  --- t= 0.96 m= 1
+Test NLL: -3.3630 --- Test NLLT: -0.0926 --- Test MSE: 0.1896
+epoch 400  --- t= 0.96 m= 1
+Test NLL: -3.2932 --- Test NLLT: -0.0923 --- Test MSE: 0.1879
+epoch 410  --- t= 0.96 m= 1
+Test NLL: -3.3306 --- Test NLLT: -0.0936 --- Test MSE: 0.1898
+epoch 420  --- t= 0.96 m= 1
+Test NLL: -3.3021 --- Test NLLT: -0.0918 --- Test MSE: 0.1874
+epoch 430  --- t= 0.96 m= 1
+Test NLL: -3.2952 --- Test NLLT: -0.0915 --- Test MSE: 0.1870
+epoch 440  --- t= 0.96 m= 1
+Test NLL: -3.3870 --- Test NLLT: -0.0925 --- Test MSE: 0.1905
+epoch 450  --- t= 0.96 m= 1
+Test NLL: -3.2959 --- Test NLLT: -0.0918 --- Test MSE: 0.1871
+epoch 460  --- t= 0.96 m= 1
+Test NLL: -3.2908 --- Test NLLT: -0.0925 --- Test MSE: 0.1872
+epoch 470  --- t= 0.96 m= 1
+Test NLL: -3.2676 --- Test NLLT: -0.0917 --- Test MSE: 0.1866
+epoch 480  --- t= 0.96 m= 1
+Test NLL: -3.3014 --- Test NLLT: -0.0918 --- Test MSE: 0.1869
+epoch 490  --- t= 0.96 m= 1
+Test NLL: -3.2638 --- Test NLLT: -0.0912 --- Test MSE: 0.1857
+epoch 500  --- t= 0.96 m= 1
+Test NLL: -3.2735 --- Test NLLT: -0.0911 --- Test MSE: 0.1857
+epoch 510  --- t= 0.96 m= 1
+Test NLL: -3.2415 --- Test NLLT: -0.0912 --- Test MSE: 0.1856
+epoch 520  --- t= 0.96 m= 1
+Test NLL: -3.2377 --- Test NLLT: -0.0907 --- Test MSE: 0.1849
+epoch 530  --- t= 0.96 m= 1
+Test NLL: -3.3135 --- Test NLLT: -0.0915 --- Test MSE: 0.1877
+epoch 540  --- t= 0.96 m= 1
+Test NLL: -3.3444 --- Test NLLT: -0.0921 --- Test MSE: 0.1886
+epoch 550  --- t= 0.96 m= 1
+Test NLL: -3.3287 --- Test NLLT: -0.0915 --- Test MSE: 0.1878
+epoch 560  --- t= 0.96 m= 1
+Test NLL: -3.2659 --- Test NLLT: -0.0912 --- Test MSE: 0.1858
+epoch 570  --- t= 0.96 m= 1
+Test NLL: -3.2826 --- Test NLLT: -0.0912 --- Test MSE: 0.1865
+epoch 580  --- t= 0.96 m= 1
+Test NLL: -3.2658 --- Test NLLT: -0.0900 --- Test MSE: 0.1850
+epoch 590  --- t= 0.96 m= 1
+Test NLL: -3.3011 --- Test NLLT: -0.0906 --- Test MSE: 0.1863
+epoch 600  --- t= 0.96 m= 1
+Test NLL: -3.2682 --- Test NLLT: -0.0905 --- Test MSE: 0.1850
+epoch 610  --- t= 0.96 m= 1
+Test NLL: -3.2180 --- Test NLLT: -0.0901 --- Test MSE: 0.1833
+epoch 620  --- t= 0.96 m= 1
+Test NLL: -3.1772 --- Test NLLT: -0.0907 --- Test MSE: 0.1829
+epoch 630  --- t= 0.96 m= 1
+Test NLL: -3.3067 --- Test NLLT: -0.0906 --- Test MSE: 0.1862
+epoch 640  --- t= 0.96 m= 1
+Test NLL: -3.2843 --- Test NLLT: -0.0898 --- Test MSE: 0.1852
+epoch 650  --- t= 0.96 m= 1
+Test NLL: -3.1788 --- Test NLLT: -0.0904 --- Test MSE: 0.1833
+epoch 660  --- t= 0.96 m= 1
+Test NLL: -3.2274 --- Test NLLT: -0.0902 --- Test MSE: 0.1845
+epoch 670  --- t= 0.96 m= 1
+Test NLL: -3.2756 --- Test NLLT: -0.0899 --- Test MSE: 0.1858
+epoch 680  --- t= 0.96 m= 1
+Test NLL: -3.2942 --- Test NLLT: -0.0900 --- Test MSE: 0.1862
+epoch 690  --- t= 0.96 m= 1
+Test NLL: -3.2433 --- Test NLLT: -0.0901 --- Test MSE: 0.1844
+epoch 700  --- t= 0.96 m= 1
+Test NLL: -3.2004 --- Test NLLT: -0.0896 --- Test MSE: 0.1831
+epoch 710  --- t= 0.96 m= 1
+Test NLL: -3.2618 --- Test NLLT: -0.0897 --- Test MSE: 0.1847
+epoch 720  --- t= 0.96 m= 1
+Test NLL: -3.2730 --- Test NLLT: -0.0891 --- Test MSE: 0.1839
+epoch 730  --- t= 0.96 m= 1
+Test NLL: -3.2386 --- Test NLLT: -0.0895 --- Test MSE: 0.1844
+epoch 740  --- t= 0.96 m= 1
+Test NLL: -3.2120 --- Test NLLT: -0.0897 --- Test MSE: 0.1835
+epoch 750  --- t= 0.96 m= 1
+Test NLL: -3.2660 --- Test NLLT: -0.0890 --- Test MSE: 0.1839
+epoch 760  --- t= 0.96 m= 1
+Test NLL: -3.3120 --- Test NLLT: -0.0892 --- Test MSE: 0.1856
+epoch 770  --- t= 0.96 m= 1
+Test NLL: -3.2804 --- Test NLLT: -0.0894 --- Test MSE: 0.1852
+epoch 780  --- t= 0.96 m= 1
+Test NLL: -3.2338 --- Test NLLT: -0.0895 --- Test MSE: 0.1835
+epoch 790  --- t= 0.96 m= 1
+Test NLL: -3.1819 --- Test NLLT: -0.0891 --- Test MSE: 0.1824
+epoch 800  --- t= 0.96 m= 1
+Test NLL: -3.1964 --- Test NLLT: -0.0902 --- Test MSE: 0.1834
+epoch 810  --- t= 0.96 m= 1
+Test NLL: -3.2138 --- Test NLLT: -0.0887 --- Test MSE: 0.1826
+epoch 820  --- t= 0.96 m= 1
+Test NLL: -3.2553 --- Test NLLT: -0.0891 --- Test MSE: 0.1839
+epoch 830  --- t= 0.96 m= 1
+Test NLL: -3.2553 --- Test NLLT: -0.0899 --- Test MSE: 0.1848
+epoch 840  --- t= 0.96 m= 1
+Test NLL: -3.2415 --- Test NLLT: -0.0893 --- Test MSE: 0.1839
+epoch 850  --- t= 0.96 m= 1
+Test NLL: -3.2536 --- Test NLLT: -0.0895 --- Test MSE: 0.1846
+epoch 860  --- t= 0.96 m= 1
+Test NLL: -3.2868 --- Test NLLT: -0.0895 --- Test MSE: 0.1856
+epoch 870  --- t= 0.96 m= 1
+Test NLL: -3.2103 --- Test NLLT: -0.0887 --- Test MSE: 0.1826
+epoch 880  --- t= 0.96 m= 1
+Test NLL: -3.2744 --- Test NLLT: -0.0890 --- Test MSE: 0.1847
+epoch 890  --- t= 0.96 m= 1
+Test NLL: -3.1918 --- Test NLLT: -0.0890 --- Test MSE: 0.1826
+epoch 900  --- t= 0.96 m= 1
+Test NLL: -3.2716 --- Test NLLT: -0.0889 --- Test MSE: 0.1841
+epoch 910  --- t= 0.96 m= 1
+Test NLL: -3.2155 --- Test NLLT: -0.0885 --- Test MSE: 0.1825
+epoch 920  --- t= 0.96 m= 1
+Test NLL: -3.2271 --- Test NLLT: -0.0886 --- Test MSE: 0.1828
+epoch 930  --- t= 0.96 m= 1
+Test NLL: -3.1807 --- Test NLLT: -0.0890 --- Test MSE: 0.1817
+epoch 940  --- t= 0.96 m= 1
+Test NLL: -3.2401 --- Test NLLT: -0.0894 --- Test MSE: 0.1837
+epoch 950  --- t= 0.96 m= 1
+Test NLL: -3.2266 --- Test NLLT: -0.0889 --- Test MSE: 0.1824
+epoch 960  --- t= 0.96 m= 1
+Test NLL: -3.2733 --- Test NLLT: -0.0898 --- Test MSE: 0.1857
+epoch 970  --- t= 0.96 m= 1
+Test NLL: -3.2331 --- Test NLLT: -0.0887 --- Test MSE: 0.1829
+epoch 980  --- t= 0.96 m= 1
+Test NLL: -3.2301 --- Test NLLT: -0.0883 --- Test MSE: 0.1829
+epoch 990  --- t= 0.96 m= 1
+Test NLL: -3.2115 --- Test NLLT: -0.0887 --- Test MSE: 0.1824
+/usr/local/lib/python3.6/dist-packages/pyproj/crs/crs.py:53: FutureWarning: '+init=<authority>:<code>' syntax is deprecated. '<authority>:<code>' is the preferred initialization method. When making the change, be mindful of axis order changes: https://pyproj4.github.io/pyproj/stable/gotchas.html#axis-order-changes-in-proj-6
+  return _prepare_from_string(" ".join(pjargs))
+/usr/local/lib/python3.6/dist-packages/pyproj/crs/crs.py:294: FutureWarning: '+init=<authority>:<code>' syntax is deprecated. '<authority>:<code>' is the preferred initialization method. When making the change, be mindful of axis order changes: https://pyproj4.github.io/pyproj/stable/gotchas.html#axis-order-changes-in-proj-6
+  projstring = _prepare_from_string(" ".join((projstring, projkwargs)))
+/usr/local/lib/python3.6/dist-packages/pyproj/crs/crs.py:53: FutureWarning: '+init=<authority>:<code>' syntax is deprecated. '<authority>:<code>' is the preferred initialization method. When making the change, be mindful of axis order changes: https://pyproj4.github.io/pyproj/stable/gotchas.html#axis-order-changes-in-proj-6
+  return _prepare_from_string(" ".join(pjargs))
+/usr/local/lib/python3.6/dist-packages/pyproj/crs/crs.py:294: FutureWarning: '+init=<authority>:<code>' syntax is deprecated. '<authority>:<code>' is the preferred initialization method. When making the change, be mindful of axis order changes: https://pyproj4.github.io/pyproj/stable/gotchas.html#axis-order-changes-in-proj-6
+  projstring = _prepare_from_string(" ".join((projstring, projkwargs)))
+Called with args:
+Namespace(beta=0, dataset='UJI', device=device(type='cpu'), eps=0, if_test=False, lr=0.001, m=1, m_te=1, no_cuda=True, num_neurons_hidden=50, sigma=0.01, sigma_prior=1, t=0.96, te_batch_size=128, total_epochs=1000, tr_batch_size=128)
+epoch 0  --- t= 0.96 m= 1
+Test NLL: -32.5287 --- Test NLLT: -0.1960 --- Test MSE: 0.9004
+epoch 10  --- t= 0.96 m= 1
+Test NLL: -32.5282 --- Test NLLT: -0.1960 --- Test MSE: 0.9004
+epoch 20  --- t= 0.96 m= 1
+Test NLL: -32.5354 --- Test NLLT: -0.1960 --- Test MSE: 0.9004
+epoch 30  --- t= 0.96 m= 1
+Test NLL: -32.5277 --- Test NLLT: -0.1960 --- Test MSE: 0.9004
+epoch 40  --- t= 0.96 m= 1
+Test NLL: -32.5225 --- Test NLLT: -0.1960 --- Test MSE: 0.9004
+epoch 50  --- t= 0.96 m= 1
+Test NLL: -32.5240 --- Test NLLT: -0.1960 --- Test MSE: 0.9004
+epoch 60  --- t= 0.96 m= 1
+Test NLL: -32.5285 --- Test NLLT: -0.1960 --- Test MSE: 0.9004
+epoch 70  --- t= 0.96 m= 1
+Test NLL: -32.5234 --- Test NLLT: -0.1960 --- Test MSE: 0.9004
+epoch 80  --- t= 0.96 m= 1
+Test NLL: -32.5273 --- Test NLLT: -0.1960 --- Test MSE: 0.9004
+epoch 90  --- t= 0.96 m= 1
+Test NLL: -32.5294 --- Test NLLT: -0.1960 --- Test MSE: 0.9004
+epoch 100  --- t= 0.96 m= 1
+Test NLL: -32.5263 --- Test NLLT: -0.1960 --- Test MSE: 0.9004
+epoch 110  --- t= 0.96 m= 1
+Test NLL: -32.5288 --- Test NLLT: -0.1960 --- Test MSE: 0.9004
+epoch 120  --- t= 0.96 m= 1
+Test NLL: -32.5256 --- Test NLLT: -0.1960 --- Test MSE: 0.9004
+epoch 130  --- t= 0.96 m= 1
+Test NLL: -32.5261 --- Test NLLT: -0.1960 --- Test MSE: 0.9004
+epoch 140  --- t= 0.96 m= 1
+Test NLL: -32.5277 --- Test NLLT: -0.1960 --- Test MSE: 0.9004
+epoch 150  --- t= 0.96 m= 1
+Test NLL: -32.5211 --- Test NLLT: -0.1960 --- Test MSE: 0.9004
+epoch 160  --- t= 0.96 m= 1
+Test NLL: -32.5230 --- Test NLLT: -0.1960 --- Test MSE: 0.9004
+epoch 170  --- t= 0.96 m= 1
+Test NLL: -32.5226 --- Test NLLT: -0.1960 --- Test MSE: 0.9004
+epoch 180  --- t= 0.96 m= 1
+Test NLL: -32.5246 --- Test NLLT: -0.1960 --- Test MSE: 0.9004
+epoch 190  --- t= 0.96 m= 1
+Test NLL: -32.5225 --- Test NLLT: -0.1960 --- Test MSE: 0.9004
+epoch 200  --- t= 0.96 m= 1
+Test NLL: -32.5204 --- Test NLLT: -0.1960 --- Test MSE: 0.9004
+epoch 210  --- t= 0.96 m= 1
+Test NLL: -32.5223 --- Test NLLT: -0.1960 --- Test MSE: 0.9004
+epoch 220  --- t= 0.96 m= 1
+Test NLL: -32.5241 --- Test NLLT: -0.1960 --- Test MSE: 0.9004
+epoch 230  --- t= 0.96 m= 1
+Test NLL: -32.5288 --- Test NLLT: -0.1960 --- Test MSE: 0.9004
+epoch 240  --- t= 0.96 m= 1
+Test NLL: -32.5230 --- Test NLLT: -0.1960 --- Test MSE: 0.9004
+epoch 250  --- t= 0.96 m= 1
+Test NLL: -32.5264 --- Test NLLT: -0.1960 --- Test MSE: 0.9004
+epoch 260  --- t= 0.96 m= 1
+Test NLL: -32.5315 --- Test NLLT: -0.1960 --- Test MSE: 0.9004
+epoch 270  --- t= 0.96 m= 1
+Test NLL: -32.5232 --- Test NLLT: -0.1960 --- Test MSE: 0.9004
+epoch 280  --- t= 0.96 m= 1
+Test NLL: -32.5233 --- Test NLLT: -0.1960 --- Test MSE: 0.9004
+epoch 290  --- t= 0.96 m= 1
+Test NLL: -32.5307 --- Test NLLT: -0.1960 --- Test MSE: 0.9004
+epoch 300  --- t= 0.96 m= 1
+Test NLL: -32.5260 --- Test NLLT: -0.1960 --- Test MSE: 0.9004
+epoch 310  --- t= 0.96 m= 1
+Test NLL: -32.5212 --- Test NLLT: -0.1960 --- Test MSE: 0.9004
+epoch 320  --- t= 0.96 m= 1
+Test NLL: -32.5283 --- Test NLLT: -0.1960 --- Test MSE: 0.9004
+epoch 330  --- t= 0.96 m= 1
+Test NLL: -32.5230 --- Test NLLT: -0.1960 --- Test MSE: 0.9004
+epoch 340  --- t= 0.96 m= 1
+Test NLL: -32.5218 --- Test NLLT: -0.1960 --- Test MSE: 0.9004
+epoch 350  --- t= 0.96 m= 1
+Test NLL: -32.5264 --- Test NLLT: -0.1960 --- Test MSE: 0.9004
+epoch 360  --- t= 0.96 m= 1
+Test NLL: -32.5340 --- Test NLLT: -0.1960 --- Test MSE: 0.9004
+epoch 370  --- t= 0.96 m= 1
+Test NLL: -32.5267 --- Test NLLT: -0.1960 --- Test MSE: 0.9004
+epoch 380  --- t= 0.96 m= 1
+Test NLL: -32.5321 --- Test NLLT: -0.1960 --- Test MSE: 0.9004
+epoch 390  --- t= 0.96 m= 1
+Test NLL: -32.5284 --- Test NLLT: -0.1960 --- Test MSE: 0.9004
+epoch 400  --- t= 0.96 m= 1
+Test NLL: -32.5243 --- Test NLLT: -0.1960 --- Test MSE: 0.9004
+epoch 410  --- t= 0.96 m= 1
+Test NLL: -32.5299 --- Test NLLT: -0.1960 --- Test MSE: 0.9004
+epoch 420  --- t= 0.96 m= 1
+Test NLL: -32.5281 --- Test NLLT: -0.1960 --- Test MSE: 0.9004
+epoch 430  --- t= 0.96 m= 1
+Test NLL: -32.5292 --- Test NLLT: -0.1960 --- Test MSE: 0.9004
+epoch 440  --- t= 0.96 m= 1
+Test NLL: -32.5298 --- Test NLLT: -0.1960 --- Test MSE: 0.9004
+epoch 450  --- t= 0.96 m= 1
+Test NLL: -32.5246 --- Test NLLT: -0.1960 --- Test MSE: 0.9004
+epoch 460  --- t= 0.96 m= 1
+Test NLL: -32.5266 --- Test NLLT: -0.1960 --- Test MSE: 0.9004
+epoch 470  --- t= 0.96 m= 1
+Test NLL: -32.5285 --- Test NLLT: -0.1960 --- Test MSE: 0.9004
+epoch 480  --- t= 0.96 m= 1
+Test NLL: -32.5238 --- Test NLLT: -0.1960 --- Test MSE: 0.9004
+epoch 490  --- t= 0.96 m= 1
+Test NLL: -32.5272 --- Test NLLT: -0.1960 --- Test MSE: 0.9004
+epoch 500  --- t= 0.96 m= 1
+Test NLL: -32.5276 --- Test NLLT: -0.1960 --- Test MSE: 0.9004
+epoch 510  --- t= 0.96 m= 1
+Test NLL: -32.5257 --- Test NLLT: -0.1960 --- Test MSE: 0.9004
+epoch 520  --- t= 0.96 m= 1
+Test NLL: -32.5284 --- Test NLLT: -0.1960 --- Test MSE: 0.9004
+epoch 530  --- t= 0.96 m= 1
+Test NLL: -32.5230 --- Test NLLT: -0.1960 --- Test MSE: 0.9004
+epoch 540  --- t= 0.96 m= 1
+Test NLL: -32.5290 --- Test NLLT: -0.1960 --- Test MSE: 0.9004
+epoch 550  --- t= 0.96 m= 1
+Test NLL: -32.5305 --- Test NLLT: -0.1960 --- Test MSE: 0.9004
+epoch 560  --- t= 0.96 m= 1
+Test NLL: -32.5281 --- Test NLLT: -0.1960 --- Test MSE: 0.9004
+epoch 570  --- t= 0.96 m= 1
+Test NLL: -32.5216 --- Test NLLT: -0.1960 --- Test MSE: 0.9004
+epoch 580  --- t= 0.96 m= 1
+Test NLL: -32.5283 --- Test NLLT: -0.1960 --- Test MSE: 0.9004
+epoch 590  --- t= 0.96 m= 1
+Test NLL: -32.5263 --- Test NLLT: -0.1960 --- Test MSE: 0.9004
+epoch 600  --- t= 0.96 m= 1
+Test NLL: -32.5231 --- Test NLLT: -0.1960 --- Test MSE: 0.9004
+epoch 610  --- t= 0.96 m= 1
+Test NLL: -32.5298 --- Test NLLT: -0.1960 --- Test MSE: 0.9004
+epoch 620  --- t= 0.96 m= 1
+Test NLL: -32.5285 --- Test NLLT: -0.1960 --- Test MSE: 0.9004
+epoch 630  --- t= 0.96 m= 1
+Test NLL: -32.5192 --- Test NLLT: -0.1960 --- Test MSE: 0.9004
+epoch 640  --- t= 0.96 m= 1
+Test NLL: -32.5281 --- Test NLLT: -0.1960 --- Test MSE: 0.9004
+epoch 650  --- t= 0.96 m= 1
+Test NLL: -32.5310 --- Test NLLT: -0.1960 --- Test MSE: 0.9004
+epoch 660  --- t= 0.96 m= 1
+Test NLL: -32.5216 --- Test NLLT: -0.1960 --- Test MSE: 0.9004
+epoch 670  --- t= 0.96 m= 1
+Test NLL: -32.5278 --- Test NLLT: -0.1960 --- Test MSE: 0.9004
+epoch 680  --- t= 0.96 m= 1
+Test NLL: -32.5293 --- Test NLLT: -0.1960 --- Test MSE: 0.9004
+epoch 690  --- t= 0.96 m= 1
+Test NLL: -32.5321 --- Test NLLT: -0.1960 --- Test MSE: 0.9004
+epoch 700  --- t= 0.96 m= 1
+Test NLL: -32.5250 --- Test NLLT: -0.1960 --- Test MSE: 0.9004
+epoch 710  --- t= 0.96 m= 1
+Test NLL: -32.5328 --- Test NLLT: -0.1960 --- Test MSE: 0.9004
+epoch 720  --- t= 0.96 m= 1
+Test NLL: -32.5275 --- Test NLLT: -0.1960 --- Test MSE: 0.9004
+epoch 730  --- t= 0.96 m= 1
+Test NLL: -32.5215 --- Test NLLT: -0.1960 --- Test MSE: 0.9004
+epoch 740  --- t= 0.96 m= 1
+Test NLL: -32.5256 --- Test NLLT: -0.1960 --- Test MSE: 0.9004
+epoch 750  --- t= 0.96 m= 1
+Test NLL: -32.5235 --- Test NLLT: -0.1960 --- Test MSE: 0.9004
+epoch 760  --- t= 0.96 m= 1
+Test NLL: -32.5209 --- Test NLLT: -0.1960 --- Test MSE: 0.9004
+epoch 770  --- t= 0.96 m= 1
+Test NLL: -32.5307 --- Test NLLT: -0.1960 --- Test MSE: 0.9004
+epoch 780  --- t= 0.96 m= 1
+Test NLL: -32.5238 --- Test NLLT: -0.1960 --- Test MSE: 0.9004
+epoch 790  --- t= 0.96 m= 1
+Test NLL: -32.5280 --- Test NLLT: -0.1960 --- Test MSE: 0.9004
+epoch 800  --- t= 0.96 m= 1
+Test NLL: -32.5294 --- Test NLLT: -0.1960 --- Test MSE: 0.9004
+epoch 810  --- t= 0.96 m= 1
+Test NLL: -32.5258 --- Test NLLT: -0.1960 --- Test MSE: 0.9004
+epoch 820  --- t= 0.96 m= 1
+Test NLL: -32.5292 --- Test NLLT: -0.1960 --- Test MSE: 0.9004
+epoch 830  --- t= 0.96 m= 1
+Test NLL: -32.5292 --- Test NLLT: -0.1960 --- Test MSE: 0.9004
+epoch 840  --- t= 0.96 m= 1
+Test NLL: -32.5247 --- Test NLLT: -0.1960 --- Test MSE: 0.9004
+epoch 850  --- t= 0.96 m= 1
+Test NLL: -32.5275 --- Test NLLT: -0.1960 --- Test MSE: 0.9004
+epoch 860  --- t= 0.96 m= 1
+Test NLL: -32.5218 --- Test NLLT: -0.1960 --- Test MSE: 0.9004
+epoch 870  --- t= 0.96 m= 1
+Test NLL: -32.5273 --- Test NLLT: -0.1960 --- Test MSE: 0.9004
+epoch 880  --- t= 0.96 m= 1
+Test NLL: -32.5245 --- Test NLLT: -0.1960 --- Test MSE: 0.9004
+epoch 890  --- t= 0.96 m= 1
+Test NLL: -32.5316 --- Test NLLT: -0.1960 --- Test MSE: 0.9004
+epoch 900  --- t= 0.96 m= 1
+Test NLL: -32.5225 --- Test NLLT: -0.1960 --- Test MSE: 0.9004
+epoch 910  --- t= 0.96 m= 1
+Test NLL: -32.5296 --- Test NLLT: -0.1960 --- Test MSE: 0.9004
+epoch 920  --- t= 0.96 m= 1
+Test NLL: -32.5325 --- Test NLLT: -0.1960 --- Test MSE: 0.9004
+epoch 930  --- t= 0.96 m= 1
+Test NLL: -32.5297 --- Test NLLT: -0.1960 --- Test MSE: 0.9004
+epoch 940  --- t= 0.96 m= 1
+Test NLL: -32.5198 --- Test NLLT: -0.1960 --- Test MSE: 0.9004
+epoch 950  --- t= 0.96 m= 1
+Test NLL: -32.5244 --- Test NLLT: -0.1960 --- Test MSE: 0.9004
+epoch 960  --- t= 0.96 m= 1
+Test NLL: -32.5288 --- Test NLLT: -0.1960 --- Test MSE: 0.9004
+epoch 970  --- t= 0.96 m= 1
+Test NLL: -32.5245 --- Test NLLT: -0.1960 --- Test MSE: 0.9004
+epoch 980  --- t= 0.96 m= 1
+Test NLL: -32.5303 --- Test NLLT: -0.1960 --- Test MSE: 0.9004
+epoch 990  --- t= 0.96 m= 1
+Test NLL: -32.5259 --- Test NLLT: -0.1960 --- Test MSE: 0.9004
+/usr/local/lib/python3.6/dist-packages/pyproj/crs/crs.py:53: FutureWarning: '+init=<authority>:<code>' syntax is deprecated. '<authority>:<code>' is the preferred initialization method. When making the change, be mindful of axis order changes: https://pyproj4.github.io/pyproj/stable/gotchas.html#axis-order-changes-in-proj-6
+  return _prepare_from_string(" ".join(pjargs))
+/usr/local/lib/python3.6/dist-packages/pyproj/crs/crs.py:294: FutureWarning: '+init=<authority>:<code>' syntax is deprecated. '<authority>:<code>' is the preferred initialization method. When making the change, be mindful of axis order changes: https://pyproj4.github.io/pyproj/stable/gotchas.html#axis-order-changes-in-proj-6
+  projstring = _prepare_from_string(" ".join((projstring, projkwargs)))
+/usr/local/lib/python3.6/dist-packages/pyproj/crs/crs.py:53: FutureWarning: '+init=<authority>:<code>' syntax is deprecated. '<authority>:<code>' is the preferred initialization method. When making the change, be mindful of axis order changes: https://pyproj4.github.io/pyproj/stable/gotchas.html#axis-order-changes-in-proj-6
+  return _prepare_from_string(" ".join(pjargs))
+/usr/local/lib/python3.6/dist-packages/pyproj/crs/crs.py:294: FutureWarning: '+init=<authority>:<code>' syntax is deprecated. '<authority>:<code>' is the preferred initialization method. When making the change, be mindful of axis order changes: https://pyproj4.github.io/pyproj/stable/gotchas.html#axis-order-changes-in-proj-6
+  projstring = _prepare_from_string(" ".join((projstring, projkwargs)))
+Called with args:
+Namespace(beta=0, dataset='UJI', device=device(type='cpu'), eps=0.1, if_test=False, lr=0.001, m=1, m_te=1, no_cuda=True, num_neurons_hidden=50, sigma=0.01, sigma_prior=1, t=0.96, te_batch_size=128, total_epochs=1000, tr_batch_size=128)
+epoch 0  --- t= 0.96 m= 1
+Test NLL: -32.5287 --- Test NLLT: -0.1960 --- Test MSE: 0.9004
+epoch 10  --- t= 0.96 m= 1
+Test NLL: -0.0937 --- Test NLLT: -0.0298 --- Test MSE: 0.0377
+epoch 20  --- t= 0.96 m= 1
+Test NLL: -0.0608 --- Test NLLT: -0.0182 --- Test MSE: 0.0311
+epoch 30  --- t= 0.96 m= 1
+Test NLL: -0.0558 --- Test NLLT: -0.0161 --- Test MSE: 0.0299
+epoch 40  --- t= 0.96 m= 1
+Test NLL: -0.0479 --- Test NLLT: -0.0110 --- Test MSE: 0.0272
+epoch 50  --- t= 0.96 m= 1
+Test NLL: -0.0438 --- Test NLLT: -0.0089 --- Test MSE: 0.0258
+epoch 60  --- t= 0.96 m= 1
+Test NLL: -0.0418 --- Test NLLT: -0.0083 --- Test MSE: 0.0257
+epoch 70  --- t= 0.96 m= 1
+Test NLL: -0.0426 --- Test NLLT: -0.0088 --- Test MSE: 0.0259
+epoch 80  --- t= 0.96 m= 1
+Test NLL: -0.0407 --- Test NLLT: -0.0067 --- Test MSE: 0.0247
+epoch 90  --- t= 0.96 m= 1
+Test NLL: -0.0435 --- Test NLLT: -0.0086 --- Test MSE: 0.0258
+epoch 100  --- t= 0.96 m= 1
+Test NLL: -0.0411 --- Test NLLT: -0.0065 --- Test MSE: 0.0245
+epoch 110  --- t= 0.96 m= 1
+Test NLL: -0.0405 --- Test NLLT: -0.0066 --- Test MSE: 0.0246
+epoch 120  --- t= 0.96 m= 1
+Test NLL: -0.0404 --- Test NLLT: -0.0066 --- Test MSE: 0.0246
+epoch 130  --- t= 0.96 m= 1
+Test NLL: -0.0406 --- Test NLLT: -0.0065 --- Test MSE: 0.0245
+epoch 140  --- t= 0.96 m= 1
+Test NLL: -0.0393 --- Test NLLT: -0.0053 --- Test MSE: 0.0238
+epoch 150  --- t= 0.96 m= 1
+Test NLL: -0.0407 --- Test NLLT: -0.0063 --- Test MSE: 0.0244
+epoch 160  --- t= 0.96 m= 1
+Test NLL: -0.0405 --- Test NLLT: -0.0060 --- Test MSE: 0.0243
+epoch 170  --- t= 0.96 m= 1
+Test NLL: -0.0404 --- Test NLLT: -0.0060 --- Test MSE: 0.0242
+epoch 180  --- t= 0.96 m= 1
+Test NLL: -0.0395 --- Test NLLT: -0.0057 --- Test MSE: 0.0239
+epoch 190  --- t= 0.96 m= 1
+Test NLL: -0.0403 --- Test NLLT: -0.0053 --- Test MSE: 0.0237
+epoch 200  --- t= 0.96 m= 1
+Test NLL: -0.0427 --- Test NLLT: -0.0071 --- Test MSE: 0.0249
+epoch 210  --- t= 0.96 m= 1
+Test NLL: -0.0414 --- Test NLLT: -0.0062 --- Test MSE: 0.0243
+epoch 220  --- t= 0.96 m= 1
+Test NLL: -0.0413 --- Test NLLT: -0.0059 --- Test MSE: 0.0242
+epoch 230  --- t= 0.96 m= 1
+Test NLL: -0.0414 --- Test NLLT: -0.0062 --- Test MSE: 0.0242
+epoch 240  --- t= 0.96 m= 1
+Test NLL: -0.0422 --- Test NLLT: -0.0062 --- Test MSE: 0.0243
+epoch 250  --- t= 0.96 m= 1
+Test NLL: -0.0431 --- Test NLLT: -0.0065 --- Test MSE: 0.0244
+epoch 260  --- t= 0.96 m= 1
+Test NLL: -0.0425 --- Test NLLT: -0.0062 --- Test MSE: 0.0241
+epoch 270  --- t= 0.96 m= 1
+Test NLL: -0.0438 --- Test NLLT: -0.0067 --- Test MSE: 0.0245
+epoch 280  --- t= 0.96 m= 1
+Test NLL: -0.0440 --- Test NLLT: -0.0069 --- Test MSE: 0.0247
+epoch 290  --- t= 0.96 m= 1
+Test NLL: -0.0432 --- Test NLLT: -0.0064 --- Test MSE: 0.0242
+epoch 300  --- t= 0.96 m= 1
+Test NLL: -0.0444 --- Test NLLT: -0.0070 --- Test MSE: 0.0246
+epoch 310  --- t= 0.96 m= 1
+Test NLL: -0.0437 --- Test NLLT: -0.0068 --- Test MSE: 0.0245
+epoch 320  --- t= 0.96 m= 1
+Test NLL: -0.0438 --- Test NLLT: -0.0069 --- Test MSE: 0.0244
+epoch 330  --- t= 0.96 m= 1
+Test NLL: -0.0440 --- Test NLLT: -0.0066 --- Test MSE: 0.0243
+epoch 340  --- t= 0.96 m= 1
+Test NLL: -0.0449 --- Test NLLT: -0.0077 --- Test MSE: 0.0250
+epoch 350  --- t= 0.96 m= 1
+Test NLL: -0.0447 --- Test NLLT: -0.0075 --- Test MSE: 0.0248
+epoch 360  --- t= 0.96 m= 1
+Test NLL: -0.0452 --- Test NLLT: -0.0070 --- Test MSE: 0.0245
+epoch 370  --- t= 0.96 m= 1
+Test NLL: -0.0471 --- Test NLLT: -0.0081 --- Test MSE: 0.0252
+epoch 380  --- t= 0.96 m= 1
+Test NLL: -0.0465 --- Test NLLT: -0.0079 --- Test MSE: 0.0251
+epoch 390  --- t= 0.96 m= 1
+Test NLL: -0.0465 --- Test NLLT: -0.0079 --- Test MSE: 0.0251
+epoch 400  --- t= 0.96 m= 1
+Test NLL: -0.0461 --- Test NLLT: -0.0075 --- Test MSE: 0.0248
+epoch 410  --- t= 0.96 m= 1
+Test NLL: -0.0472 --- Test NLLT: -0.0085 --- Test MSE: 0.0254
+epoch 420  --- t= 0.96 m= 1
+Test NLL: -0.0469 --- Test NLLT: -0.0083 --- Test MSE: 0.0253
+epoch 430  --- t= 0.96 m= 1
+Test NLL: -0.0473 --- Test NLLT: -0.0083 --- Test MSE: 0.0253
+epoch 440  --- t= 0.96 m= 1
+Test NLL: -0.0491 --- Test NLLT: -0.0090 --- Test MSE: 0.0257
+epoch 450  --- t= 0.96 m= 1
+Test NLL: -0.0484 --- Test NLLT: -0.0088 --- Test MSE: 0.0256
+epoch 460  --- t= 0.96 m= 1
+Test NLL: -0.0492 --- Test NLLT: -0.0086 --- Test MSE: 0.0253
+epoch 470  --- t= 0.96 m= 1
+Test NLL: -0.0477 --- Test NLLT: -0.0082 --- Test MSE: 0.0251
+epoch 480  --- t= 0.96 m= 1
+Test NLL: -0.0480 --- Test NLLT: -0.0086 --- Test MSE: 0.0254
+epoch 490  --- t= 0.96 m= 1
+Test NLL: -0.0495 --- Test NLLT: -0.0090 --- Test MSE: 0.0256
+epoch 500  --- t= 0.96 m= 1
+Test NLL: -0.0487 --- Test NLLT: -0.0088 --- Test MSE: 0.0255
+epoch 510  --- t= 0.96 m= 1
+Test NLL: -0.0508 --- Test NLLT: -0.0103 --- Test MSE: 0.0265
+epoch 520  --- t= 0.96 m= 1
+Test NLL: -0.0494 --- Test NLLT: -0.0086 --- Test MSE: 0.0253
+epoch 530  --- t= 0.96 m= 1
+Test NLL: -0.0486 --- Test NLLT: -0.0087 --- Test MSE: 0.0253
+epoch 540  --- t= 0.96 m= 1
+Test NLL: -0.0498 --- Test NLLT: -0.0092 --- Test MSE: 0.0257
+epoch 550  --- t= 0.96 m= 1
+Test NLL: -0.0506 --- Test NLLT: -0.0094 --- Test MSE: 0.0258
+epoch 560  --- t= 0.96 m= 1
+Test NLL: -0.0504 --- Test NLLT: -0.0094 --- Test MSE: 0.0258
+epoch 570  --- t= 0.96 m= 1
+Test NLL: -0.0515 --- Test NLLT: -0.0097 --- Test MSE: 0.0259
+epoch 580  --- t= 0.96 m= 1
+Test NLL: -0.0511 --- Test NLLT: -0.0095 --- Test MSE: 0.0258
+epoch 590  --- t= 0.96 m= 1
+Test NLL: -0.0519 --- Test NLLT: -0.0101 --- Test MSE: 0.0261
+epoch 600  --- t= 0.96 m= 1
+Test NLL: -0.0512 --- Test NLLT: -0.0099 --- Test MSE: 0.0260
+epoch 610  --- t= 0.96 m= 1
+Test NLL: -0.0512 --- Test NLLT: -0.0096 --- Test MSE: 0.0258
+epoch 620  --- t= 0.96 m= 1
+Test NLL: -0.0523 --- Test NLLT: -0.0106 --- Test MSE: 0.0265
+epoch 630  --- t= 0.96 m= 1
+Test NLL: -0.0513 --- Test NLLT: -0.0098 --- Test MSE: 0.0259
+epoch 640  --- t= 0.96 m= 1
+Test NLL: -0.0515 --- Test NLLT: -0.0103 --- Test MSE: 0.0262
+epoch 650  --- t= 0.96 m= 1
+Test NLL: -0.0530 --- Test NLLT: -0.0104 --- Test MSE: 0.0264
+epoch 660  --- t= 0.96 m= 1
+Test NLL: -0.0513 --- Test NLLT: -0.0101 --- Test MSE: 0.0260
+epoch 670  --- t= 0.96 m= 1
+Test NLL: -0.0515 --- Test NLLT: -0.0101 --- Test MSE: 0.0260
+epoch 680  --- t= 0.96 m= 1
+Test NLL: -0.0530 --- Test NLLT: -0.0106 --- Test MSE: 0.0264
+epoch 690  --- t= 0.96 m= 1
+Test NLL: -0.0522 --- Test NLLT: -0.0104 --- Test MSE: 0.0261
+epoch 700  --- t= 0.96 m= 1
+Test NLL: -0.0540 --- Test NLLT: -0.0104 --- Test MSE: 0.0262
+epoch 710  --- t= 0.96 m= 1
+Test NLL: -0.0535 --- Test NLLT: -0.0107 --- Test MSE: 0.0264
+epoch 720  --- t= 0.96 m= 1
+Test NLL: -0.0530 --- Test NLLT: -0.0111 --- Test MSE: 0.0265
+epoch 730  --- t= 0.96 m= 1
+Test NLL: -0.0543 --- Test NLLT: -0.0109 --- Test MSE: 0.0265
+epoch 740  --- t= 0.96 m= 1
+Test NLL: -0.0542 --- Test NLLT: -0.0109 --- Test MSE: 0.0264
+epoch 750  --- t= 0.96 m= 1
+Test NLL: -0.0554 --- Test NLLT: -0.0115 --- Test MSE: 0.0268
+epoch 760  --- t= 0.96 m= 1
+Test NLL: -0.0546 --- Test NLLT: -0.0111 --- Test MSE: 0.0265
+epoch 770  --- t= 0.96 m= 1
+Test NLL: -0.0548 --- Test NLLT: -0.0112 --- Test MSE: 0.0266
+epoch 780  --- t= 0.96 m= 1
+Test NLL: -0.0546 --- Test NLLT: -0.0115 --- Test MSE: 0.0269
+epoch 790  --- t= 0.96 m= 1
+Test NLL: -0.0565 --- Test NLLT: -0.0121 --- Test MSE: 0.0272
+epoch 800  --- t= 0.96 m= 1
+Test NLL: -0.0551 --- Test NLLT: -0.0118 --- Test MSE: 0.0271
+epoch 810  --- t= 0.96 m= 1
+Test NLL: -0.0558 --- Test NLLT: -0.0115 --- Test MSE: 0.0267
+epoch 820  --- t= 0.96 m= 1
+Test NLL: -0.0564 --- Test NLLT: -0.0117 --- Test MSE: 0.0269
+epoch 830  --- t= 0.96 m= 1
+Test NLL: -0.0563 --- Test NLLT: -0.0118 --- Test MSE: 0.0270
+epoch 840  --- t= 0.96 m= 1
+Test NLL: -0.0568 --- Test NLLT: -0.0118 --- Test MSE: 0.0271
+epoch 850  --- t= 0.96 m= 1
+Test NLL: -0.0577 --- Test NLLT: -0.0120 --- Test MSE: 0.0271
+epoch 860  --- t= 0.96 m= 1
+Test NLL: -0.0577 --- Test NLLT: -0.0124 --- Test MSE: 0.0274
+epoch 870  --- t= 0.96 m= 1
+Test NLL: -0.0580 --- Test NLLT: -0.0120 --- Test MSE: 0.0272
+epoch 880  --- t= 0.96 m= 1
+Test NLL: -0.0580 --- Test NLLT: -0.0122 --- Test MSE: 0.0272
+epoch 890  --- t= 0.96 m= 1
+Test NLL: -0.0584 --- Test NLLT: -0.0125 --- Test MSE: 0.0275
+epoch 900  --- t= 0.96 m= 1
+Test NLL: -0.0586 --- Test NLLT: -0.0121 --- Test MSE: 0.0271
+epoch 910  --- t= 0.96 m= 1
+Test NLL: -0.0600 --- Test NLLT: -0.0129 --- Test MSE: 0.0277
+epoch 920  --- t= 0.96 m= 1
+Test NLL: -0.0599 --- Test NLLT: -0.0130 --- Test MSE: 0.0277
+epoch 930  --- t= 0.96 m= 1
+Test NLL: -0.0593 --- Test NLLT: -0.0125 --- Test MSE: 0.0274
+epoch 940  --- t= 0.96 m= 1
+Test NLL: -0.0603 --- Test NLLT: -0.0126 --- Test MSE: 0.0275
+epoch 950  --- t= 0.96 m= 1
+Test NLL: -0.0597 --- Test NLLT: -0.0125 --- Test MSE: 0.0274
+epoch 960  --- t= 0.96 m= 1
+Test NLL: -0.0617 --- Test NLLT: -0.0134 --- Test MSE: 0.0280
+epoch 970  --- t= 0.96 m= 1
+Test NLL: -0.0605 --- Test NLLT: -0.0130 --- Test MSE: 0.0277
+epoch 980  --- t= 0.96 m= 1
+Test NLL: -0.0610 --- Test NLLT: -0.0127 --- Test MSE: 0.0275
+epoch 990  --- t= 0.96 m= 1
+Test NLL: -0.0607 --- Test NLLT: -0.0127 --- Test MSE: 0.0274
+/usr/local/lib/python3.6/dist-packages/pyproj/crs/crs.py:53: FutureWarning: '+init=<authority>:<code>' syntax is deprecated. '<authority>:<code>' is the preferred initialization method. When making the change, be mindful of axis order changes: https://pyproj4.github.io/pyproj/stable/gotchas.html#axis-order-changes-in-proj-6
+  return _prepare_from_string(" ".join(pjargs))
+/usr/local/lib/python3.6/dist-packages/pyproj/crs/crs.py:294: FutureWarning: '+init=<authority>:<code>' syntax is deprecated. '<authority>:<code>' is the preferred initialization method. When making the change, be mindful of axis order changes: https://pyproj4.github.io/pyproj/stable/gotchas.html#axis-order-changes-in-proj-6
+  projstring = _prepare_from_string(" ".join((projstring, projkwargs)))
+/usr/local/lib/python3.6/dist-packages/pyproj/crs/crs.py:53: FutureWarning: '+init=<authority>:<code>' syntax is deprecated. '<authority>:<code>' is the preferred initialization method. When making the change, be mindful of axis order changes: https://pyproj4.github.io/pyproj/stable/gotchas.html#axis-order-changes-in-proj-6
+  return _prepare_from_string(" ".join(pjargs))
+/usr/local/lib/python3.6/dist-packages/pyproj/crs/crs.py:294: FutureWarning: '+init=<authority>:<code>' syntax is deprecated. '<authority>:<code>' is the preferred initialization method. When making the change, be mindful of axis order changes: https://pyproj4.github.io/pyproj/stable/gotchas.html#axis-order-changes-in-proj-6
+  projstring = _prepare_from_string(" ".join((projstring, projkwargs)))
+Called with args:
+Namespace(beta=0, dataset='UJI', device=device(type='cpu'), eps=0.2, if_test=False, lr=0.001, m=1, m_te=1, no_cuda=True, num_neurons_hidden=50, sigma=0.01, sigma_prior=1, t=0.96, te_batch_size=128, total_epochs=1000, tr_batch_size=128)
+epoch 0  --- t= 0.96 m= 1
+Test NLL: -32.5287 --- Test NLLT: -0.1960 --- Test MSE: 0.9004
+epoch 10  --- t= 0.96 m= 1
+Test NLL: -11.2451 --- Test NLLT: -0.1039 --- Test MSE: 0.3729
+epoch 20  --- t= 0.96 m= 1
+Test NLL: -0.1199 --- Test NLLT: -0.0305 --- Test MSE: 0.0389
+epoch 30  --- t= 0.96 m= 1
+Test NLL: -0.0818 --- Test NLLT: -0.0181 --- Test MSE: 0.0317
+epoch 40  --- t= 0.96 m= 1
+Test NLL: -0.0725 --- Test NLLT: -0.0150 --- Test MSE: 0.0299
+epoch 50  --- t= 0.96 m= 1
+Test NLL: -0.0664 --- Test NLLT: -0.0115 --- Test MSE: 0.0278
+epoch 60  --- t= 0.96 m= 1
+Test NLL: -0.0653 --- Test NLLT: -0.0111 --- Test MSE: 0.0275
+epoch 70  --- t= 0.96 m= 1
+Test NLL: -0.0647 --- Test NLLT: -0.0098 --- Test MSE: 0.0270
+epoch 80  --- t= 0.96 m= 1
+Test NLL: -0.0644 --- Test NLLT: -0.0095 --- Test MSE: 0.0268
+epoch 90  --- t= 0.96 m= 1
+Test NLL: -0.0664 --- Test NLLT: -0.0093 --- Test MSE: 0.0267
+epoch 100  --- t= 0.96 m= 1
+Test NLL: -0.0640 --- Test NLLT: -0.0076 --- Test MSE: 0.0258
+epoch 110  --- t= 0.96 m= 1
+Test NLL: -0.0640 --- Test NLLT: -0.0077 --- Test MSE: 0.0259
+epoch 120  --- t= 0.96 m= 1
+Test NLL: -0.0661 --- Test NLLT: -0.0090 --- Test MSE: 0.0266
+epoch 130  --- t= 0.96 m= 1
+Test NLL: -0.0641 --- Test NLLT: -0.0072 --- Test MSE: 0.0255
+epoch 140  --- t= 0.96 m= 1
+Test NLL: -0.0643 --- Test NLLT: -0.0075 --- Test MSE: 0.0257
+epoch 150  --- t= 0.96 m= 1
+Test NLL: -0.0661 --- Test NLLT: -0.0084 --- Test MSE: 0.0261
+epoch 160  --- t= 0.96 m= 1
+Test NLL: -0.0656 --- Test NLLT: -0.0081 --- Test MSE: 0.0259
+epoch 170  --- t= 0.96 m= 1
+Test NLL: -0.0658 --- Test NLLT: -0.0080 --- Test MSE: 0.0259
+epoch 180  --- t= 0.96 m= 1
+Test NLL: -0.0663 --- Test NLLT: -0.0085 --- Test MSE: 0.0261
+epoch 190  --- t= 0.96 m= 1
+Test NLL: -0.0675 --- Test NLLT: -0.0084 --- Test MSE: 0.0260
+epoch 200  --- t= 0.96 m= 1
+Test NLL: -0.0689 --- Test NLLT: -0.0095 --- Test MSE: 0.0267
+epoch 210  --- t= 0.96 m= 1
+Test NLL: -0.0694 --- Test NLLT: -0.0094 --- Test MSE: 0.0266
+epoch 220  --- t= 0.96 m= 1
+Test NLL: -0.0700 --- Test NLLT: -0.0096 --- Test MSE: 0.0268
+epoch 230  --- t= 0.96 m= 1
+Test NLL: -0.0701 --- Test NLLT: -0.0098 --- Test MSE: 0.0268
+epoch 240  --- t= 0.96 m= 1
+Test NLL: -0.0711 --- Test NLLT: -0.0095 --- Test MSE: 0.0266
+epoch 250  --- t= 0.96 m= 1
+Test NLL: -0.0735 --- Test NLLT: -0.0101 --- Test MSE: 0.0270
+epoch 260  --- t= 0.96 m= 1
+Test NLL: -0.0742 --- Test NLLT: -0.0107 --- Test MSE: 0.0272
+epoch 270  --- t= 0.96 m= 1
+Test NLL: -0.0732 --- Test NLLT: -0.0108 --- Test MSE: 0.0274
+epoch 280  --- t= 0.96 m= 1
+Test NLL: -0.0721 --- Test NLLT: -0.0097 --- Test MSE: 0.0266
+epoch 290  --- t= 0.96 m= 1
+Test NLL: -0.0743 --- Test NLLT: -0.0103 --- Test MSE: 0.0269
+epoch 300  --- t= 0.96 m= 1
+Test NLL: -0.0741 --- Test NLLT: -0.0104 --- Test MSE: 0.0271
+epoch 310  --- t= 0.96 m= 1
+Test NLL: -0.0756 --- Test NLLT: -0.0110 --- Test MSE: 0.0274
+epoch 320  --- t= 0.96 m= 1
+Test NLL: -0.0750 --- Test NLLT: -0.0106 --- Test MSE: 0.0271
+epoch 330  --- t= 0.96 m= 1
+Test NLL: -0.0756 --- Test NLLT: -0.0106 --- Test MSE: 0.0270
+epoch 340  --- t= 0.96 m= 1
+Test NLL: -0.0776 --- Test NLLT: -0.0113 --- Test MSE: 0.0276
+epoch 350  --- t= 0.96 m= 1
+Test NLL: -0.0778 --- Test NLLT: -0.0110 --- Test MSE: 0.0274
+epoch 360  --- t= 0.96 m= 1
+Test NLL: -0.0785 --- Test NLLT: -0.0111 --- Test MSE: 0.0275
+epoch 370  --- t= 0.96 m= 1
+Test NLL: -0.0788 --- Test NLLT: -0.0113 --- Test MSE: 0.0275
+epoch 380  --- t= 0.96 m= 1
+Test NLL: -0.0799 --- Test NLLT: -0.0113 --- Test MSE: 0.0275
+epoch 390  --- t= 0.96 m= 1
+Test NLL: -0.0805 --- Test NLLT: -0.0123 --- Test MSE: 0.0283
+epoch 400  --- t= 0.96 m= 1
+Test NLL: -0.0802 --- Test NLLT: -0.0116 --- Test MSE: 0.0277
+epoch 410  --- t= 0.96 m= 1
+Test NLL: -0.0796 --- Test NLLT: -0.0119 --- Test MSE: 0.0279
+epoch 420  --- t= 0.96 m= 1
+Test NLL: -0.0812 --- Test NLLT: -0.0122 --- Test MSE: 0.0281
+epoch 430  --- t= 0.96 m= 1
+Test NLL: -0.0822 --- Test NLLT: -0.0129 --- Test MSE: 0.0286
+epoch 440  --- t= 0.96 m= 1
+Test NLL: -0.0813 --- Test NLLT: -0.0120 --- Test MSE: 0.0279
+epoch 450  --- t= 0.96 m= 1
+Test NLL: -0.0845 --- Test NLLT: -0.0134 --- Test MSE: 0.0288
+epoch 460  --- t= 0.96 m= 1
+Test NLL: -0.0814 --- Test NLLT: -0.0123 --- Test MSE: 0.0280
+epoch 470  --- t= 0.96 m= 1
+Test NLL: -0.0829 --- Test NLLT: -0.0124 --- Test MSE: 0.0280
+epoch 480  --- t= 0.96 m= 1
+Test NLL: -0.0831 --- Test NLLT: -0.0127 --- Test MSE: 0.0283
+epoch 490  --- t= 0.96 m= 1
+Test NLL: -0.0844 --- Test NLLT: -0.0129 --- Test MSE: 0.0284
+epoch 500  --- t= 0.96 m= 1
+Test NLL: -0.0840 --- Test NLLT: -0.0130 --- Test MSE: 0.0285
+epoch 510  --- t= 0.96 m= 1
+Test NLL: -0.0843 --- Test NLLT: -0.0131 --- Test MSE: 0.0285
+epoch 520  --- t= 0.96 m= 1
+Test NLL: -0.0861 --- Test NLLT: -0.0139 --- Test MSE: 0.0291
+epoch 530  --- t= 0.96 m= 1
+Test NLL: -0.0850 --- Test NLLT: -0.0139 --- Test MSE: 0.0288
+epoch 540  --- t= 0.96 m= 1
+Test NLL: -0.0852 --- Test NLLT: -0.0135 --- Test MSE: 0.0286
+epoch 550  --- t= 0.96 m= 1
+Test NLL: -0.0867 --- Test NLLT: -0.0146 --- Test MSE: 0.0295
+epoch 560  --- t= 0.96 m= 1
+Test NLL: -0.0866 --- Test NLLT: -0.0144 --- Test MSE: 0.0292
+epoch 570  --- t= 0.96 m= 1
+Test NLL: -0.0871 --- Test NLLT: -0.0144 --- Test MSE: 0.0292
+epoch 580  --- t= 0.96 m= 1
+Test NLL: -0.0871 --- Test NLLT: -0.0138 --- Test MSE: 0.0288
+epoch 590  --- t= 0.96 m= 1
+Test NLL: -0.0895 --- Test NLLT: -0.0153 --- Test MSE: 0.0297
+epoch 600  --- t= 0.96 m= 1
+Test NLL: -0.0881 --- Test NLLT: -0.0146 --- Test MSE: 0.0292
+epoch 610  --- t= 0.96 m= 1
+Test NLL: -0.0886 --- Test NLLT: -0.0144 --- Test MSE: 0.0291
+epoch 620  --- t= 0.96 m= 1
+Test NLL: -0.0889 --- Test NLLT: -0.0152 --- Test MSE: 0.0295
+epoch 630  --- t= 0.96 m= 1
+Test NLL: -0.0905 --- Test NLLT: -0.0149 --- Test MSE: 0.0295
+epoch 640  --- t= 0.96 m= 1
+Test NLL: -0.0898 --- Test NLLT: -0.0156 --- Test MSE: 0.0299
+epoch 650  --- t= 0.96 m= 1
+Test NLL: -0.0926 --- Test NLLT: -0.0153 --- Test MSE: 0.0297
+epoch 660  --- t= 0.96 m= 1
+Test NLL: -0.0911 --- Test NLLT: -0.0155 --- Test MSE: 0.0297
+epoch 670  --- t= 0.96 m= 1
+Test NLL: -0.0901 --- Test NLLT: -0.0158 --- Test MSE: 0.0298
+epoch 680  --- t= 0.96 m= 1
+Test NLL: -0.0915 --- Test NLLT: -0.0158 --- Test MSE: 0.0299
+epoch 690  --- t= 0.96 m= 1
+Test NLL: -0.0920 --- Test NLLT: -0.0158 --- Test MSE: 0.0298
+epoch 700  --- t= 0.96 m= 1
+Test NLL: -0.0954 --- Test NLLT: -0.0166 --- Test MSE: 0.0305
+epoch 710  --- t= 0.96 m= 1
+Test NLL: -0.0925 --- Test NLLT: -0.0164 --- Test MSE: 0.0301
+epoch 720  --- t= 0.96 m= 1
+Test NLL: -0.0920 --- Test NLLT: -0.0165 --- Test MSE: 0.0302
+epoch 730  --- t= 0.96 m= 1
+Test NLL: -0.0953 --- Test NLLT: -0.0164 --- Test MSE: 0.0302
+epoch 740  --- t= 0.96 m= 1
+Test NLL: -0.0950 --- Test NLLT: -0.0167 --- Test MSE: 0.0303
+epoch 750  --- t= 0.96 m= 1
+Test NLL: -0.0965 --- Test NLLT: -0.0169 --- Test MSE: 0.0305
+epoch 760  --- t= 0.96 m= 1
+Test NLL: -0.0949 --- Test NLLT: -0.0166 --- Test MSE: 0.0302
+epoch 770  --- t= 0.96 m= 1
+Test NLL: -0.0947 --- Test NLLT: -0.0167 --- Test MSE: 0.0303
+epoch 780  --- t= 0.96 m= 1
+Test NLL: -0.0972 --- Test NLLT: -0.0170 --- Test MSE: 0.0306
+epoch 790  --- t= 0.96 m= 1
+Test NLL: -0.0969 --- Test NLLT: -0.0176 --- Test MSE: 0.0309
+epoch 800  --- t= 0.96 m= 1
+Test NLL: -0.0977 --- Test NLLT: -0.0172 --- Test MSE: 0.0307
+epoch 810  --- t= 0.96 m= 1
+Test NLL: -0.0983 --- Test NLLT: -0.0184 --- Test MSE: 0.0313
+epoch 820  --- t= 0.96 m= 1
+Test NLL: -0.0980 --- Test NLLT: -0.0184 --- Test MSE: 0.0314
+epoch 830  --- t= 0.96 m= 1
+Test NLL: -0.0975 --- Test NLLT: -0.0178 --- Test MSE: 0.0309
+epoch 840  --- t= 0.96 m= 1
+Test NLL: -0.0998 --- Test NLLT: -0.0182 --- Test MSE: 0.0312
+epoch 850  --- t= 0.96 m= 1
+Test NLL: -0.1006 --- Test NLLT: -0.0185 --- Test MSE: 0.0313
+epoch 860  --- t= 0.96 m= 1
+Test NLL: -0.1024 --- Test NLLT: -0.0206 --- Test MSE: 0.0328
+epoch 870  --- t= 0.96 m= 1
+Test NLL: -0.1027 --- Test NLLT: -0.0188 --- Test MSE: 0.0316
+epoch 880  --- t= 0.96 m= 1
+Test NLL: -0.0998 --- Test NLLT: -0.0187 --- Test MSE: 0.0314
+epoch 890  --- t= 0.96 m= 1
+Test NLL: -0.1007 --- Test NLLT: -0.0188 --- Test MSE: 0.0316
+epoch 900  --- t= 0.96 m= 1
+Test NLL: -0.1040 --- Test NLLT: -0.0190 --- Test MSE: 0.0317
+epoch 910  --- t= 0.96 m= 1
+Test NLL: -0.1019 --- Test NLLT: -0.0187 --- Test MSE: 0.0314
+epoch 920  --- t= 0.96 m= 1
+Test NLL: -0.1022 --- Test NLLT: -0.0193 --- Test MSE: 0.0317
+epoch 930  --- t= 0.96 m= 1
+Test NLL: -0.1049 --- Test NLLT: -0.0202 --- Test MSE: 0.0324
+epoch 940  --- t= 0.96 m= 1
+Test NLL: -0.1028 --- Test NLLT: -0.0193 --- Test MSE: 0.0317
+epoch 950  --- t= 0.96 m= 1
+Test NLL: -0.1055 --- Test NLLT: -0.0195 --- Test MSE: 0.0320
+epoch 960  --- t= 0.96 m= 1
+Test NLL: -0.1053 --- Test NLLT: -0.0193 --- Test MSE: 0.0318
+epoch 970  --- t= 0.96 m= 1
+Test NLL: -0.1051 --- Test NLLT: -0.0198 --- Test MSE: 0.0321
+epoch 980  --- t= 0.96 m= 1
+Test NLL: -0.1076 --- Test NLLT: -0.0202 --- Test MSE: 0.0324
+epoch 990  --- t= 0.96 m= 1
+Test NLL: -0.1071 --- Test NLLT: -0.0204 --- Test MSE: 0.0325
+/usr/local/lib/python3.6/dist-packages/pyproj/crs/crs.py:53: FutureWarning: '+init=<authority>:<code>' syntax is deprecated. '<authority>:<code>' is the preferred initialization method. When making the change, be mindful of axis order changes: https://pyproj4.github.io/pyproj/stable/gotchas.html#axis-order-changes-in-proj-6
+  return _prepare_from_string(" ".join(pjargs))
+/usr/local/lib/python3.6/dist-packages/pyproj/crs/crs.py:294: FutureWarning: '+init=<authority>:<code>' syntax is deprecated. '<authority>:<code>' is the preferred initialization method. When making the change, be mindful of axis order changes: https://pyproj4.github.io/pyproj/stable/gotchas.html#axis-order-changes-in-proj-6
+  projstring = _prepare_from_string(" ".join((projstring, projkwargs)))
+/usr/local/lib/python3.6/dist-packages/pyproj/crs/crs.py:53: FutureWarning: '+init=<authority>:<code>' syntax is deprecated. '<authority>:<code>' is the preferred initialization method. When making the change, be mindful of axis order changes: https://pyproj4.github.io/pyproj/stable/gotchas.html#axis-order-changes-in-proj-6
+  return _prepare_from_string(" ".join(pjargs))
+/usr/local/lib/python3.6/dist-packages/pyproj/crs/crs.py:294: FutureWarning: '+init=<authority>:<code>' syntax is deprecated. '<authority>:<code>' is the preferred initialization method. When making the change, be mindful of axis order changes: https://pyproj4.github.io/pyproj/stable/gotchas.html#axis-order-changes-in-proj-6
+  projstring = _prepare_from_string(" ".join((projstring, projkwargs)))
+Called with args:
+Namespace(beta=0, dataset='UJI', device=device(type='cpu'), eps=0.3, if_test=False, lr=0.001, m=1, m_te=1, no_cuda=True, num_neurons_hidden=50, sigma=0.01, sigma_prior=1, t=0.96, te_batch_size=128, total_epochs=1000, tr_batch_size=128)
+epoch 0  --- t= 0.96 m= 1
+Test NLL: -32.5287 --- Test NLLT: -0.1960 --- Test MSE: 0.9004
+epoch 10  --- t= 0.96 m= 1
+Test NLL: -5.3717 --- Test NLLT: -0.0770 --- Test MSE: 0.2159
+epoch 20  --- t= 0.96 m= 1
+Test NLL: -5.0601 --- Test NLLT: -0.0701 --- Test MSE: 0.2067
+epoch 30  --- t= 0.96 m= 1
+Test NLL: -5.0973 --- Test NLLT: -0.0679 --- Test MSE: 0.2051
+epoch 40  --- t= 0.96 m= 1
+Test NLL: -5.2100 --- Test NLLT: -0.0651 --- Test MSE: 0.2060
+epoch 50  --- t= 0.96 m= 1
+Test NLL: -5.1978 --- Test NLLT: -0.0648 --- Test MSE: 0.2057
+epoch 60  --- t= 0.96 m= 1
+Test NLL: -5.0887 --- Test NLLT: -0.0632 --- Test MSE: 0.2030
+epoch 70  --- t= 0.96 m= 1
+Test NLL: -4.9844 --- Test NLLT: -0.0633 --- Test MSE: 0.2011
+epoch 80  --- t= 0.96 m= 1
+Test NLL: -5.1419 --- Test NLLT: -0.0624 --- Test MSE: 0.2037
+epoch 90  --- t= 0.96 m= 1
+Test NLL: -5.2822 --- Test NLLT: -0.0644 --- Test MSE: 0.2075
+epoch 100  --- t= 0.96 m= 1
+Test NLL: -5.0876 --- Test NLLT: -0.0614 --- Test MSE: 0.2022
+epoch 110  --- t= 0.96 m= 1
+Test NLL: -5.0837 --- Test NLLT: -0.0617 --- Test MSE: 0.2021
+epoch 120  --- t= 0.96 m= 1
+Test NLL: -5.1968 --- Test NLLT: -0.0616 --- Test MSE: 0.2040
+epoch 130  --- t= 0.96 m= 1
+Test NLL: -4.9478 --- Test NLLT: -0.0619 --- Test MSE: 0.1992
+epoch 140  --- t= 0.96 m= 1
+Test NLL: -5.1682 --- Test NLLT: -0.0616 --- Test MSE: 0.2035
+epoch 150  --- t= 0.96 m= 1
+Test NLL: -5.1587 --- Test NLLT: -0.0614 --- Test MSE: 0.2025
+epoch 160  --- t= 0.96 m= 1
+Test NLL: -5.2235 --- Test NLLT: -0.0610 --- Test MSE: 0.2036
+epoch 170  --- t= 0.96 m= 1
+Test NLL: -5.0495 --- Test NLLT: -0.0612 --- Test MSE: 0.2010
+epoch 180  --- t= 0.96 m= 1
+Test NLL: -5.0090 --- Test NLLT: -0.0616 --- Test MSE: 0.2004
+epoch 190  --- t= 0.96 m= 1
+Test NLL: -5.1438 --- Test NLLT: -0.0621 --- Test MSE: 0.2032
+epoch 200  --- t= 0.96 m= 1
+Test NLL: -5.0404 --- Test NLLT: -0.0617 --- Test MSE: 0.2010
+epoch 210  --- t= 0.96 m= 1
+Test NLL: -5.0937 --- Test NLLT: -0.0612 --- Test MSE: 0.2016
+epoch 220  --- t= 0.96 m= 1
+Test NLL: -4.9746 --- Test NLLT: -0.0613 --- Test MSE: 0.1994
+epoch 230  --- t= 0.96 m= 1
+Test NLL: -5.0832 --- Test NLLT: -0.0617 --- Test MSE: 0.2014
+epoch 240  --- t= 0.96 m= 1
+Test NLL: -5.0399 --- Test NLLT: -0.0617 --- Test MSE: 0.2007
+epoch 250  --- t= 0.96 m= 1
+Test NLL: -5.0714 --- Test NLLT: -0.0636 --- Test MSE: 0.2023
+epoch 260  --- t= 0.96 m= 1
+Test NLL: -4.9144 --- Test NLLT: -0.0616 --- Test MSE: 0.1980
+epoch 270  --- t= 0.96 m= 1
+Test NLL: -4.9884 --- Test NLLT: -0.0628 --- Test MSE: 0.2003
+epoch 280  --- t= 0.96 m= 1
+Test NLL: -5.1156 --- Test NLLT: -0.0617 --- Test MSE: 0.2017
+epoch 290  --- t= 0.96 m= 1
+Test NLL: -4.9722 --- Test NLLT: -0.0622 --- Test MSE: 0.1999
+epoch 300  --- t= 0.96 m= 1
+Test NLL: -5.0162 --- Test NLLT: -0.0619 --- Test MSE: 0.2005
+epoch 310  --- t= 0.96 m= 1
+Test NLL: -5.0515 --- Test NLLT: -0.0625 --- Test MSE: 0.2013
+epoch 320  --- t= 0.96 m= 1
+Test NLL: -5.1808 --- Test NLLT: -0.0623 --- Test MSE: 0.2035
+epoch 330  --- t= 0.96 m= 1
+Test NLL: -5.0754 --- Test NLLT: -0.0629 --- Test MSE: 0.2020
+epoch 340  --- t= 0.96 m= 1
+Test NLL: -5.0076 --- Test NLLT: -0.0628 --- Test MSE: 0.2006
+epoch 350  --- t= 0.96 m= 1
+Test NLL: -5.0246 --- Test NLLT: -0.0624 --- Test MSE: 0.2008
+epoch 360  --- t= 0.96 m= 1
+Test NLL: -5.0646 --- Test NLLT: -0.0628 --- Test MSE: 0.2016
+epoch 370  --- t= 0.96 m= 1
+Test NLL: -4.9596 --- Test NLLT: -0.0632 --- Test MSE: 0.1999
+epoch 380  --- t= 0.96 m= 1
+Test NLL: -5.1393 --- Test NLLT: -0.0639 --- Test MSE: 0.2038
+epoch 390  --- t= 0.96 m= 1
+Test NLL: -5.0932 --- Test NLLT: -0.0629 --- Test MSE: 0.2023
+epoch 400  --- t= 0.96 m= 1
+Test NLL: -4.9632 --- Test NLLT: -0.0637 --- Test MSE: 0.2002
+epoch 410  --- t= 0.96 m= 1
+Test NLL: -5.0526 --- Test NLLT: -0.0632 --- Test MSE: 0.2018
+epoch 420  --- t= 0.96 m= 1
+Test NLL: -4.9025 --- Test NLLT: -0.0641 --- Test MSE: 0.1996
+epoch 430  --- t= 0.96 m= 1
+Test NLL: -5.0950 --- Test NLLT: -0.0651 --- Test MSE: 0.2038
+epoch 440  --- t= 0.96 m= 1
+Test NLL: -5.0406 --- Test NLLT: -0.0642 --- Test MSE: 0.2019
+epoch 450  --- t= 0.96 m= 1
+Test NLL: -4.9517 --- Test NLLT: -0.0642 --- Test MSE: 0.2005
+epoch 460  --- t= 0.96 m= 1
+Test NLL: -5.0615 --- Test NLLT: -0.0640 --- Test MSE: 0.2021
+epoch 470  --- t= 0.96 m= 1
+Test NLL: -5.0126 --- Test NLLT: -0.0644 --- Test MSE: 0.2017
+epoch 480  --- t= 0.96 m= 1
+Test NLL: -5.0101 --- Test NLLT: -0.0645 --- Test MSE: 0.2016
+epoch 490  --- t= 0.96 m= 1
+Test NLL: -4.9549 --- Test NLLT: -0.0646 --- Test MSE: 0.2006
+epoch 500  --- t= 0.96 m= 1
+Test NLL: -5.0159 --- Test NLLT: -0.0657 --- Test MSE: 0.2024
+epoch 510  --- t= 0.96 m= 1
+Test NLL: -5.0595 --- Test NLLT: -0.0650 --- Test MSE: 0.2029
+epoch 520  --- t= 0.96 m= 1
+Test NLL: -4.9778 --- Test NLLT: -0.0650 --- Test MSE: 0.2015
+epoch 530  --- t= 0.96 m= 1
+Test NLL: -4.9760 --- Test NLLT: -0.0651 --- Test MSE: 0.2012
+epoch 540  --- t= 0.96 m= 1
+Test NLL: -4.9086 --- Test NLLT: -0.0660 --- Test MSE: 0.2005
+epoch 550  --- t= 0.96 m= 1
+Test NLL: -4.9797 --- Test NLLT: -0.0651 --- Test MSE: 0.2012
+epoch 560  --- t= 0.96 m= 1
+Test NLL: -4.9355 --- Test NLLT: -0.0653 --- Test MSE: 0.2006
+epoch 570  --- t= 0.96 m= 1
+Test NLL: -5.1002 --- Test NLLT: -0.0669 --- Test MSE: 0.2044
+epoch 580  --- t= 0.96 m= 1
+Test NLL: -4.9540 --- Test NLLT: -0.0658 --- Test MSE: 0.2013
+epoch 590  --- t= 0.96 m= 1
+Test NLL: -4.9136 --- Test NLLT: -0.0659 --- Test MSE: 0.2004
+epoch 600  --- t= 0.96 m= 1
+Test NLL: -4.9240 --- Test NLLT: -0.0660 --- Test MSE: 0.2006
+epoch 610  --- t= 0.96 m= 1
+Test NLL: -4.9796 --- Test NLLT: -0.0653 --- Test MSE: 0.2012
+epoch 620  --- t= 0.96 m= 1
+Test NLL: -4.9680 --- Test NLLT: -0.0660 --- Test MSE: 0.2012
+epoch 630  --- t= 0.96 m= 1
+Test NLL: -5.0399 --- Test NLLT: -0.0659 --- Test MSE: 0.2026
+epoch 640  --- t= 0.96 m= 1
+Test NLL: -5.0365 --- Test NLLT: -0.0661 --- Test MSE: 0.2028
+epoch 650  --- t= 0.96 m= 1
+Test NLL: -4.9740 --- Test NLLT: -0.0664 --- Test MSE: 0.2017
+epoch 660  --- t= 0.96 m= 1
+Test NLL: -4.8891 --- Test NLLT: -0.0665 --- Test MSE: 0.2002
+epoch 670  --- t= 0.96 m= 1
+Test NLL: -4.9008 --- Test NLLT: -0.0662 --- Test MSE: 0.2001
+epoch 680  --- t= 0.96 m= 1
+Test NLL: -4.9699 --- Test NLLT: -0.0668 --- Test MSE: 0.2019
+epoch 690  --- t= 0.96 m= 1
+Test NLL: -4.9817 --- Test NLLT: -0.0666 --- Test MSE: 0.2019
+epoch 700  --- t= 0.96 m= 1
+Test NLL: -4.9855 --- Test NLLT: -0.0669 --- Test MSE: 0.2021
+epoch 710  --- t= 0.96 m= 1
+Test NLL: -4.9270 --- Test NLLT: -0.0666 --- Test MSE: 0.2008
+epoch 720  --- t= 0.96 m= 1
+Test NLL: -4.8756 --- Test NLLT: -0.0668 --- Test MSE: 0.1999
+epoch 730  --- t= 0.96 m= 1
+Test NLL: -4.9164 --- Test NLLT: -0.0670 --- Test MSE: 0.2008
+epoch 740  --- t= 0.96 m= 1
+Test NLL: -4.9055 --- Test NLLT: -0.0670 --- Test MSE: 0.2006
+epoch 750  --- t= 0.96 m= 1
+Test NLL: -4.9602 --- Test NLLT: -0.0679 --- Test MSE: 0.2022
+epoch 760  --- t= 0.96 m= 1
+Test NLL: -4.9145 --- Test NLLT: -0.0674 --- Test MSE: 0.2010
+epoch 770  --- t= 0.96 m= 1
+Test NLL: -5.0013 --- Test NLLT: -0.0674 --- Test MSE: 0.2028
+epoch 780  --- t= 0.96 m= 1
+Test NLL: -4.9899 --- Test NLLT: -0.0679 --- Test MSE: 0.2029
+epoch 790  --- t= 0.96 m= 1
+Test NLL: -4.9216 --- Test NLLT: -0.0674 --- Test MSE: 0.2013
+epoch 800  --- t= 0.96 m= 1
+Test NLL: -4.9507 --- Test NLLT: -0.0677 --- Test MSE: 0.2020
+epoch 810  --- t= 0.96 m= 1
+Test NLL: -4.9397 --- Test NLLT: -0.0677 --- Test MSE: 0.2018
+epoch 820  --- t= 0.96 m= 1
+Test NLL: -4.9857 --- Test NLLT: -0.0677 --- Test MSE: 0.2025
+epoch 830  --- t= 0.96 m= 1
+Test NLL: -4.9538 --- Test NLLT: -0.0676 --- Test MSE: 0.2020
+epoch 840  --- t= 0.96 m= 1
+Test NLL: -4.9494 --- Test NLLT: -0.0679 --- Test MSE: 0.2018
+epoch 850  --- t= 0.96 m= 1
+Test NLL: -5.0008 --- Test NLLT: -0.0680 --- Test MSE: 0.2031
+epoch 860  --- t= 0.96 m= 1
+Test NLL: -4.9511 --- Test NLLT: -0.0687 --- Test MSE: 0.2024
+epoch 870  --- t= 0.96 m= 1
+Test NLL: -5.0157 --- Test NLLT: -0.0684 --- Test MSE: 0.2036
+epoch 880  --- t= 0.96 m= 1
+Test NLL: -4.9454 --- Test NLLT: -0.0682 --- Test MSE: 0.2021
+epoch 890  --- t= 0.96 m= 1
+Test NLL: -4.9773 --- Test NLLT: -0.0684 --- Test MSE: 0.2026
+epoch 900  --- t= 0.96 m= 1
+Test NLL: -4.9467 --- Test NLLT: -0.0683 --- Test MSE: 0.2020
+epoch 910  --- t= 0.96 m= 1
+Test NLL: -5.0296 --- Test NLLT: -0.0685 --- Test MSE: 0.2037
+epoch 920  --- t= 0.96 m= 1
+Test NLL: -4.9970 --- Test NLLT: -0.0692 --- Test MSE: 0.2035
+epoch 930  --- t= 0.96 m= 1
+Test NLL: -4.9740 --- Test NLLT: -0.0691 --- Test MSE: 0.2031
+epoch 940  --- t= 0.96 m= 1
+Test NLL: -4.9278 --- Test NLLT: -0.0690 --- Test MSE: 0.2019
+epoch 950  --- t= 0.96 m= 1
+Test NLL: -5.0465 --- Test NLLT: -0.0691 --- Test MSE: 0.2045
+epoch 960  --- t= 0.96 m= 1
+Test NLL: -4.9561 --- Test NLLT: -0.0689 --- Test MSE: 0.2027
+epoch 970  --- t= 0.96 m= 1
+Test NLL: -4.9445 --- Test NLLT: -0.0692 --- Test MSE: 0.2025
+epoch 980  --- t= 0.96 m= 1
+Test NLL: -4.9941 --- Test NLLT: -0.0697 --- Test MSE: 0.2039
+epoch 990  --- t= 0.96 m= 1
+Test NLL: -4.9755 --- Test NLLT: -0.0694 --- Test MSE: 0.2032
+/usr/local/lib/python3.6/dist-packages/pyproj/crs/crs.py:53: FutureWarning: '+init=<authority>:<code>' syntax is deprecated. '<authority>:<code>' is the preferred initialization method. When making the change, be mindful of axis order changes: https://pyproj4.github.io/pyproj/stable/gotchas.html#axis-order-changes-in-proj-6
+  return _prepare_from_string(" ".join(pjargs))
+/usr/local/lib/python3.6/dist-packages/pyproj/crs/crs.py:294: FutureWarning: '+init=<authority>:<code>' syntax is deprecated. '<authority>:<code>' is the preferred initialization method. When making the change, be mindful of axis order changes: https://pyproj4.github.io/pyproj/stable/gotchas.html#axis-order-changes-in-proj-6
+  projstring = _prepare_from_string(" ".join((projstring, projkwargs)))
+/usr/local/lib/python3.6/dist-packages/pyproj/crs/crs.py:53: FutureWarning: '+init=<authority>:<code>' syntax is deprecated. '<authority>:<code>' is the preferred initialization method. When making the change, be mindful of axis order changes: https://pyproj4.github.io/pyproj/stable/gotchas.html#axis-order-changes-in-proj-6
+  return _prepare_from_string(" ".join(pjargs))
+/usr/local/lib/python3.6/dist-packages/pyproj/crs/crs.py:294: FutureWarning: '+init=<authority>:<code>' syntax is deprecated. '<authority>:<code>' is the preferred initialization method. When making the change, be mindful of axis order changes: https://pyproj4.github.io/pyproj/stable/gotchas.html#axis-order-changes-in-proj-6
+  projstring = _prepare_from_string(" ".join((projstring, projkwargs)))
+Called with args:
+Namespace(beta=0, dataset='UJI', device=device(type='cpu'), eps=0.4, if_test=False, lr=0.001, m=1, m_te=1, no_cuda=True, num_neurons_hidden=50, sigma=0.01, sigma_prior=1, t=0.96, te_batch_size=128, total_epochs=1000, tr_batch_size=128)
+epoch 0  --- t= 0.96 m= 1
+Test NLL: -32.5287 --- Test NLLT: -0.1960 --- Test MSE: 0.9004
+epoch 10  --- t= 0.96 m= 1
+Test NLL: -5.9366 --- Test NLLT: -0.0798 --- Test MSE: 0.2291
+epoch 20  --- t= 0.96 m= 1
+Test NLL: -5.9885 --- Test NLLT: -0.0716 --- Test MSE: 0.2247
+epoch 30  --- t= 0.96 m= 1
+Test NLL: -6.0165 --- Test NLLT: -0.0700 --- Test MSE: 0.2235
+epoch 40  --- t= 0.96 m= 1
+Test NLL: -5.7321 --- Test NLLT: -0.0688 --- Test MSE: 0.2180
+epoch 50  --- t= 0.96 m= 1
+Test NLL: -6.0191 --- Test NLLT: -0.0659 --- Test MSE: 0.2212
+epoch 60  --- t= 0.96 m= 1
+Test NLL: -5.8299 --- Test NLLT: -0.0656 --- Test MSE: 0.2178
+epoch 70  --- t= 0.96 m= 1
+Test NLL: -6.0093 --- Test NLLT: -0.0645 --- Test MSE: 0.2203
+epoch 80  --- t= 0.96 m= 1
+Test NLL: -5.9635 --- Test NLLT: -0.0638 --- Test MSE: 0.2190
+epoch 90  --- t= 0.96 m= 1
+Test NLL: -5.9555 --- Test NLLT: -0.0646 --- Test MSE: 0.2193
+epoch 100  --- t= 0.96 m= 1
+Test NLL: -6.0547 --- Test NLLT: -0.0647 --- Test MSE: 0.2212
+epoch 110  --- t= 0.96 m= 1
+Test NLL: -5.8682 --- Test NLLT: -0.0633 --- Test MSE: 0.2170
+epoch 120  --- t= 0.96 m= 1
+Test NLL: -6.1133 --- Test NLLT: -0.0644 --- Test MSE: 0.2215
+epoch 130  --- t= 0.96 m= 1
+Test NLL: -6.1702 --- Test NLLT: -0.0636 --- Test MSE: 0.2220
+epoch 140  --- t= 0.96 m= 1
+Test NLL: -6.1456 --- Test NLLT: -0.0642 --- Test MSE: 0.2220
+epoch 150  --- t= 0.96 m= 1
+Test NLL: -6.1300 --- Test NLLT: -0.0650 --- Test MSE: 0.2219
+epoch 160  --- t= 0.96 m= 1
+Test NLL: -6.2074 --- Test NLLT: -0.0637 --- Test MSE: 0.2225
+epoch 170  --- t= 0.96 m= 1
+Test NLL: -5.9616 --- Test NLLT: -0.0645 --- Test MSE: 0.2192
+epoch 180  --- t= 0.96 m= 1
+Test NLL: -6.2213 --- Test NLLT: -0.0640 --- Test MSE: 0.2231
+epoch 190  --- t= 0.96 m= 1
+Test NLL: -6.2632 --- Test NLLT: -0.0646 --- Test MSE: 0.2238
+epoch 200  --- t= 0.96 m= 1
+Test NLL: -6.1140 --- Test NLLT: -0.0644 --- Test MSE: 0.2214
+epoch 210  --- t= 0.96 m= 1
+Test NLL: -6.2858 --- Test NLLT: -0.0641 --- Test MSE: 0.2237
+epoch 220  --- t= 0.96 m= 1
+Test NLL: -6.3504 --- Test NLLT: -0.0644 --- Test MSE: 0.2249
+epoch 230  --- t= 0.96 m= 1
+Test NLL: -6.2557 --- Test NLLT: -0.0647 --- Test MSE: 0.2237
+epoch 240  --- t= 0.96 m= 1
+Test NLL: -6.3882 --- Test NLLT: -0.0667 --- Test MSE: 0.2269
+epoch 250  --- t= 0.96 m= 1
+Test NLL: -6.2401 --- Test NLLT: -0.0646 --- Test MSE: 0.2231
+epoch 260  --- t= 0.96 m= 1
+Test NLL: -6.1936 --- Test NLLT: -0.0662 --- Test MSE: 0.2233
+epoch 270  --- t= 0.96 m= 1
+Test NLL: -6.3553 --- Test NLLT: -0.0650 --- Test MSE: 0.2255
+epoch 280  --- t= 0.96 m= 1
+Test NLL: -6.1904 --- Test NLLT: -0.0656 --- Test MSE: 0.2228
+epoch 290  --- t= 0.96 m= 1
+Test NLL: -6.1909 --- Test NLLT: -0.0681 --- Test MSE: 0.2241
+epoch 300  --- t= 0.96 m= 1
+Test NLL: -6.2480 --- Test NLLT: -0.0662 --- Test MSE: 0.2241
+epoch 310  --- t= 0.96 m= 1
+Test NLL: -6.3174 --- Test NLLT: -0.0668 --- Test MSE: 0.2254
+epoch 320  --- t= 0.96 m= 1
+Test NLL: -6.2191 --- Test NLLT: -0.0659 --- Test MSE: 0.2234
+epoch 330  --- t= 0.96 m= 1
+Test NLL: -6.1992 --- Test NLLT: -0.0666 --- Test MSE: 0.2233
+epoch 340  --- t= 0.96 m= 1
+Test NLL: -6.3654 --- Test NLLT: -0.0670 --- Test MSE: 0.2262
+epoch 350  --- t= 0.96 m= 1
+Test NLL: -6.3332 --- Test NLLT: -0.0673 --- Test MSE: 0.2257
+epoch 360  --- t= 0.96 m= 1
+Test NLL: -6.3089 --- Test NLLT: -0.0679 --- Test MSE: 0.2259
+epoch 370  --- t= 0.96 m= 1
+Test NLL: -6.2943 --- Test NLLT: -0.0673 --- Test MSE: 0.2252
+epoch 380  --- t= 0.96 m= 1
+Test NLL: -6.3503 --- Test NLLT: -0.0695 --- Test MSE: 0.2275
+epoch 390  --- t= 0.96 m= 1
+Test NLL: -6.2996 --- Test NLLT: -0.0672 --- Test MSE: 0.2251
+epoch 400  --- t= 0.96 m= 1
+Test NLL: -6.2746 --- Test NLLT: -0.0685 --- Test MSE: 0.2252
+epoch 410  --- t= 0.96 m= 1
+Test NLL: -6.2467 --- Test NLLT: -0.0677 --- Test MSE: 0.2246
+epoch 420  --- t= 0.96 m= 1
+Test NLL: -6.3736 --- Test NLLT: -0.0683 --- Test MSE: 0.2271
+epoch 430  --- t= 0.96 m= 1
+Test NLL: -6.3043 --- Test NLLT: -0.0686 --- Test MSE: 0.2262
+epoch 440  --- t= 0.96 m= 1
+Test NLL: -6.2081 --- Test NLLT: -0.0686 --- Test MSE: 0.2245
+epoch 450  --- t= 0.96 m= 1
+Test NLL: -6.2808 --- Test NLLT: -0.0703 --- Test MSE: 0.2263
+epoch 460  --- t= 0.96 m= 1
+Test NLL: -6.1751 --- Test NLLT: -0.0693 --- Test MSE: 0.2238
+epoch 470  --- t= 0.96 m= 1
+Test NLL: -6.2387 --- Test NLLT: -0.0690 --- Test MSE: 0.2252
+epoch 480  --- t= 0.96 m= 1
+Test NLL: -6.3119 --- Test NLLT: -0.0695 --- Test MSE: 0.2264
+epoch 490  --- t= 0.96 m= 1
+Test NLL: -6.3387 --- Test NLLT: -0.0697 --- Test MSE: 0.2271
+epoch 500  --- t= 0.96 m= 1
+Test NLL: -6.2937 --- Test NLLT: -0.0696 --- Test MSE: 0.2262
+epoch 510  --- t= 0.96 m= 1
+Test NLL: -6.2404 --- Test NLLT: -0.0700 --- Test MSE: 0.2256
+epoch 520  --- t= 0.96 m= 1
+Test NLL: -6.3100 --- Test NLLT: -0.0708 --- Test MSE: 0.2272
+epoch 530  --- t= 0.96 m= 1
+Test NLL: -6.2440 --- Test NLLT: -0.0704 --- Test MSE: 0.2258
+epoch 540  --- t= 0.96 m= 1
+Test NLL: -6.1920 --- Test NLLT: -0.0705 --- Test MSE: 0.2249
+epoch 550  --- t= 0.96 m= 1
+Test NLL: -6.2709 --- Test NLLT: -0.0709 --- Test MSE: 0.2266
+epoch 560  --- t= 0.96 m= 1
+Test NLL: -6.2213 --- Test NLLT: -0.0706 --- Test MSE: 0.2255
+epoch 570  --- t= 0.96 m= 1
+Test NLL: -6.3069 --- Test NLLT: -0.0708 --- Test MSE: 0.2269
+epoch 580  --- t= 0.96 m= 1
+Test NLL: -6.2380 --- Test NLLT: -0.0708 --- Test MSE: 0.2260
+epoch 590  --- t= 0.96 m= 1
+Test NLL: -6.2326 --- Test NLLT: -0.0709 --- Test MSE: 0.2259
+epoch 600  --- t= 0.96 m= 1
+Test NLL: -6.2693 --- Test NLLT: -0.0713 --- Test MSE: 0.2267
+epoch 610  --- t= 0.96 m= 1
+Test NLL: -6.2787 --- Test NLLT: -0.0712 --- Test MSE: 0.2268
+epoch 620  --- t= 0.96 m= 1
+Test NLL: -6.1821 --- Test NLLT: -0.0721 --- Test MSE: 0.2256
+epoch 630  --- t= 0.96 m= 1
+Test NLL: -6.3045 --- Test NLLT: -0.0723 --- Test MSE: 0.2278
+epoch 640  --- t= 0.96 m= 1
+Test NLL: -6.3181 --- Test NLLT: -0.0721 --- Test MSE: 0.2281
+epoch 650  --- t= 0.96 m= 1
+Test NLL: -6.2486 --- Test NLLT: -0.0724 --- Test MSE: 0.2271
+epoch 660  --- t= 0.96 m= 1
+Test NLL: -6.2635 --- Test NLLT: -0.0723 --- Test MSE: 0.2270
+epoch 670  --- t= 0.96 m= 1
+Test NLL: -6.1246 --- Test NLLT: -0.0735 --- Test MSE: 0.2253
+epoch 680  --- t= 0.96 m= 1
+Test NLL: -6.3285 --- Test NLLT: -0.0726 --- Test MSE: 0.2283
+epoch 690  --- t= 0.96 m= 1
+Test NLL: -6.2094 --- Test NLLT: -0.0731 --- Test MSE: 0.2265
+epoch 700  --- t= 0.96 m= 1
+Test NLL: -6.3066 --- Test NLLT: -0.0728 --- Test MSE: 0.2280
+epoch 710  --- t= 0.96 m= 1
+Test NLL: -6.3147 --- Test NLLT: -0.0728 --- Test MSE: 0.2280
+epoch 720  --- t= 0.96 m= 1
+Test NLL: -6.2063 --- Test NLLT: -0.0735 --- Test MSE: 0.2266
+epoch 730  --- t= 0.96 m= 1
+Test NLL: -6.2706 --- Test NLLT: -0.0732 --- Test MSE: 0.2275
+epoch 740  --- t= 0.96 m= 1
+Test NLL: -6.2270 --- Test NLLT: -0.0732 --- Test MSE: 0.2270
+epoch 750  --- t= 0.96 m= 1
+Test NLL: -6.2491 --- Test NLLT: -0.0736 --- Test MSE: 0.2275
+epoch 760  --- t= 0.96 m= 1
+Test NLL: -6.3407 --- Test NLLT: -0.0741 --- Test MSE: 0.2292
+epoch 770  --- t= 0.96 m= 1
+Test NLL: -6.3071 --- Test NLLT: -0.0735 --- Test MSE: 0.2284
+epoch 780  --- t= 0.96 m= 1
+Test NLL: -6.3519 --- Test NLLT: -0.0737 --- Test MSE: 0.2291
+epoch 790  --- t= 0.96 m= 1
+Test NLL: -6.2784 --- Test NLLT: -0.0738 --- Test MSE: 0.2282
+epoch 800  --- t= 0.96 m= 1
+Test NLL: -6.2991 --- Test NLLT: -0.0740 --- Test MSE: 0.2286
+epoch 810  --- t= 0.96 m= 1
+Test NLL: -6.3772 --- Test NLLT: -0.0742 --- Test MSE: 0.2299
+epoch 820  --- t= 0.96 m= 1
+Test NLL: -6.3433 --- Test NLLT: -0.0740 --- Test MSE: 0.2292
+epoch 830  --- t= 0.96 m= 1
+Test NLL: -6.3179 --- Test NLLT: -0.0743 --- Test MSE: 0.2291
+epoch 840  --- t= 0.96 m= 1
+Test NLL: -6.2631 --- Test NLLT: -0.0743 --- Test MSE: 0.2281
+epoch 850  --- t= 0.96 m= 1
+Test NLL: -6.3331 --- Test NLLT: -0.0749 --- Test MSE: 0.2296
+epoch 860  --- t= 0.96 m= 1
+Test NLL: -6.2978 --- Test NLLT: -0.0749 --- Test MSE: 0.2290
+epoch 870  --- t= 0.96 m= 1
+Test NLL: -6.2664 --- Test NLLT: -0.0746 --- Test MSE: 0.2285
+epoch 880  --- t= 0.96 m= 1
+Test NLL: -6.3079 --- Test NLLT: -0.0746 --- Test MSE: 0.2290
+epoch 890  --- t= 0.96 m= 1
+Test NLL: -6.3564 --- Test NLLT: -0.0751 --- Test MSE: 0.2300
+epoch 900  --- t= 0.96 m= 1
+Test NLL: -6.2750 --- Test NLLT: -0.0756 --- Test MSE: 0.2290
+epoch 910  --- t= 0.96 m= 1
+Test NLL: -6.3258 --- Test NLLT: -0.0751 --- Test MSE: 0.2296
+epoch 920  --- t= 0.96 m= 1
+Test NLL: -6.3671 --- Test NLLT: -0.0755 --- Test MSE: 0.2304
+epoch 930  --- t= 0.96 m= 1
+Test NLL: -6.3423 --- Test NLLT: -0.0751 --- Test MSE: 0.2299
+epoch 940  --- t= 0.96 m= 1
+Test NLL: -6.2828 --- Test NLLT: -0.0755 --- Test MSE: 0.2290
+epoch 950  --- t= 0.96 m= 1
+Test NLL: -6.2675 --- Test NLLT: -0.0756 --- Test MSE: 0.2289
+epoch 960  --- t= 0.96 m= 1
+Test NLL: -6.2306 --- Test NLLT: -0.0757 --- Test MSE: 0.2285
+epoch 970  --- t= 0.96 m= 1
+Test NLL: -6.2718 --- Test NLLT: -0.0756 --- Test MSE: 0.2290
+epoch 980  --- t= 0.96 m= 1
+Test NLL: -6.2032 --- Test NLLT: -0.0756 --- Test MSE: 0.2278
+epoch 990  --- t= 0.96 m= 1
+Test NLL: -6.2444 --- Test NLLT: -0.0757 --- Test MSE: 0.2286
+/usr/local/lib/python3.6/dist-packages/pyproj/crs/crs.py:53: FutureWarning: '+init=<authority>:<code>' syntax is deprecated. '<authority>:<code>' is the preferred initialization method. When making the change, be mindful of axis order changes: https://pyproj4.github.io/pyproj/stable/gotchas.html#axis-order-changes-in-proj-6
+  return _prepare_from_string(" ".join(pjargs))
+/usr/local/lib/python3.6/dist-packages/pyproj/crs/crs.py:294: FutureWarning: '+init=<authority>:<code>' syntax is deprecated. '<authority>:<code>' is the preferred initialization method. When making the change, be mindful of axis order changes: https://pyproj4.github.io/pyproj/stable/gotchas.html#axis-order-changes-in-proj-6
+  projstring = _prepare_from_string(" ".join((projstring, projkwargs)))
+/usr/local/lib/python3.6/dist-packages/pyproj/crs/crs.py:53: FutureWarning: '+init=<authority>:<code>' syntax is deprecated. '<authority>:<code>' is the preferred initialization method. When making the change, be mindful of axis order changes: https://pyproj4.github.io/pyproj/stable/gotchas.html#axis-order-changes-in-proj-6
+  return _prepare_from_string(" ".join(pjargs))
+/usr/local/lib/python3.6/dist-packages/pyproj/crs/crs.py:294: FutureWarning: '+init=<authority>:<code>' syntax is deprecated. '<authority>:<code>' is the preferred initialization method. When making the change, be mindful of axis order changes: https://pyproj4.github.io/pyproj/stable/gotchas.html#axis-order-changes-in-proj-6
+  projstring = _prepare_from_string(" ".join((projstring, projkwargs)))
+Called with args:
+Namespace(beta=0, dataset='UJI', device=device(type='cpu'), eps=0.5, if_test=False, lr=0.001, m=1, m_te=1, no_cuda=True, num_neurons_hidden=50, sigma=0.01, sigma_prior=1, t=0.96, te_batch_size=128, total_epochs=1000, tr_batch_size=128)
+epoch 0  --- t= 0.96 m= 1
+Test NLL: -32.5287 --- Test NLLT: -0.1960 --- Test MSE: 0.9004
+epoch 10  --- t= 0.96 m= 1
+Test NLL: -8.0742 --- Test NLLT: -0.1328 --- Test MSE: 0.3588
+epoch 20  --- t= 0.96 m= 1
+Test NLL: -7.1765 --- Test NLLT: -0.1037 --- Test MSE: 0.2992
+epoch 30  --- t= 0.96 m= 1
+Test NLL: -6.9024 --- Test NLLT: -0.1006 --- Test MSE: 0.2927
+epoch 40  --- t= 0.96 m= 1
+Test NLL: -6.9875 --- Test NLLT: -0.1001 --- Test MSE: 0.2925
+epoch 50  --- t= 0.96 m= 1
+Test NLL: -7.0746 --- Test NLLT: -0.0974 --- Test MSE: 0.2923
+epoch 60  --- t= 0.96 m= 1
+Test NLL: -7.3243 --- Test NLLT: -0.0965 --- Test MSE: 0.2960
+epoch 70  --- t= 0.96 m= 1
+Test NLL: -6.7970 --- Test NLLT: -0.0970 --- Test MSE: 0.2853
+epoch 80  --- t= 0.96 m= 1
+Test NLL: -7.2044 --- Test NLLT: -0.0968 --- Test MSE: 0.2926
+epoch 90  --- t= 0.96 m= 1
+Test NLL: -7.3560 --- Test NLLT: -0.0978 --- Test MSE: 0.2962
+epoch 100  --- t= 0.96 m= 1
+Test NLL: -7.1500 --- Test NLLT: -0.0980 --- Test MSE: 0.2922
+epoch 110  --- t= 0.96 m= 1
+Test NLL: -6.9595 --- Test NLLT: -0.0993 --- Test MSE: 0.2881
+epoch 120  --- t= 0.96 m= 1
+Test NLL: -7.0379 --- Test NLLT: -0.0982 --- Test MSE: 0.2888
+epoch 130  --- t= 0.96 m= 1
+Test NLL: -7.4597 --- Test NLLT: -0.0997 --- Test MSE: 0.2967
+epoch 140  --- t= 0.96 m= 1
+Test NLL: -7.1685 --- Test NLLT: -0.0980 --- Test MSE: 0.2900
+epoch 150  --- t= 0.96 m= 1
+Test NLL: -7.2804 --- Test NLLT: -0.0974 --- Test MSE: 0.2913
+epoch 160  --- t= 0.96 m= 1
+Test NLL: -7.0694 --- Test NLLT: -0.0980 --- Test MSE: 0.2871
+epoch 170  --- t= 0.96 m= 1
+Test NLL: -7.2946 --- Test NLLT: -0.0977 --- Test MSE: 0.2915
+epoch 180  --- t= 0.96 m= 1
+Test NLL: -7.1458 --- Test NLLT: -0.0990 --- Test MSE: 0.2881
+epoch 190  --- t= 0.96 m= 1
+Test NLL: -7.4383 --- Test NLLT: -0.0992 --- Test MSE: 0.2936
+epoch 200  --- t= 0.96 m= 1
+Test NLL: -7.3268 --- Test NLLT: -0.1002 --- Test MSE: 0.2918
+epoch 210  --- t= 0.96 m= 1
+Test NLL: -7.3059 --- Test NLLT: -0.0988 --- Test MSE: 0.2901
+epoch 220  --- t= 0.96 m= 1
+Test NLL: -7.2633 --- Test NLLT: -0.0999 --- Test MSE: 0.2899
+epoch 230  --- t= 0.96 m= 1
+Test NLL: -7.4553 --- Test NLLT: -0.0993 --- Test MSE: 0.2921
+epoch 240  --- t= 0.96 m= 1
+Test NLL: -7.5073 --- Test NLLT: -0.0998 --- Test MSE: 0.2940
+epoch 250  --- t= 0.96 m= 1
+Test NLL: -7.5377 --- Test NLLT: -0.0999 --- Test MSE: 0.2949
+epoch 260  --- t= 0.96 m= 1
+Test NLL: -7.5699 --- Test NLLT: -0.1005 --- Test MSE: 0.2950
+epoch 270  --- t= 0.96 m= 1
+Test NLL: -7.5357 --- Test NLLT: -0.1016 --- Test MSE: 0.2953
+epoch 280  --- t= 0.96 m= 1
+Test NLL: -7.3861 --- Test NLLT: -0.1009 --- Test MSE: 0.2918
+epoch 290  --- t= 0.96 m= 1
+Test NLL: -7.5715 --- Test NLLT: -0.1012 --- Test MSE: 0.2942
+epoch 300  --- t= 0.96 m= 1
+Test NLL: -7.5983 --- Test NLLT: -0.1029 --- Test MSE: 0.2958
+epoch 310  --- t= 0.96 m= 1
+Test NLL: -7.6393 --- Test NLLT: -0.1014 --- Test MSE: 0.2960
+epoch 320  --- t= 0.96 m= 1
+Test NLL: -7.5644 --- Test NLLT: -0.1015 --- Test MSE: 0.2942
+epoch 330  --- t= 0.96 m= 1
+Test NLL: -7.6500 --- Test NLLT: -0.1019 --- Test MSE: 0.2961
+epoch 340  --- t= 0.96 m= 1
+Test NLL: -7.7112 --- Test NLLT: -0.1025 --- Test MSE: 0.2971
+epoch 350  --- t= 0.96 m= 1
+Test NLL: -7.5519 --- Test NLLT: -0.1025 --- Test MSE: 0.2945
+epoch 360  --- t= 0.96 m= 1
+Test NLL: -7.4701 --- Test NLLT: -0.1028 --- Test MSE: 0.2924
+epoch 370  --- t= 0.96 m= 1
+Test NLL: -7.5356 --- Test NLLT: -0.1031 --- Test MSE: 0.2937
+epoch 380  --- t= 0.96 m= 1
+Test NLL: -7.5513 --- Test NLLT: -0.1033 --- Test MSE: 0.2943
+epoch 390  --- t= 0.96 m= 1
+Test NLL: -7.6421 --- Test NLLT: -0.1036 --- Test MSE: 0.2962
+epoch 400  --- t= 0.96 m= 1
+Test NLL: -7.8560 --- Test NLLT: -0.1039 --- Test MSE: 0.3001
+epoch 410  --- t= 0.96 m= 1
+Test NLL: -7.5458 --- Test NLLT: -0.1042 --- Test MSE: 0.2946
+epoch 420  --- t= 0.96 m= 1
+Test NLL: -7.6452 --- Test NLLT: -0.1042 --- Test MSE: 0.2965
+epoch 430  --- t= 0.96 m= 1
+Test NLL: -7.6101 --- Test NLLT: -0.1045 --- Test MSE: 0.2960
+epoch 440  --- t= 0.96 m= 1
+Test NLL: -7.7626 --- Test NLLT: -0.1050 --- Test MSE: 0.2993
+epoch 450  --- t= 0.96 m= 1
+Test NLL: -7.7631 --- Test NLLT: -0.1052 --- Test MSE: 0.2987
+epoch 460  --- t= 0.96 m= 1
+Test NLL: -7.6861 --- Test NLLT: -0.1055 --- Test MSE: 0.2975
+epoch 470  --- t= 0.96 m= 1
+Test NLL: -7.7289 --- Test NLLT: -0.1052 --- Test MSE: 0.2978
+epoch 480  --- t= 0.96 m= 1
+Test NLL: -7.8899 --- Test NLLT: -0.1052 --- Test MSE: 0.3008
+epoch 490  --- t= 0.96 m= 1
+Test NLL: -7.6330 --- Test NLLT: -0.1059 --- Test MSE: 0.2964
+epoch 500  --- t= 0.96 m= 1
+Test NLL: -7.7782 --- Test NLLT: -0.1056 --- Test MSE: 0.2988
+epoch 510  --- t= 0.96 m= 1
+Test NLL: -7.7413 --- Test NLLT: -0.1058 --- Test MSE: 0.2976
+epoch 520  --- t= 0.96 m= 1
+Test NLL: -7.7656 --- Test NLLT: -0.1063 --- Test MSE: 0.2988
+epoch 530  --- t= 0.96 m= 1
+Test NLL: -7.4973 --- Test NLLT: -0.1066 --- Test MSE: 0.2940
+epoch 540  --- t= 0.96 m= 1
+Test NLL: -7.6820 --- Test NLLT: -0.1066 --- Test MSE: 0.2968
+epoch 550  --- t= 0.96 m= 1
+Test NLL: -7.5526 --- Test NLLT: -0.1065 --- Test MSE: 0.2949
+epoch 560  --- t= 0.96 m= 1
+Test NLL: -7.7629 --- Test NLLT: -0.1066 --- Test MSE: 0.2987
+epoch 570  --- t= 0.96 m= 1
+Test NLL: -7.7153 --- Test NLLT: -0.1065 --- Test MSE: 0.2978
+epoch 580  --- t= 0.96 m= 1
+Test NLL: -7.7995 --- Test NLLT: -0.1070 --- Test MSE: 0.2995
+epoch 590  --- t= 0.96 m= 1
+Test NLL: -7.6369 --- Test NLLT: -0.1070 --- Test MSE: 0.2966
+epoch 600  --- t= 0.96 m= 1
+Test NLL: -7.6544 --- Test NLLT: -0.1074 --- Test MSE: 0.2969
+epoch 610  --- t= 0.96 m= 1
+Test NLL: -7.7412 --- Test NLLT: -0.1075 --- Test MSE: 0.2985
+epoch 620  --- t= 0.96 m= 1
+Test NLL: -7.8211 --- Test NLLT: -0.1075 --- Test MSE: 0.3002
+epoch 630  --- t= 0.96 m= 1
+Test NLL: -7.7551 --- Test NLLT: -0.1080 --- Test MSE: 0.2992
+epoch 640  --- t= 0.96 m= 1
+Test NLL: -7.7294 --- Test NLLT: -0.1085 --- Test MSE: 0.2988
+epoch 650  --- t= 0.96 m= 1
+Test NLL: -7.6078 --- Test NLLT: -0.1084 --- Test MSE: 0.2966
+epoch 660  --- t= 0.96 m= 1
+Test NLL: -7.7014 --- Test NLLT: -0.1084 --- Test MSE: 0.2986
+epoch 670  --- t= 0.96 m= 1
+Test NLL: -7.6249 --- Test NLLT: -0.1090 --- Test MSE: 0.2975
+epoch 680  --- t= 0.96 m= 1
+Test NLL: -7.7274 --- Test NLLT: -0.1090 --- Test MSE: 0.2993
+epoch 690  --- t= 0.96 m= 1
+Test NLL: -7.5223 --- Test NLLT: -0.1089 --- Test MSE: 0.2953
+epoch 700  --- t= 0.96 m= 1
+Test NLL: -7.7392 --- Test NLLT: -0.1093 --- Test MSE: 0.2995
+epoch 710  --- t= 0.96 m= 1
+Test NLL: -7.6790 --- Test NLLT: -0.1091 --- Test MSE: 0.2981
+epoch 720  --- t= 0.96 m= 1
+Test NLL: -7.5916 --- Test NLLT: -0.1093 --- Test MSE: 0.2970
+epoch 730  --- t= 0.96 m= 1
+Test NLL: -7.7036 --- Test NLLT: -0.1094 --- Test MSE: 0.2992
+epoch 740  --- t= 0.96 m= 1
+Test NLL: -7.7236 --- Test NLLT: -0.1096 --- Test MSE: 0.2996
+epoch 750  --- t= 0.96 m= 1
+Test NLL: -7.6440 --- Test NLLT: -0.1097 --- Test MSE: 0.2984
+epoch 760  --- t= 0.96 m= 1
+Test NLL: -7.6655 --- Test NLLT: -0.1094 --- Test MSE: 0.2982
+epoch 770  --- t= 0.96 m= 1
+Test NLL: -7.6636 --- Test NLLT: -0.1095 --- Test MSE: 0.2979
+epoch 780  --- t= 0.96 m= 1
+Test NLL: -7.5340 --- Test NLLT: -0.1093 --- Test MSE: 0.2957
+epoch 790  --- t= 0.96 m= 1
+Test NLL: -7.5805 --- Test NLLT: -0.1097 --- Test MSE: 0.2966
+epoch 800  --- t= 0.96 m= 1
+Test NLL: -7.7645 --- Test NLLT: -0.1098 --- Test MSE: 0.2999
+epoch 810  --- t= 0.96 m= 1
+Test NLL: -7.6414 --- Test NLLT: -0.1098 --- Test MSE: 0.2980
+epoch 820  --- t= 0.96 m= 1
+Test NLL: -7.7029 --- Test NLLT: -0.1101 --- Test MSE: 0.2992
+epoch 830  --- t= 0.96 m= 1
+Test NLL: -7.5534 --- Test NLLT: -0.1100 --- Test MSE: 0.2965
+epoch 840  --- t= 0.96 m= 1
+Test NLL: -7.6352 --- Test NLLT: -0.1101 --- Test MSE: 0.2979
+epoch 850  --- t= 0.96 m= 1
+Test NLL: -7.5148 --- Test NLLT: -0.1100 --- Test MSE: 0.2955
+epoch 860  --- t= 0.96 m= 1
+Test NLL: -7.8200 --- Test NLLT: -0.1106 --- Test MSE: 0.3014
+epoch 870  --- t= 0.96 m= 1
+Test NLL: -7.5629 --- Test NLLT: -0.1102 --- Test MSE: 0.2964
+epoch 880  --- t= 0.96 m= 1
+Test NLL: -7.6772 --- Test NLLT: -0.1101 --- Test MSE: 0.2985
+epoch 890  --- t= 0.96 m= 1
+Test NLL: -7.6193 --- Test NLLT: -0.1105 --- Test MSE: 0.2975
+epoch 900  --- t= 0.96 m= 1
+Test NLL: -7.6363 --- Test NLLT: -0.1101 --- Test MSE: 0.2976
+epoch 910  --- t= 0.96 m= 1
+Test NLL: -7.7165 --- Test NLLT: -0.1108 --- Test MSE: 0.2998
+epoch 920  --- t= 0.96 m= 1
+Test NLL: -7.7025 --- Test NLLT: -0.1105 --- Test MSE: 0.2989
+epoch 930  --- t= 0.96 m= 1
+Test NLL: -7.5893 --- Test NLLT: -0.1108 --- Test MSE: 0.2973
+epoch 940  --- t= 0.96 m= 1
+Test NLL: -7.7309 --- Test NLLT: -0.1115 --- Test MSE: 0.3002
+epoch 950  --- t= 0.96 m= 1
+Test NLL: -7.6533 --- Test NLLT: -0.1106 --- Test MSE: 0.2982
+epoch 960  --- t= 0.96 m= 1
+Test NLL: -7.7457 --- Test NLLT: -0.1111 --- Test MSE: 0.3003
+epoch 970  --- t= 0.96 m= 1
+Test NLL: -7.6941 --- Test NLLT: -0.1113 --- Test MSE: 0.2992
+epoch 980  --- t= 0.96 m= 1
+Test NLL: -7.6423 --- Test NLLT: -0.1116 --- Test MSE: 0.2984
+epoch 990  --- t= 0.96 m= 1
+Test NLL: -7.6261 --- Test NLLT: -0.1115 --- Test MSE: 0.2981
+/usr/local/lib/python3.6/dist-packages/pyproj/crs/crs.py:53: FutureWarning: '+init=<authority>:<code>' syntax is deprecated. '<authority>:<code>' is the preferred initialization method. When making the change, be mindful of axis order changes: https://pyproj4.github.io/pyproj/stable/gotchas.html#axis-order-changes-in-proj-6
+  return _prepare_from_string(" ".join(pjargs))
+/usr/local/lib/python3.6/dist-packages/pyproj/crs/crs.py:294: FutureWarning: '+init=<authority>:<code>' syntax is deprecated. '<authority>:<code>' is the preferred initialization method. When making the change, be mindful of axis order changes: https://pyproj4.github.io/pyproj/stable/gotchas.html#axis-order-changes-in-proj-6
+  projstring = _prepare_from_string(" ".join((projstring, projkwargs)))
+/usr/local/lib/python3.6/dist-packages/pyproj/crs/crs.py:53: FutureWarning: '+init=<authority>:<code>' syntax is deprecated. '<authority>:<code>' is the preferred initialization method. When making the change, be mindful of axis order changes: https://pyproj4.github.io/pyproj/stable/gotchas.html#axis-order-changes-in-proj-6
+  return _prepare_from_string(" ".join(pjargs))
+/usr/local/lib/python3.6/dist-packages/pyproj/crs/crs.py:294: FutureWarning: '+init=<authority>:<code>' syntax is deprecated. '<authority>:<code>' is the preferred initialization method. When making the change, be mindful of axis order changes: https://pyproj4.github.io/pyproj/stable/gotchas.html#axis-order-changes-in-proj-6
+  projstring = _prepare_from_string(" ".join((projstring, projkwargs)))
