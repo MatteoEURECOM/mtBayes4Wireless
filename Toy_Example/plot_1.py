@@ -89,7 +89,4 @@ axs[1].grid()
 axs[1].set_xticks([-6,-4,-2,0])
 plt.subplots_adjust(bottom=0.15)
 plt.subplots_adjust(left=0.1)
-if HORIZONTAL:
-    plt.savefig('Fig2a.pdf')
-    plt.show()
 
