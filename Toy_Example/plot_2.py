@@ -75,7 +75,4 @@ axs[0].set_ylabel(r'$p(x|\theta_{freq})$ and $p(x|q)$')
 axs[1].set_xticks([-8,-6,-4,-2,0])
 plt.subplots_adjust(bottom=0.15)
 plt.subplots_adjust(left=0.1)
-if HORIZONTAL:
-    plt.savefig('Fig2b.pdf')
-    plt.show()
 
